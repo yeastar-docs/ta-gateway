@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="system-info">
+    <title>System Info</title>
+    <shortdesc>In this page, you can check the hardware/firmware version, or the disk usage of TA
+        FXS gateway.</shortdesc>
+    <refbody>
+        <example>
+            <p><image href="../image/system-status.jpg" width="650" id="image_igq_rrs_zgb"/></p>
+        </example>
+    </refbody>
+</reference>

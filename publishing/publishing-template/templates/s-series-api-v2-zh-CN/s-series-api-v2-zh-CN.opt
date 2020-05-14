@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>s-series-api-v2-zh-CN</name>
+    <description></description>
+    <webhelp>
+        <preview-image file="oxygen-tree.png"/>
+        <html-page-layout-files>
+            <page-layout-file page="search" file="page-templates/wt_search.html"/>
+            <page-layout-file page="topic" file="page-templates/wt_topic.html"/>
+            <page-layout-file page="index-terms" file="page-templates/wt_terms.html"/>
+            <page-layout-file page="main" file="page-templates/wt_index.html"/>
+        </html-page-layout-files>
+        <html-fragments>
+            <fragment placeholder="webhelp.fragment.before.body" file="html-fragments/header_s-series-api-v2.html"/>
+            <fragment placeholder="webhelp.fragment.before.main.page.search" file="html-fragments/guide-name-s-series-api-v2.html"/>
+            <fragment placeholder="webhelp.fragment.footer" file="html-fragments/footer-s-series-api-v2.html"/>
+            <fragment placeholder="webhelp.fragment.head" file="html-fragments/googleAnalytics.html"/>
+        </html-fragments>
+        <parameters>
+            <parameter name="webhelp.show.main.page.tiles" value="no"/>
+            <parameter name="webhelp.show.main.page.toc" value="yes"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="args.copycss" value="yes"/>
+            <parameter name="args.css" value="params/args.css/yeastar-common.css" type="filePath"/>
+            <parameter name="args.indexshow" value="yes"/>
+            <parameter name="webhelp.custom.resources" value="params/webhelp.custom.resources/resources" type="filePath"/>
+            <parameter name="webhelp.publication.toc.links" value="all"/>
+            <parameter name="webhelp.show.child.links" value="yes"/>
+            <parameter name="webhelp.show.print.link" value="no"/>
+            <parameter name="webhelp.show.top.menu" value="no"/>
+        </parameters>
+        <resources>
+            <css file="oxygen.css"/>
+            <favicon file="images/favicon.jpg"/>
+            <fileset>
+                <include name="resources/**/*"/>
+                <exclude name="resources/**/*.svn"/>
+                <exclude name="resources/**/*.git"/>
+            </fileset>
+        </resources>
+        <online-preview-url>https://www.oxygenxml.com/samples/DITA-WebHelp-Responsive/tree/oxygen/</online-preview-url>
+        <tags>
+            <tag type="layout">tree</tag>
+            <tag type="color">blue</tag>
+            <tag type="color">light</tag>
+        </tags>
+    </webhelp>
+</publishing-template>

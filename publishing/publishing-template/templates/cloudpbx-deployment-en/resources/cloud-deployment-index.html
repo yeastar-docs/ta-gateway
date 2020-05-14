@@ -1,0 +1,300 @@
+ <head>
+  <meta charset="UTF-8">
+    <title>Deploy Yeastar Cloud PBX</title>
+  </head>
+<link rel =" stylesheet " type =" text/css " href ="cloud-deployment-index.css " />
+<link rel =" stylesheet " type =" text/css " href ="footer.css " />
+<link rel="shortcut icon" href="favicon.jpg">
+
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-117711464-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  <link rel="stylesheet" href="oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+        
+        <script type="text/javascript" src="oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"></script>
+
+        <script data-main="oxygen-webhelp/app/main-page.js" src="oxygen-webhelp/lib/requirejs/require.js"></script>
+
+<nav class="header-menu">
+                <div class="log-and-content">
+                    <div>
+                    <div class="yeastar-log"><a href="http://www.yeastar.cn/" title="yeastar"></a> </div>
+                                      
+                    </div>   
+                    <div class="menu-content">
+                        <ul class="content-ul">
+                            
+                            <li class="language"><img src="https://www.yeastar.com/wp-content/uploads/2018/05/language-1.png"><span>English</span>
+                                <ul>
+                                    <li class="mask-content">
+                                        <p class="mask"></p>
+                                        <ul class="lan-select">
+                                             <li><a href="https://help.yeastar.com/zh-cn/cloudpbx/deploy/">简体中文</a></li>
+                                            <li><a href="https://help.yeastar.com/en/cloudpbx/deploy/">English</a></li>
+                                           
+                                           
+                                        </ul>
+                                    </li>
+                                </ul>
+                           </img> </li>
+                        </ul>
+                        <div class="clear-both"></div>
+                    </div>
+                </div>
+            </nav>
+
+<!--module -->
+<div data-spm =" 825120 " data-moduleid =" 0 " data-name =" wb-zc-ybmod-cloudcount-banner " data-guid =" 825120 " id =" guid-825120 " data-scene-id =" 973683 " data-scene-version =" 1 " data-hidden ="" data-gitgroup =" ali-mod " data-ext ="" data-engine =" tce " class =" wb-zc-ybmod-cloudcount-banner J_Module " tms =" wb-zc-ybmod-cloudcount-banner/0.0.2 " tms-datakey =" tce/973683 "> 
+<div class =" module-wrap J_tb_lazyload dbl_tms_module_wrap ">
+<!-- 避免用window的全局变量获取数据 -->
+<textarea class =" schemaData " style =" display:none; ">
+{"moduleinfo":{"des":"Yeastar Cloud PBX","color":"#0b6a9c","banner":"Clouds.png","title":"Deployment Guide"},"$tmsId":"tce/973683"}
+</textarea>
+<div class =" banner ">
+<p class =" des "> Yeastar Cloud PBX </p>
+<h2 class =" title "> Deployment Guide </h2>
+</div>
+</div>
+</div>
+<!--module -->
+</div>
+</div>
+<!--col -->
+</div>
+<!-- row -->
+</div>
+<!-- container -->
+<!-- container -->
+<div class =" layout layout-grid-0 ">
+<!--row -->
+<div class =" grid-0 ">
+<!-- col -->
+<div class =" col col-main ">
+<div class =" main-wrap J_Region ">
+
+<!--module -->
+<div data-spm =" 825121 " data-moduleid =" 0 " data-name =" wb-zc-ybmod-cloudcount-intro " data-guid =" 825121 " id =" guid-825121 " data-scene-id =" 973684 " data-scene-version =" 0 " data-hidden ="" data-gitgroup =" ali-mod " data-ext ="" data-engine =" tce " class =" wb-zc-ybmod-cloudcount-intro J_Module " tms =" wb-zc-ybmod-cloudcount-intro/0.0.3 " tms-datakey =" tce/973684 "> <div class =" module-wrap J_tb_lazyload dbl_tms_module_wrap ">
+<!-- 避免用window的全局变量获取数据 -->
+<textarea class =" schemaData " style =" display:none; ">
+{"moduleinfo":{"intro_count":[{"count_phone":1,"count":1}],"title":Introduction"},"intro":[{"txt":" &nbsp;&nbsp;Getting to know the architecture of Yeastar Cloud PBX and the domain structure of Yeastar Cloud PBX."}],"countinfo":{"intro":{"length_pc":0,"length":0}},"$tmsId":"tce/973684"}
+</textarea>
+<!--menu anchor  -->
+<div style="background: #f5f5f6;">
+  <div class="menu-position">
+    <ul>
+      <li><a href="#before-you-begin">Before You Begin</a></li>
+      <li><a href="#steps-to-deploy">Steps to Deploy Yeastar Cloud PBX</a></li>
+      <li><a href="#maintenance">Maintenance</a></li>
+    </ul>
+    <div style="clear: both"></div>
+  </div>
+</div>
+<div class =" intro ">
+<h2 class =" title " id="before-you-begin"> Before You Begin </h2>
+<div class =" inner clearfix ">
+<div class =" txt "> <img src ="intro-left.png"><span>Before you begin to deploy the servers, you need to know the basic information of Yeastar Cloud PBX.</span> 
+  <img src ="intro-right.png">
+   <ul class="intro_link">
+<li> <a href =" https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/framework_of_yeastar_cloud_pbx.html" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">Architecture of Yeastar Cloud PBX</a></li>
+<li> <a href =" https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/domain_structure_of_yeastar_cloud_pbx.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">Domain Structure of Yeastar Cloud PBX</a></li>
+
+
+
+  </ul>
+
+</div>
+
+<div class =" pic "> 
+  <img src ="yeastar_cloud_pbx_shortcut.png"> 	
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--module -->
+</div>
+</div>
+<!--col -->
+</div>
+<!-- row -->
+</div>
+<!-- container -->
+<!-- container -->
+<div class =" layout layout-grid-0 ">
+<!--row -->
+<div class =" grid-0 ">
+<!-- col -->
+<div class =" col col-main ">
+<div class =" main-wrap J_Region ">
+<!--module -->
+<div data-spm =" 825123 " data-moduleid =" 0 " data-name =" wb-zc-ybmod-cloudcount-main " data-guid =" 825123 " id =" guid-825123 " data-scene-id =" 973686 " data-scene-version =" 1 " data-hidden ="" data-gitgroup =" ali-mod " data-ext ="" data-engine =" tce " class =" wb-zc-ybmod-cloudcount-main J_Module " tms =" wb-zc-ybmod-cloudcount-main/0.0.5 " tms-datakey =" tce/973686 "> <div class =" module-wrap J_tb_lazyload dbl_tms_module_wrap ">
+<!-- 避免用window的全局变量获取数据 -->
+
+
+
+<div class =" main ">
+<h2 class =" title " id="steps-to-deploy"> Steps to Deploy Yeastar Cloud PBX </h2>
+<div class =" intro ">
+<div class =" lcol ">
+<div class =" step ">
+<div class =" num "> step1 </div>
+<div class =" line "> </div>
+</div>
+<div class =" con ">
+<div class =" hd clearfix ">
+<div class =" info ">
+<p class =" name"> Prepare Your Server and Network </p>
+<p class =" txt "> Before you start to deploy Yeastar Cloud PBX on Cloud or on a data center, you need to prepare two servers. One for YMP and one for SBC. </p>
+</div>
+<div class =" outlink clearfix ">
+<div class ="doc">
+	<img src='ymp.png'>
+	<a href ="https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/system_requirements_for_ymp.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">Requirement of YMP Server</a>
+</div>
+<div class =" doc ">
+	<img src='sbc.png'>
+	<a href =" https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/system_requirements_for_sbc.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">Requirement of SBC Server</a>
+</div>
+</div>
+</div>
+
+<div class =" bd ">
+<p class =" name "> </p>
+</div>
+</div>
+</div>
+<div class =" lcol ">
+<div class =" step ">
+<div class =" num "> step2 </div>
+<div class =" line "> </div>
+</div>
+<div class =" con ">
+<div class =" hd clearfix ">
+<div class =" info ">
+<p class =" name "> Deploy YMP server and SBC Server. </p>
+<p class =" txt "> You can deploy the YMP server and SBC server on Alibaba Cloud, Amazon Cloud, Google Cloud or on Data Center. </p>
+</div>
+<div class =" outlink clearfix ">
+<div class ="doc icon-img">
+	<img src='alibaba1.png'>
+	<a href ="https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/deploy_yeastar_cloud_pbx_on_ali_cloud.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234">Alibaba Cloud</a>
+</div>
+<div class =" doc icon-img">
+	<img src='aws1.png'>
+	<a href =" https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/deploy_yeastar_cloud_pbx_on_aws.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">AWS</a>
+</div>
+<div class =" doc icon-img">
+	<img src='google1.png'>
+	<a href ="https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/google_deploy_yeastar_cloud_pbx.html" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">Google Cloud</a>
+</div> 
+<div class =" doc icon-img">
+	<img src='microsoftAzure.png'>
+	<a href ="https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/deploy-yeastar-cloud-pbx-on-microsoft-azure.html" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">Microsoft Azure</a>
+</div> 
+
+<div class =" doc icon-img">
+	<img src='datacenter1.png'>
+	<a href =" https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/deploy_yeastar_cloud_pbx_in_data_center.html" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">Data Center</a>
+</div>
+
+</div>
+</div>
+
+
+<div class =" bd ">
+<p class =" name "> </p>
+</div>
+</div>
+</div>
+<div class =" lcol ">
+<div class =" step ">
+<div class =" num "> step3 </div>
+<div class =" line "> </div>
+</div>
+<div class =" con ">
+<div class =" hd clearfix ">
+<div class =" info ">
+<p class =" name "> Send Your Information of the deploy environment to Yeastar.</p>
+<p class =" txt ">Fill in the requested information in the form, and send the form to Yeastar. We will check your network environment and install Yeastar Cloud PBX in your server.</p>
+</div>
+
+</div>
+<div class =" bd ">
+<p class =" name "> Download Relevant Form </p>
+<div class =" product clearfix ">
+<div class =" col1 clearfix ">
+<div class =" linfo ">
+<p class =" name "> Form for the Cloud Environment </p>
+<p class =" txt "> If you deploy your servers on Alibaba Cloud, AWS, or Google Cloud, download this form. </p>
+</div>
+
+<div class =" rinfo clearfix ">
+<div class =" buy-btn clearfix ">
+<a href ="https://www.yeastar.com/download/Requested_Information_Cloud_en.docx" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=12345 " id =" 1111 " class =" btn-a "> Download</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class =" product clearfix ">
+<div class =" col1 clearfix ">
+<div class =" linfo ">
+<p class =" name "> Form for Data Center Environment </p>
+<p class =" txt "> If you deploy your servers in a data center, download this form.</p>
+</div>
+
+<div class =" rinfo clearfix ">
+<div class =" buy-btn clearfix ">
+<a href ="https://www.yeastar.com/download/Requested_Information_DataCenter_en.docx " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=12345 " id =" 1111 " class =" btn-a "> Download</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</ul>
+</div>
+<h2 class=" title " id="maintenance">Maintenance</h2>
+  <div class="maintenance">
+    <div class="main-info">
+      <ul class="support-info">
+        <li><img src="contact_support.png" width="50px"></li>
+        <li><div class="server-title">Support</div><div>+86-592-5503301</div><div>(ext.615)</div></li>
+        <!-- <li>+125415845</li> -->
+      </ul>
+    </div>
+    <div class="main-info">
+      <ul>
+        <li class="server-title">SBC Server</li>
+       
+        <li class="blue-size"><a href="https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/check_sbc_version.html">Check SBC Version</a></li>
+        <li class="blue-size"><a href="https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/r_log_fie_path.html">SBC Log File Path</a></li>
+        <li class="contact-sup">Contact Yeastar Support if you want to:</li>
+        <li class="black-size">Change SBC IP</li>
+        <li class="black-size">Change SBC Port</li>
+        <li class="black-size">Change HTTPS Certificates</li>
+      </ul>
+    </div>
+    <div class="main-info">
+      <ul>
+        <li class="server-title">YMP Server</li>
+        <li class="blue-size"><a href="https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/backup_and_restore_cloudpbx.html">Restore and Backup</a></li>
+        <li class="blue-size"><a href="https://help.yeastar.com/en/cloudpbx/deploy/install_ymp&sbc/disaster_recovery_plan.html">Disaster Recovery Plan</a></li>
+        <li class="contact-sup">Contact Yeastar Support if you want to:</li>
+        <li class="black-size">Change YMP Domain</li>
+        <li class="black-size">Change YMP IP</li>
+        <li class="black-size">Restore YMP Backup to Another Server</li>
+        <li class="black-size">Change HTTPS Certificates</li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="call-logs">
+    <title>Call Logs</title>
+    <shortdesc>The call log captures all call details, including call time, caller number, callee
+        number, call type, call duration, etc.</shortdesc>
+    <body>
+        <p>You can search and filter call data by call date, caller/callee, trunk, duration, billing
+            duration, status, or communication type.</p>
+        <p><image href="../image/call-logs.jpg" width="650" id="image_jhx_hss_zgb"/></p>
+    </body>
+</topic>

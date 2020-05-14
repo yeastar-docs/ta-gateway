@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="backup-and-restore">
+    <title>Backup and Restore</title>
+    <shortdesc>TA1600/2400/3200 provides <uicontrol>Backup and Restore</uicontrol> feature, which
+        allows you to create a complete backup of TA1600/2400/3200 configurations to a
+        file.</shortdesc>
+    <body>
+        <p>
+            <note>
+                <ol id="ol_fk4_14s_zgb">
+                    <li>When you have updated the firmware version, it’s not recommended to restore
+                        using an old package.</li>
+                    <li>Backup from an earlier version cannot be restored on TA1600/2400/3200 of a
+                        later version.</li>
+                </ol>
+            </note>
+        </p>
+        <ul id="ul_jbj_24s_zgb">
+            <li><b>Create a New Backup</b><p>Click <image href="../image/UI_icons/create-backup.png"
+                        id="image_nvf_54s_zgb"/> to create a new backup</p></li>
+            <li><b>Upload a Backup</b><p>Click <image href="../image/UI_icons/upload-backup.png"
+                        id="image_t3b_s4s_zgb"/> to upload a backup.</p></li>
+            <li><b>Restore</b><p><image href="../image/restore.jpg" width="650"
+                        id="image_xkx_gps_zgb"/></p><p>
+                    <note>The current configurations will be OVERWRITTEN with the backup
+                        data.</note>
+                </p><ol id="ol_fcg_m4s_zgb">
+                    <li>Upload the backup file to TA1600/2400/3200 and click <image
+                            href="../image/UI_icons/restore.png" id="image_ywm_l4s_zgb"/>.</li>
+                    <li>Reboot the system to take effect.</li>
+                </ol></li>
+        </ul>
+    </body>
+</topic>

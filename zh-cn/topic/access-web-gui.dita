@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="access-web-gui">
+    <title>Access Web GUI </title>
+    <shortdesc>You can enter the IP address of TA gateway in the Web browser to access the Web
+        GUI.</shortdesc>
+    <body>
+        <p>The TA1600/2400/3200 attempts to access a DHCP server in your network to obtain valid
+            network settings (e.g., the IP address, subnet mask, default gateway address, and DNS
+            address) by default.<note>Enable <uicontrol>DHCP Server</uicontrol> in your network to
+                obtain the TA1600/2400/3200 IP address.</note></p>
+        <section id="section_xvj_smk_zgb">
+            <title>Check TA1600/2400/3200 IP address</title>
+            <p>
+                <ol>
+                    <li>Pick up the analog phone, then access the voice menu prompt by dialing
+                            <codeph>***</codeph>.</li>
+                    <li>Dial <codeph>1</codeph> to check the IP address.</li>
+                    <li>Dial <codeph>2</codeph> for web access address.</li>
+                </ol>
+            </p>
+        </section>
+        <section id="section_avj_4xk_zgb"><title>Access Web GUI</title><p>After entering the IP
+                address in the Web browser, you will see a login page.</p><p>Check the default
+                settings below. </p><p><uicontrol>Username</uicontrol>: admin</p>
+            <uicontrol>Password</uicontrol>: password<p><image href="../image/login-page.jpg"
+                    width="650" id="image_ogy_kyk_zgb"/></p></section>
+    </body>
+</topic>

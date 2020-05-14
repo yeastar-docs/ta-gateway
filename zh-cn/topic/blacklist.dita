@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="blacklist">
+    <title>Blacklist</title>
+    <shortdesc>Blacklist is used to block an incoming/outgoing call.</shortdesc>
+    <body>
+        <p>If the number of incoming or outgoing call is listed in the
+                <uicontrol>Blacklist</uicontrol>, the caller will hear the following prompt "The
+            number you have dialed is not in service. Please check the number and try again". The
+            system will then disconnect the call.</p>
+        <section id="section_bvt_kky_zgb">
+            <title>Block incoming/outgoing numbers</title>
+            <p>
+                <ol id="ol_gk4_mky_zgb">
+                    <li>Go to <menucascade>
+                            <uicontrol>Gateway</uicontrol>
+                            <uicontrol>Gateway Settings</uicontrol>
+                            <uicontrol>Blacklist</uicontrol>
+                        </menucascade>.</li>
+                    <li>Click <uicontrol>Add Blacklist</uicontrol>.</li>
+                    <li>Configure the following settings.<p><image href="../image/add-blacklist.jpg"
+                                width="650" id="image_f1d_3ly_zgb"/><ul id="ul_is4_3ly_zgb">
+                                <li><uicontrol>ID</uicontrol>: Select blacklist ID from the
+                                    drop-down menu.</li>
+                                <li><uicontrol>Number</uicontrol>: Enter the desired number. In this
+                                    example, enter <i>18855556666.</i></li>
+                                <li><uicontrol>Type</uicontrol>: TA FXS gateway supports to block 3
+                                    types of numbers.<ul id="ul_vnq_zly_zgb">
+                                        <li><b>Inbound</b>: The number would not be allowed to call
+                                            in the system.</li>
+                                        <li><b>Outbound</b>: Extensions of the TA FXS gateway are
+                                            not allowed to call the number out from the system.</li>
+                                        <li><b>Both</b>: Both inbound and outbound calls are not
+                                            allowed.</li>
+                                    </ul></li>
+                            </ul></p></li>
+                    <li>Click <uicontrol>Save</uicontrol> and <uicontrol>Apply
+                            Changes</uicontrol>.<p>When the number 18855556666 reaches the TA FXS
+                            gateway, the call will fail.</p></li>
+                </ol>
+            </p>
+        </section>
+        <section id="section_z3z_tmy_zgb">
+            <title>Delete the blacklist</title>
+            <p>
+                <ol>
+                    <li>Go to <menucascade>
+                            <uicontrol>Gateway</uicontrol>
+                            <uicontrol>Gateway Settings</uicontrol>
+                            <uicontrol>Blacklist</uicontrol>
+                        </menucascade>.</li>
+                    <li>Choose the desired number and click <uicontrol>Delete The
+                            Selected</uicontrol>.<p><image href="../image/delete-blacklist.jpg"
+                                width="650" id="image_dmt_hny_zgb"/></p></li>
+                    <li>Click <uicontrol>Save</uicontrol> and <uicontrol>Apply
+                            Changes</uicontrol>.<p>When the number 18855556666 reaches the TA FXS
+                            gateway again, the call will succeed.</p></li>
+                </ol>
+            </p>
+        </section>
+    </body>
+</topic>

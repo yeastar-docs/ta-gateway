@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta400_gateway_overview_2">
+    <title>TA400 Gateway Overview</title>
+    <topic id="ta800_gateway_overview">
+        <title>TA400 Gateway Overview</title>
+        <body>
+            <section id="section_sd4_s4j_yhb"><title>TA400 gateway from panel</title><image
+                    id="image_xmg_z4j_yhb" href="file:/C:/Users/Yeastar/Desktop/TA800.PNG"
+                    width="499"/><p>
+                    <table frame="all" rowsep="1" colsep="1" id="table_y1c_hpj_yhb">
+                        <tgroup cols="3">
+                            <colspec colname="c1" colnum="1" colwidth="1*"/>
+                            <colspec colname="c2" colnum="2" colwidth="1.61*"/>
+                            <colspec colname="c3" colnum="3" colwidth="2.4*"/>
+                            <thead>
+                                <row>
+                                    <entry>No.</entry>
+                                    <entry>Feature</entry>
+                                    <entry>Description</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry align="center">①</entry>
+                                    <entry>Power Indicator</entry>
+                                    <entry>
+                                        <p>Indicates the power status.</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry align="center">②</entry>
+                                    <entry>Run Indicator</entry>
+                                    <entry>Indicates the system status.<ul id="ul_wwc_2d4_yhb">
+                                            <li><b>Blinking</b>: The system is working
+                                                properly.</li>
+                                            <li><b>Not Blinking/Off</b>: The system goes wrong.</li>
+                                        </ul></entry>
+                                </row>
+                                <row>
+                                    <entry align="center">③</entry>
+                                    <entry>LAN Status Indicator</entry>
+                                    <entry>
+                                        <p>Indicates the LAN status.</p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry align="center">④</entry>
+                                    <entry>WAN Status Indicator</entry>
+                                    <entry>Indicates the WAN status.</entry>
+                                </row>
+                                <row>
+                                    <entry align="center">⑤</entry>
+                                    <entry>FXS Ports Status Indicator</entry>
+                                    <entry>Indicates the FXS port status.<p>
+                                            <ul id="ul_u5w_d4f_1hb">
+                                                <li><b>Solid green</b>: The port is idle or no line
+                                                  is connected to the port.</li>
+                                                <li><b>Green light blinking</b>: There is a call
+                                                  reaches the port or the port is busy in a
+                                                  call.</li>
+                                            </ul>
+                                        </p></entry>
+                                </row>
+                                <row>
+                                    <entry align="center">⑥</entry>
+                                    <entry>Power inlet</entry>
+                                    <entry>For connection to power supply.</entry>
+                                </row>
+                                <row>
+                                    <entry align="center">⑦</entry>
+                                    <entry>Reset button</entry>
+                                    <entry>Reset to factory defaults.</entry>
+                                </row>
+                                <row>
+                                    <entry align="center">⑧</entry>
+                                    <entry>LAN port</entry>
+                                    <entry>For connection to Local Area Network (LAN).</entry>
+                                </row>
+                                <row>
+                                    <entry align="center">⑨</entry>
+                                    <entry>WAN port</entry>
+                                    <entry>Reserved, for connection to Wide Area Network
+                                        (WAN).</entry>
+                                </row>
+                                <row>
+                                    <entry align="center">⑩</entry>
+                                    <entry>RJ11 FXS Ports</entry>
+                                    <entry>For connection to analog phones /fax machines.</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </p></section>
+        </body>
+    </topic>
+</topic>

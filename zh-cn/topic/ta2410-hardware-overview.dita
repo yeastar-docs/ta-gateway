@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta2400_hardware_overview">
+    <title>TA2410 硬件概览</title>
+    <body>
+        <section id="section_af3_lk4_13b"><title>TA2410 前面板</title><image id="image_exw_sfw_13b"
+                href="../image/ta2400-front.PNG" width="700"/><table>
+                <tgroup cols="-dita-use-conref-target"
+                    conref="ta1610-hardware-overview.dita#ta1600-gateway-overview/front-panel">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></section>
+        <section id="section_ej1_1n4_13b">
+            <title>TA2410 背面板</title>
+            <table conref="ta1610-hardware-overview.dita#ta1600-gateway-overview/ta1610-back"
+                id="table_utb_wdq_b3b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

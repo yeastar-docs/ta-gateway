@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reset-and-reboot">
+    <title>Reset and Reboot</title>
+    <shortdesc>You can reset and reboot the system under <menucascade>
+            <uicontrol>System</uicontrol>
+            <uicontrol>System Preferences</uicontrol>
+            <uicontrol>Reset and Reboot</uicontrol>
+        </menucascade>.</shortdesc>
+    <body>
+        <p><image href="../image/reset-and-reboot.jpg" width="650" id="image_xld_5ps_zgb"/></p>
+    </body>
+</topic>

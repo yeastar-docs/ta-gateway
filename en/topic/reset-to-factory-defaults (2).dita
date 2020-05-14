@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reset_to_factory_defaults">
+    <title>Reset to Factory Defaults</title>
+    <shortdesc>Follow the below instruction to reset and factory defaults.</shortdesc>
+    <body>
+        <p>
+            <note>
+                <ul id="ul_klz_lmp_yhb">
+                    <li>During the process, do not power off until the RUN indicator become normal
+                        which means the reset process is completed. </li>
+                    <li>After resetting, all the configurations made by the admin would be
+                        erased.</li>
+                </ul>
+            </note>
+            <ol id="ol_ims_nmp_yhb">
+                <li>Press the <uicontrol>RESET</uicontrol> button located in the back panel with a
+                    paper clip or a pencil tip. </li>
+            </ol>
+        </p>
+        <p>You can see the RUN indicator stops flicker and turns solid. When the RUN indicator turns
+            off, the button could be released and system begins to reset.</p>
+        <p/>
+    </body>
+</topic>

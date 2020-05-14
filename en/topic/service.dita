@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="service">
+    <title>Service</title>
+    <shortdesc>You can manage all the access methods on TA on the <uicontrol>Service</uicontrol>
+        page.</shortdesc>
+    <refbody>
+        <example>
+            <p><image href="../image/service-settings.jpg" width="650" id="image_b2d_fzq_zgb"/></p>
+        </example>
+        <table frame="all" rowsep="1" colsep="1" id="table_hgp_gzq_zgb">
+            <title>Description of service settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Items</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>SSH</entry>
+                        <entry>
+                            <p>By using SSH, you can log in to TA1600/2400/3200 and run
+                                commands.</p>
+                            <p>It's disabled by default. We don't recommend enabling it if not
+                                needed.</p>
+                            <p>The default port for SSH is 8022.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>FTP</entry>
+                        <entry>
+                            <p>FTP access, the default port is 21.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>HTTP</entry>
+                        <entry>
+                            <p>HTTP web access, the default port is 80.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>HTTPS</entry>
+                        <entry>HTTPS web access, it is disabled by default, and you can enable it to
+                            get safer web access.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

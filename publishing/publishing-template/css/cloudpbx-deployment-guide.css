@@ -1,0 +1,287 @@
+
+
+/* 变量字体 */
+var.varname {
+font-style: normal;
+color:#FF4975;
+}
+
+/*YMP requirement table head*/
+#topic_dvm_b3j_3cb__ymp-requirements{
+    background-image: url(./Images/SBC/ymp-system-requirements-table-head.png);
+      background-size: 100% 100%;
+}
+
+
+
+
+/* Yeastar  Copyright*/
+
+.wh_footer {
+    display: none;
+    }
+/*下面是Yeastar导航样式*/
+
+/*nav-star*/
+.header-menu {
+    position:absolute;
+    width:100%;
+    z-index:99;
+    background-color: rgba (0,0,0,0);
+    top: 0;
+    }
+
+.log-and-content {
+    padding: 0;
+    margin: 0 auto;
+    height: 90px;
+}
+
+/* header title*/
+.header_title {
+font-weight: 900;
+color: #FFFFFF;
+display: inline-block;
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+padding-left: 20px;
+margin-top: 8px;}
+
+/*log*/
+
+   .yeastar-log {
+    position: relative;
+
+                          }
+   .yeastar-log a:nth-child(1) {
+       background: url(https://www.yeastar.com/wp-content/uploads/2018/05/yeastar_white2.png) no-repeat center;
+height: 55px;
+width: 180px;
+padding: 0;
+text-decoration: none;
+display: block;
+float: left;
+margin-top: 18px;
+    }
+
+    .yeastar-log a:nth-child(2) {
+
+        margin-top: 3.6rem;
+font-size: 1.6rem;
+color: transparent;
+position: absolute;
+display: inline-block;
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+padding-left: 20px;
+font-weight: 900;
+background: url(https://www.yeastar.com/wp-content/uploads/2018/06/home.png) no-repeat center;
+    }
+
+.menu-content {
+    height: 0;
+    padding: 32px 0;
+}
+.menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.content-ul {
+    float: right;
+    position: relative;
+}
+.content-ul img {
+    width: 25px;
+    height: 25px;
+}
+.content-ul span {
+    position: relative;
+    top: -6px;
+    left: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content-ul span a,.content-ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.pdf-down {
+    float: left;
+}
+.pdf-down  ul {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.pdf-down  ul ul {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.language {
+    float: right;   
+}
+.language ul {
+    width: 112px;
+    height: 0;
+}
+.language .mask-content,.pdf-down .mask-pdf{
+    display: none;
+}
+.pdf-down,.language {
+    padding: 0 15px;
+    color: #fff;
+}
+.content-ul li li li:hover a {
+    color: #004277;
+}
+.content-ul li li ul {
+    position: relative;
+    top: -6rem;
+    left: 0;
+}
+.content-ul li li ul li {
+    padding: 4px 15px;
+}
+.item-title {
+    color: #004277;
+}
+
+.content-ul li li ul li:hover {
+    background: #05abb6;
+}
+
+.content-ul li li ul li:hover  a{
+    color: #fff;
+}
+.mask-content .mask,.mask-pdf .mask {
+    height: 7rem;
+    background: #fff;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: 10px;
+}
+/*.mask-content .mask {
+    height: 3rem;
+}
+.content-ul li li ul.lan-select {
+    top: -2.7rem;
+    text-align: center;
+}*/
+
+/*Maintenance */
+.maintenance .main-info .server-title {
+    font-size: 24px;
+    color: #333;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.maintenance {
+    background: #fff;
+    padding: 2em 0 2em 1.5em;
+    width: 1176px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.maintenance .main-info {
+    width: 37%;
+    float: left;
+    position: relative;
+    border-left: 1px solid #ececec;
+    padding-left: 1.5em;
+    color: #333;
+}
+.maintenance .main-info:first-child {
+    width: 23%;
+    border-left: none;
+    padding-left: 0;
+}
+.maintenance .main-info:last-child {
+    width: 33%;
+}
+li.contact-sup {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.blue-size a {
+    text-decoration: none;
+    position: relative;
+    color: #0BC5DE;
+    font-size: 14px;
+    line-height: 30px;
+}
+li.black-size {
+    font-size: 14px;
+    line-height: 30px;
+}
+.support-info li {
+    float: left;
+}
+.support-info li:last-child{
+    margin-left: 20px;
+}
+/*menu anchor */
+.menu-position ul {
+    width: 1200px;
+    margin: 0 auto;
+    height: 4em;
+    line-height: 4em;
+    font-size: 14px;
+}
+.menu-position li {
+    float: left;
+}
+.menu-position li a {
+    width: 396px;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #f5f5f6;
+    color: #333;
+    text-decoration: none;
+}
+.menu-position li:last-child a {
+    border-right: none;
+}
+.menu-position li a:hover,.menu-position li:first-child a {
+    background: #0BC5DE;
+    color: #fff;
+}
+@media(max-width: 768px) {
+    .log-and-content {
+        padding:0;
+        height: 11rem;
+    }
+    .pdf-down, .language {
+        padding: 0 0 0 2.5rem;
+        width: 11rem;
+    }
+    .yeastar-log a {
+        background: url(https://www.yeastar.com/wp-content/uploads/2018/05/yeastar_white2.png) no-repeat center;
+        height: 40px;
+        width: 123px;
+        margin-top: 7px;
+    }
+
+
+    
+
+    .menu-content {
+        padding: 16px 0px;
+    }
+    /*footer-copyright*/
+    .footer-left {
+        width: 100%;
+        display: inline-block;
+    }
+    .footer-right {
+        width: 75%;
+    }
+    .content-area {
+        padding-top: 26px;
+    }
+    .copy {
+        margin-top: 1.8rem;
+    }
+}

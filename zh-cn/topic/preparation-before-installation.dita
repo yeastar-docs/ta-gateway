@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="preparation-before-installation">
+    <title>Preparation Before Installation</title>
+    <shortdesc>Make sure the following devices are available before installation.</shortdesc>
+    <conbody>
+        <p>Upon receiving Yeastar TA gift box, you can open the package and check if all the items
+            are supplied as TA1600/2400/3200 packing list.</p>
+        <p>If there is any problem, please contact your provider.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_rjv_1sz_zgb">
+            <title>TA1600/2400/3200 packing list</title>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <colspec colname="c4" colnum="4" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Item</entry>
+                        <entry>Unit</entry>
+                        <entry>QTY</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>TA1600/2400/3200</entry>
+                        <entry>PC</entry>
+                        <entry>1</entry>
+                        <entry>Device unit.</entry>
+                    </row>
+                    <row>
+                        <entry>Power cord</entry>
+                        <entry>PC</entry>
+                        <entry>1</entry>
+                        <entry>For the input of power.</entry>
+                    </row>
+                    <row>
+                        <entry>Network cable</entry>
+                        <entry>PC</entry>
+                        <entry>1</entry>
+                        <entry> </entry>
+                    </row>
+                    <row>
+                        <entry>Warranty card</entry>
+                        <entry>PC</entry>
+                        <entry>1</entry>
+                        <entry>With serial number printed for repair &amp; return.</entry>
+                    </row>
+                    <row>
+                        <entry>Quick installation guide</entry>
+                        <entry>PC</entry>
+                        <entry>1</entry>
+                        <entry> </entry>
+                    </row>
+                    <row>
+                        <entry>Mounting ears</entry>
+                        <entry>PC</entry>
+                        <entry>2</entry>
+                        <entry> </entry>
+                    </row>
+                    <row>
+                        <entry>Screws</entry>
+                        <entry>PC</entry>
+                        <entry>8</entry>
+                        <entry>8 screws (φ3.0*6 mm) for mounting ears.</entry>
+                    </row>
+                    <row>
+                        <entry>Grounding stud and nut</entry>
+                        <entry>Pair</entry>
+                        <entry>1</entry>
+                        <entry> </entry>
+                    </row>
+                    <row>
+                        <entry>Rubber feet</entry>
+                        <entry>PC</entry>
+                        <entry>4</entry>
+                        <entry> </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

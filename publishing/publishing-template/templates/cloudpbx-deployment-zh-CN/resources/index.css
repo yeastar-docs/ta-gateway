@@ -1,0 +1,1517 @@
+.clearfix:after,.clearfix:before{
+    content:"";
+    display:table
+}
+ .clearfix:after{
+    clear:both;
+    overflow:hidden
+}
+ .clearfix{
+    zoom:1
+}
+ article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{
+    margin:0;
+    padding:0
+}
+ ol,ul{
+    list-style:none
+}
+ .wb-zc-ybmod-cloudcount-banner{
+    font-family:Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,tahoma,arial
+}
+ .wb-zc-ybmod-cloudcount-banner .module-wrap .banner{
+    height:286px;
+    padding-top:114px;
+    background: #0b6a9c url(Clouds.png) no-repeat top;
+    background-size:1920px 400px
+}
+ .wb-zc-ybmod-cloudcount-banner .module-wrap .banner .des{
+    font-size:28px;
+    color:#fff;
+    line-height:40px;
+    text-align:center
+}
+ .wb-zc-ybmod-cloudcount-banner .module-wrap .banner .title{
+    font-size:56px;
+    color:#fff;
+    line-height:66px;
+    font-weight:700;
+    text-align:center
+}
+ @media (max-width:768px){
+    .wb-zc-ybmod-cloudcount-banner{
+        font-family:PingFangSC-Regular,Microsoft Yahei
+    }
+     .wb-zc-ybmod-cloudcount-banner .module-wrap .banner{
+        height:3.38666667rem;
+        padding-top:1.41333333rem;
+        background:#161722 url(//gw.alicdn.com/tfs/TB1bl5mSVXXXXaIXXXXXXXXXXXX-750-360.jpg) no-repeat top;
+        background-size:10rem 4.8rem
+    }
+     .wb-zc-ybmod-cloudcount-banner .module-wrap .banner .des{
+        font-size:.37333333rem;
+        color:#fff;
+        line-height:.56rem;
+        text-align:center
+    }
+     .wb-zc-ybmod-cloudcount-banner .module-wrap .banner .title{
+        font-size:.70666667rem;
+        color:#fff;
+        line-height:.85333333rem;
+        font-weight:700;
+        text-align:center
+    }
+}
+ .clearfix:after,.clearfix:before{
+    content:"";
+    display:table
+}
+ .clearfix:after{
+    clear:both;
+    overflow:hidden
+}
+ .clearfix{
+    zoom:1
+}
+ article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{
+    margin:0;
+    padding:0
+}
+ ol,ul{
+    list-style:none
+}
+ .wb-zc-ybmod-cloudcount-foot{
+    font-family:Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,tahoma,arial
+}
+ .wb-zc-ybmod-cloudcount-foot .module-wrap .foot{
+    height:169px;
+    padding-top:55px;
+    background:#1f2130 url(//img.alicdn.com/tfs/TB1cn.nSFXXXXcYXXXXXXXXXXXX-1920-224.jpg) no-repeat top;
+    background-size:1920px 224px
+}
+ .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .txt{
+    font-size:14px;
+    color:#fff;
+    text-align:center;
+    line-height:24px;
+    margin-bottom:20px
+}
+ .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .button{
+    width:138px;
+    height:34px;
+    border:1px solid #fff;
+    margin:0 auto;
+    text-align:center;
+    transition:all .3s
+}
+ .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .button a{
+    display:block;
+    text-decoration:none;
+    font-size:16px;
+    color:#fff;
+    line-height:34px;
+    transition:all .3s
+}
+ .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .button:hover{
+    background-color:#fff
+}
+ .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .button:hover a{
+    color:#1f2130
+}
+ @media (max-width:768px){
+    .wb-zc-ybmod-cloudcount-foot{
+        font-family:PingFangSC-Regular,Microsoft Yahei
+    }
+     .wb-zc-ybmod-cloudcount-foot .module-wrap .foot{
+        height:3.18666667rem;
+        padding-top:.46666667rem;
+        background:url(//img.alicdn.com/tfs/TB1_oyDSVXXXXbcXXXXXXXXXXXX-750-274.png) no-repeat top;
+        background-size:10rem 3.65333333rem
+    }
+     .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .txt{
+        width:8.77333333rem;
+        margin:0 auto;
+        font-size:.29333333rem;
+        color:#fff;
+        text-align:center;
+        line-height:.42666667rem;
+        margin-bottom:.37333333rem
+    }
+     .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .button{
+        width:3.17333333rem;
+        height:.88rem;
+        border:1px solid #fff;
+        margin:0 auto;
+        text-align:center;
+        transition:all .3s
+    }
+     .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .button a{
+        display:block;
+        text-decoration:none;
+        font-size:.32rem;
+        color:#fff;
+        line-height:.88rem;
+        transition:all .3s
+    }
+     .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .button:hover{
+        background-color:#fff
+    }
+     .wb-zc-ybmod-cloudcount-foot .module-wrap .foot .button:hover a{
+        color:#1f2130
+    }
+}
+ .clearfix:after,.clearfix:before{
+    content:"";
+    display:table
+}
+ .clearfix:after{
+    clear:both;
+    overflow:hidden
+}
+ .clearfix{
+    zoom:1
+}
+ article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{
+    margin:0;
+    padding:0
+}
+ ol,ul{
+    list-style:none
+}
+ .wb-zc-ybmod-cloudcount-intro{
+    font-family:Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,tahoma,arial
+}
+ .wb-zc-ybmod-cloudcount-intro .module-wrap .intro{
+    background-color:#f5f5f6;
+    padding-top:38px;
+    padding-bottom:21px
+}
+ .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .title{
+    font-size:32px;
+    color:#000;
+    line-height:109px;
+    text-align:center;
+    font-weight:400
+}
+ .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner{
+    width:1138px;
+    /*border:1px solid #e0e0e0;*/
+    background-color:#fff;
+    margin:0 auto;
+    padding:30px 0 30px 60px
+}
+ .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt{
+    float:left;
+    width:404px;
+    padding:42px 55px 0;
+    margin-right:76px;
+    position:relative
+}
+ .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt span{
+    font-size:14px;
+    color:#333;
+    line-height:28px
+}
+ .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt .lpic{
+    position:absolute;
+    left:0;
+    top:40px;
+    width:26px;
+    height:24px
+}
+ .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt .rpic{
+    position:absolute;
+    right:0;
+    top:40px;
+    width:26px;
+    height:24px
+}
+ .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .pic{
+    float:left;
+    width:480px;
+    height:221px
+}
+ @media (max-width:1200px){
+    .wb-zc-ybmod-cloudcount-intro{
+        font-family:Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,tahoma,arial
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner{
+        width:938px;
+        padding:30px 0 30px 60px
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt{
+        width:304px;
+        padding:42px 55px 0;
+        margin-right:46px
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .pic{
+        float:left;
+        width:420px;
+        height:auto
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .pic img{
+        width:420px
+    }
+		 
+}
+ @media (max-width:768px){
+    .wb-zc-ybmod-cloudcount-intro{
+        font-family:PingFangSC-Regular,Microsoft Yahei
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro{
+        background-color:#fff;
+        padding-top:.06666667rem;
+        padding-bottom:.53333333rem
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .title{
+        font-size:.48rem;
+        color:#000;
+        line-height:1.36rem;
+        text-align:center;
+        font-weight:400
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner{
+        width:9.36rem;
+        border:none;
+        background-color:#fff;
+        margin:0 auto;
+        padding:0
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt{
+        float:none;
+        width:8.02666667rem;
+        padding:0 .66666667rem;
+        margin-right:0;
+        margin-bottom:.18666667rem;
+        position:relative
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt span{
+        font-size:.32rem;
+        color:#666;
+        line-height:.45333333rem
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt .lpic{
+        position:absolute;
+        left:0;
+        top:-.05333333rem;
+        width:.34666667rem;
+        height:.32rem
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .txt .rpic{
+        position:absolute;
+        right:0;
+        top:-.05333333rem;
+        width:.34666667rem;
+        height:.32rem
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .pic{
+        float:none;
+        width:8rem;
+        height:3.73333333rem;
+        padding:.26666667rem .65333333rem;
+        border:1px dashed #e0e0e0
+    }
+     .wb-zc-ybmod-cloudcount-intro .module-wrap .intro .inner .pic img{
+        width:8rem;
+        height:3.73333333rem
+    }
+	
+}
+ .clearfix:after,.clearfix:before{
+    content:"";
+    display:table
+}
+ .clearfix:after{
+    clear:both;
+    overflow:hidden
+}
+ .clearfix{
+    zoom:1
+}
+ article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{
+    margin:0;
+    padding:0
+}
+ ol,ul{
+    list-style:none
+}
+ .wb-zc-ybmod-cloudcount-main{
+    font-family:Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,tahoma,arial
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main{
+    background-color:#f5f5f6;
+    padding-bottom:60px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .title{
+    font-size:32px;
+    color:#000;
+    line-height:109px;
+    text-align:center;
+    font-weight:400
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro{
+    width:1200px;
+    overflow:hidden;
+    margin:0 auto;
+    background:url(//img.alicdn.com/tfs/TB1Y.rRSFXXXXcHXVXXXXXXXXXX-13-7.png) no-repeat 4px bottom;
+    background-size:13px 7px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol{
+    position:relative;
+    padding-left:86px;
+    width:1114px;
+    margin-bottom:20px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .step{
+    position:absolute;
+    left:0;
+    top:33px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .step .num{
+    width:140px;
+    height:36px;
+    background-color:#00c1de;
+    border-radius:0 18px 18px 0;
+    text-align:center;
+    font-size:24px;
+    color:#fff;
+    line-height:36px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .step .line{
+    width:1px;
+    background-color:#00c1de;
+    position:absolute;
+    left:10px;
+    top:0
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con{
+    background-color:#fff;
+    width:934px;
+    padding:40px 70px 40px 110px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd{
+    width:934px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info{
+    float:left;
+    width:100%;
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info .name{
+    font-size:24px;
+    color:#333;
+    line-height:24px;
+    margin-bottom:15px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info .txt,
+ .clearfix ul li {
+    font-size:14px;
+    color:#333;
+    line-height:22px;
+    margin-bottom:12px;
+    padding-right:30px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info .time{
+    font-size:14px;
+    color:#666;
+    line-height:22px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink{
+    float:left;
+    /*width:595px;*/
+    width: 100%;
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .video{
+    float:left;
+    width:290px;
+    height:130px;
+    margin-right:15px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .video a{
+    display:block;
+    text-decoration:none;
+    width:290px;
+    height:130px;
+    position:relative
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .video a span{
+    position:absolute;
+    left:10px;
+    bottom:4px;
+    font-size:14px;
+    color:#fff
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .doc{
+    float:left;
+    width: 300px;
+    height:130px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .icon-img{
+    position: relative;
+    width: 20%;
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .icon-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .doc a,.intro_link a {
+    display:block;
+    text-decoration:none;
+    position:relative;
+    text-align: center;
+    color: #0BC5DE;
+	/*font-size: 0.8em;*/
+    font-size: 14px;
+	line-height:2em;
+}
+.intro_link a,.seurity-rule a {
+    text-align: left;
+    display: inline-block;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+.seurity-rule a {
+    display:inline-block;
+    text-decoration:none;
+    position:relative;
+    text-align: left;
+    color: #0BC5DE;
+    line-height:2em;"
+}
+.lastli li a {
+    display: inline-block !important;
+}
+.intro_link {
+    position: relative;
+    left: 1px;
+    top: 6px;
+}
+.lcol:nth-child(1) img{
+    margin-bottom: 7px;
+}
+.intro_link li:before,.seurity-rule li:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    border: 1px solid #0BC5DE;
+    background: #0BC5DE;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    margin-right: 3px;
+}
+.lastli li:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    border: 1px solid #696969;
+    background: #696969;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    margin-right: 3px;
+}
+.lastli .clearfix li{
+ line-height: 12px;
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .icon-img a {
+    top: 85%;
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .doc a span{
+    position:absolute;
+    left:10px;
+    bottom:4px;
+    font-size:14px;
+    color:#fff
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd{
+    width:934px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .name{
+    font-size:18px;
+    color:#666;
+    line-height:38px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1{
+    width:902px;
+    height:79px;
+    border:1px solid #d9d9da;
+    background-color:#f5f5f6;
+    padding-left:30px;
+    margin-bottom:10px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo{
+    float:left;
+    width:630px;
+    padding-top:11px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo .name{
+    font-size:14px;
+    color:#333;
+    line-height:22px;
+    margin-bottom:4px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo .txt{
+    font-size:14px;
+    color:#666
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo .txt span{
+    font-size:18px;
+    color:#333;
+    margin-right:10px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo .txt i{
+    font-size:20px;
+    font-style:normal;
+    margin:0 15px;
+    color:#d9d9da
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo{
+    float:left;
+    width:272px;
+    padding-top:22px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .price{
+    float:left;
+    font-size:14px;
+    color:#333;
+    line-height:36px;
+    margin-right:20px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .price span{
+    font-size:18px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .buy-btn{
+    float:left;
+    text-align:center;
+    transition:all .3s
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .buy-btn .btn-a{
+    display:block;
+    text-decoration:none;
+    width:140px;
+    height:36px;
+    background-color:#00c1de;
+    font-size:14px;
+    color:#fff;
+    line-height:36px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .buy-btn .btn-a:hover{
+    background-color:#27dcf7
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .buy-btn .txt-a{
+    display:block;
+    width:140px;
+    height:24px;
+    font-size:12px;
+    color:#00c1de;
+    line-height:24px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .toprinfo{
+    padding-top:15px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2{
+    float:left;
+    width:428px;
+    height:78px;
+    border:1px solid #d9d9da;
+    background-color:#f5f5f6;
+    padding-left:30px;
+    margin-right:14px;
+    margin-bottom:10px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo{
+    float:left;
+    width:258px;
+    padding-top:14px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo .name{
+    font-size:14px;
+    color:#333;
+    line-height:22px;
+    margin-bottom:4px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo .lbinfo .txt{
+    float:left;
+    font-size:14px;
+    color:#666;
+    line-height:24px;
+    margin-right:10px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo .lbinfo .price{
+    float:left;
+    font-size:14px;
+    color:#333;
+    line-height:24px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo .lbinfo .price span{
+    font-size:18px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo{
+    float:left;
+    width:140px;
+    padding-top:21px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo .buy-btn{
+    float:left;
+    text-align:center;
+    transition:all .3s
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo .buy-btn .btn-a{
+    display:block;
+    text-decoration:none;
+    width:140px;
+    height:36px;
+    background-color:#00c1de;
+    font-size:14px;
+    color:#fff;
+    line-height:36px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo .buy-btn .btn-a:hover{
+    background-color:#27dcf7
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo .buy-btn .txt-a{
+    display:block;
+    width:140px;
+    height:24px;
+    font-size:12px;
+    color:#00c1de;
+    line-height:24px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .toprinfo{
+    padding-top:14px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3{
+    float:left;
+    width:280px;
+    height:78px;
+    border:1px solid #d9d9da;
+    background-color:#f5f5f6;
+    padding-left:20px;
+    margin-right:14px;
+    margin-bottom:10px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo{
+    float:left;
+    width:143px;
+    padding-top:14px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo .name{
+    font-size:14px;
+    color:#333;
+    line-height:22px;
+    margin-bottom:4px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo .lbinfo .txt{
+    float:left;
+    font-size:14px;
+    color:#666;
+    line-height:24px;
+    margin-right:10px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo .lbinfo .price{
+    float:left;
+    font-size:14px;
+    color:#333;
+    line-height:24px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo .lbinfo .price span{
+    font-size:18px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo{
+    float:left;
+    width:120px;
+    padding-top:21px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo .buy-btn{
+    float:left;
+    text-align:center;
+    transition:all .3s
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo .buy-btn .btn-a{
+    display:block;
+    text-decoration:none;
+    width:120px;
+    height:36px;
+    background-color:#00c1de;
+    font-size:14px;
+    color:#fff;
+    line-height:36px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo .buy-btn .btn-a:hover{
+    background-color:#27dcf7
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo .buy-btn .txt-a{
+    display:block;
+    width:120px;
+    height:24px;
+    overflow:hidden;
+    font-size:12px;
+    color:#00c1de;
+    line-height:24px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .toprinfo{
+    padding-top:12px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .lastcol{
+    margin-right:0
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol{
+    float:left;
+    width:238px;
+    height:65px;
+    border:1px solid #d9d9da;
+    background-color:#f5f5f6;
+    margin-right:10px;
+    margin-bottom:10px;
+    transition:all .3s
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol a{
+    display:block;
+    text-decoration:none;
+    padding-left:20px;
+    padding-top:10px;
+    width:218px;
+    height:55px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol a .name{
+    font-size:14px;
+    color:#333;
+    line-height:24px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol a .txt{
+    font-size:14px;
+    color:#999;
+    line-height:24px
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol:hover{
+    border:1px solid #00c1de
+}
+ .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lastli{
+    margin-bottom: 20px;
+}
+ @media (max-width:1200px){
+    .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro{
+        width:1000px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol{
+        padding-left:60px;
+        width:940px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .step .num{
+        width:120px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con{
+        background-color:#fff;
+        width:830px;
+        padding:40px 34px 30px 76px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd{
+        width:830px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info{
+        float:left;
+        width:235px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info .txt{
+        padding-right:18px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd{
+        width:830px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1{
+        width:798px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo{
+        width:526px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2{
+        width:376px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo{
+        width:210px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3{
+        width:255px;
+        padding-left:10px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo{
+        width:126px
+    }
+}
+ @media (max-width:768px){
+    .wb-zc-ybmod-cloudcount-main{
+        font-family:PingFangSC-Regular,Microsoft Yahei
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main{
+        background-color:#f5f5f6;
+        padding-bottom:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .title{
+        font-size:.48rem;
+        color:#000;
+        line-height:1.54666667rem;
+        text-align:center;
+        font-weight:400
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro{
+        width:10rem;
+        overflow:hidden;
+        margin:0 auto;
+        background:url(//img.alicdn.com/tfs/TB1Y.rRSFXXXXcHXVXXXXXXXXXX-13-7.png) no-repeat 4px bottom;
+        background-size:13px 7px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol{
+        position:relative;
+        padding-left:0;
+        width:10rem;
+        margin-bottom:.26666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .step{
+        position:absolute;
+        left:.32rem;
+        top:.4rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .step .num{
+        width:1.73333333rem;
+        height:.56rem;
+        background-color:#46aaff;
+        border-radius:0 .28rem .28rem 0;
+        text-align:center;
+        font-size:.42666667rem;
+        color:#fff;
+        line-height:.56rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .step .line{
+        width:1px;
+        background-color:#46aaff;
+        position:absolute;
+        left:.13333333rem;
+        top:0;
+        z-index:10
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con{
+        background-color:#fff;
+        width:8.8rem;
+        padding:1.09333333rem .33333333rem .4rem .86666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd{
+        width:8.8rem;
+        margin-bottom:.2rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info{
+        float:none;
+        width:8.8rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info .name{
+        font-size:.42666667rem;
+        color:#000;
+        line-height:.8rem;
+        margin-bottom:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info .txt{
+        font-size:.29333333rem;
+        color:#333;
+        line-height:.4rem;
+        margin-bottom:0;
+        padding-right:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .info .time{
+        font-size:.29333333rem;
+        color:#999;
+        line-height:.82666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink{
+        float:none;
+        width:8.8rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .video{
+        float:left;
+        width:4.26666667rem;
+        height:1.86666667rem;
+        margin-right:.26666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .video a{
+        display:block;
+        text-decoration:none;
+        width:4.26666667rem;
+        height:1.86666667rem;
+        position:relative
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .video a span{
+        position:absolute;
+        left:.13333333rem;
+        bottom:.13333333rem;
+        font-size:.26666667rem;
+        color:#fff
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .doc{
+        float:left;
+        width:4.26666667rem;
+        height:1.86666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .doc a{
+        display:block;
+        text-decoration:none;
+        width:4.26666667rem;
+        height:1.86666667rem;
+        position:relative
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .hd .outlink .doc a span{
+        position:absolute;
+        left:.13333333rem;
+        bottom:.13333333rem;
+        font-size:.26666667rem;
+        color:#fff
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd{
+        width:8.8rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .name{
+        font-size:.34666667rem;
+        color:#333;
+        line-height:.57333333rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1{
+        width:8.50666667rem;
+        height:2.33333333rem;
+        border:1px solid #d9d9da;
+        background-color:#f5f5f6;
+        padding-left:.26666667rem;
+        margin-bottom:.13333333rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo{
+        float:left;
+        width:5.04rem;
+        padding-top:.05333333rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo .name{
+        font-size:.32rem;
+        color:#333;
+        line-height:.74666667rem;
+        margin-bottom:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo .txt{
+        font-size:.26666667rem;
+        color:#666;
+        line-height:.58666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo .txt span{
+        font-size:.34666667rem;
+        color:#666;
+        margin-right:10px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .linfo .txt i{
+        font-size:.48rem;
+        font-style:normal;
+        margin:0 .26666667rem;
+        color:#d9d9da
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo{
+        float:left;
+        width:3.2rem;
+        padding-top:.13333333rem;
+        padding-right:.26666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .price{
+        float:none;
+        font-size:.26666667rem;
+        color:#333;
+        line-height:.61333333rem;
+        margin-right:0;
+        text-align:right
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .price span{
+        font-size:.4rem;
+        color:#666
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .buy-btn{
+        float:none;
+        text-align:center;
+        transition:all .3s
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .buy-btn .btn-a{
+        display:block;
+        text-decoration:none;
+        width:3.2rem;
+        height:.90666667rem;
+        background-color:#00c1de;
+        font-size:.32rem;
+        color:#fff;
+        line-height:.90666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .buy-btn .btn-a:hover{
+        background-color:#27dcf7
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .rinfo .buy-btn .txt-a{
+        display:block;
+        width:3.2rem;
+        height:.56rem;
+        overflow:hidden;
+        font-size:.29333333rem;
+        color:#00c1de;
+        line-height:.56rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col1 .toprinfo{
+        padding-top:.13333333rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2{
+        float:left;
+        width:3.92rem;
+        height:2.4rem;
+        overflow:hidden;
+        border:1px solid #d9d9da;
+        background-color:#f5f5f6;
+        padding-left:.26666667rem;
+        padding-top:.17333333rem;
+        margin-right:.26666667rem;
+        margin-bottom:.26666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo{
+        float:none;
+        width:3.94666667rem;
+        padding-top:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo .name{
+        font-size:.32rem;
+        color:#333;
+        line-height:.48rem;
+        margin-bottom:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo .lbinfo .txt{
+        float:left;
+        font-size:.32rem;
+        color:#666;
+        line-height:.74666667rem;
+        margin-right:.2rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo .lbinfo .price{
+        float:left;
+        font-size:.32rem;
+        color:#666;
+        line-height:.74666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .linfo .lbinfo .price span{
+        font-size:.42666667rem;
+        color:#333
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo{
+        float:left;
+        width:3.94666667rem;
+        padding-top:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo .buy-btn{
+        float:none;
+        text-align:center;
+        transition:all .3s
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo .buy-btn .btn-a{
+        display:block;
+        text-decoration:none;
+        width:3.69333333rem;
+        height:.90666667rem;
+        background-color:#00c1de;
+        font-size:.32rem;
+        color:#fff;
+        line-height:.90666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo .buy-btn .btn-a:hover{
+        background-color:#27dcf7
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .rinfo .buy-btn .txt-a{
+        display:block;
+        width:140px;
+        height:24px;
+        font-size:12px;
+        color:#00c1de;
+        line-height:24px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col2 .toprinfo{
+        padding-top:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3{
+        float:left;
+        width:3.92rem;
+        height:2.4rem;
+        overflow:hidden;
+        border:1px solid #d9d9da;
+        background-color:#f5f5f6;
+        padding-left:.26666667rem;
+        padding-top:.17333333rem;
+        margin-right:.26666667rem;
+        margin-bottom:.26666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo{
+        float:none;
+        width:3.94666667rem;
+        padding-top:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo .name{
+        font-size:.32rem;
+        color:#333;
+        line-height:.48rem;
+        margin-bottom:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo .lbinfo .txt{
+        float:left;
+        font-size:.32rem;
+        color:#666;
+        line-height:.74666667rem;
+        margin-right:.2rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo .lbinfo .price{
+        float:left;
+        font-size:.32rem;
+        color:#666;
+        line-height:.74666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .linfo .lbinfo .price span{
+        font-size:.42666667rem;
+        color:#333
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo{
+        float:left;
+        width:3.94666667rem;
+        padding-top:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo .buy-btn{
+        float:none;
+        text-align:center;
+        transition:all .3s
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo .buy-btn .btn-a{
+        display:block;
+        text-decoration:none;
+        width:3.69333333rem;
+        height:.90666667rem;
+        background-color:#00c1de;
+        font-size:.32rem;
+        color:#fff;
+        line-height:.90666667rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo .buy-btn .btn-a:hover{
+        background-color:#27dcf7
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .rinfo .buy-btn .txt-a{
+        display:block;
+        width:140px;
+        height:24px;
+        font-size:12px;
+        color:#00c1de;
+        line-height:24px
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .col3 .toprinfo{
+        padding-top:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .product .lastocol{
+        margin-right:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol{
+        float:left;
+        width:4.18666667rem;
+        height:1.30666667rem;
+        border:1px solid #d9d9da;
+        background-color:#f5f5f6;
+        margin-right:.26666667rem;
+        margin-bottom:.26666667rem;
+        transition:all .3s
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol a{
+        display:block;
+        text-decoration:none;
+        padding-left:.26666667rem;
+        padding-top:.17333333rem;
+        width:3.92rem;
+        height:1.13333333rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol a .name{
+        font-size:.32rem;
+        color:#333;
+        line-height:.48rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol a .txt{
+        font-size:.29333333rem;
+        color:#999;
+        line-height:.45333333rem
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .pcol:hover{
+        border:1px solid #00c1de
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lcol .con .bd .present .lastpcol{
+        margin-right:0
+    }
+     .wb-zc-ybmod-cloudcount-main .module-wrap .main .intro .lastli{
+        margin-bottom:0
+    }
+}
+ 
+ /*下面是Yeastar导航样式*/
+
+/*nav-star*/
+.header-menu {
+    position:absolute;
+    width:100%;
+    z-index:99;
+    background-color: rgba (0,0,0,0);
+    top: 0;
+    }
+
+.log-and-content {
+    padding: 0;
+    margin: 0 auto;
+    height: 90px;
+}
+
+/* header title*/
+.header_title {
+font-weight: 900;
+color: #FFFFFF;
+display: inline-block;
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+padding-left: 20px;
+margin-top: 8px;}
+
+/*log*/
+
+   .yeastar-log {
+    position: relative;
+
+                          }
+   .yeastar-log a:nth-child(1) {
+       background: url(https://www.yeastar.com/wp-content/uploads/2018/05/yeastar_white2.png) no-repeat center;
+height: 55px;
+width: 180px;
+padding: 0;
+text-decoration: none;
+display: block;
+float: left;
+margin-top: 18px;
+    }
+
+    .yeastar-log a:nth-child(2) {
+
+        margin-top: 3.6rem;
+font-size: 1.6rem;
+color: transparent;
+position: absolute;
+display: inline-block;
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+padding-left: 20px;
+font-weight: 900;
+background: url(https://www.yeastar.com/wp-content/uploads/2018/06/home.png) no-repeat center;
+    }
+
+.menu-content {
+    height: 0;
+    padding: 32px 0;
+}
+.menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.content-ul {
+    float: right;
+    position: relative;
+}
+.content-ul img {
+    width: 25px;
+    height: 25px;
+}
+.content-ul span {
+    position: relative;
+    top: -6px;
+    left: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content-ul span a,.content-ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.pdf-down {
+    float: left;
+}
+.pdf-down  ul {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.pdf-down  ul ul {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.language {
+    float: right;   
+}
+.language ul {
+    width: 112px;
+    height: 0;
+}
+.language .mask-content,.pdf-down .mask-pdf{
+    display: none;
+}
+.pdf-down,.language {
+    padding: 0 15px;
+    color: #fff;
+}
+.content-ul li li li:hover a {
+    color: #004277;
+}
+.content-ul li li ul {
+    position: relative;
+    top: -6rem;
+    left: 0;
+}
+.content-ul li li ul li {
+    padding: 4px 15px;
+}
+.item-title {
+    color: #004277;
+}
+
+.content-ul li li ul li:hover {
+    background: #05abb6;
+}
+
+.content-ul li li ul li:hover  a{
+    color: #fff;
+}
+.mask-content .mask,.mask-pdf .mask {
+    height: 7rem;
+    background: #fff;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: 10px;
+}
+/*.mask-content .mask {
+    height: 3rem;
+}
+.content-ul li li ul.lan-select {
+    top: -2.7rem;
+    text-align: center;
+}*/
+
+/*Maintenance */
+.maintenance .main-info .server-title {
+    font-size: 24px;
+    color: #333;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.maintenance {
+    background: #fff;
+    padding: 2em 0 2em 1.5em;
+    width: 1176px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.maintenance .main-info {
+    width: 37%;
+    float: left;
+    position: relative;
+    border-left: 1px solid #ececec;
+    padding-left: 1.5em;
+    color: #333;
+}
+.maintenance .main-info:first-child {
+    width: 23%;
+    border-left: none;
+    padding-left: 0;
+}
+.maintenance .main-info:last-child {
+    width: 33%;
+}
+li.contact-sup {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.blue-size a {
+    text-decoration: none;
+    position: relative;
+    color: #0BC5DE;
+    font-size: 14px;
+    line-height: 30px;
+}
+li.black-size {
+    font-size: 14px;
+    line-height: 30px;
+}
+.support-info li {
+    float: left;
+}
+.support-info li:last-child{
+    margin-left: 20px;
+}
+/*menu anchor */
+.menu-position ul {
+    width: 1200px;
+    margin: 0 auto;
+    height: 4em;
+    line-height: 4em;
+    font-size: 14px;
+}
+.menu-position li {
+    float: left;
+}
+.menu-position li a {
+    width: 396px;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #f5f5f6;
+    color: #333;
+    text-decoration: none;
+}
+.menu-position li:last-child a {
+    border-right: none;
+}
+.menu-position li a:hover,.menu-position li:first-child a {
+    background: #0BC5DE;
+    color: #fff;
+}
+@media(max-width: 768px) {
+    .log-and-content {
+        padding:0;
+        height: 11rem;
+    }
+    .pdf-down, .language {
+        padding: 0 0 0 2.5rem;
+        width: 11rem;
+    }
+    .yeastar-log a {
+        background: url(https://www.yeastar.com/wp-content/uploads/2018/05/yeastar_white2.png) no-repeat center;
+        height: 40px;
+        width: 123px;
+        margin-top: 7px;
+    }
+
+
+    
+
+    .menu-content {
+        padding: 16px 0px;
+    }
+    /*footer-copyright*/
+    .footer-left {
+        width: 100%;
+        display: inline-block;
+    }
+    .footer-right {
+        width: 75%;
+    }
+    .content-area {
+        padding-top: 26px;
+    }
+    .copy {
+        margin-top: 1.8rem;
+    }
+}

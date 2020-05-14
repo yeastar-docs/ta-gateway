@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title>Connect the TA Gateway</title>
+    <shortdesc><?oxy_comment_start author="carol" timestamp="20190923T170522+0800" comment="改一下描述
+
+follow the following xxxxx"?>Follow
+        the following steps to connect Yeastar TA1600/2400/3200 FXS VoIP
+        gateway.<?oxy_comment_end?></shortdesc>
+    <body id="power">
+        <image id="image_v5r_r2l_b3b" href="../image/TA1600.png" width="650"/>
+        <section conref="cable-connection-ta400-ta800-V3.dita#port_connection_0/connect-internet"
+            id="section_oyh_2ml_b3b"
+            ><?oxy_comment_start author="carol" timestamp="20190923T170719+0800" comment="使用列表"?></section>
+        <section id="section_kj3_chw_13b"><title>2.Connect your phone</title>Choose one of the
+            following methods:<p>
+                <ul id="ul_gmq_dhw_13b">
+                    <li>
+                        <p>Connect one end of a RJ11 phone cable to FXS port; connect the other end
+                            to your analog telephone.</p>
+                    </li>
+                    <li>
+                        <p>Connect one end of a RJ21 cable to the connector; connect the other
+                            end<?oxy_insert_start author="carol" timestamp="20190923T170553+0800"?>s<?oxy_insert_end?>
+                            to your analog
+                            telephone<?oxy_insert_start author="carol" timestamp="20190923T170556+0800"?>s<?oxy_insert_end?>.</p>
+                    </li>
+                </ul>
+            </p></section>
+        <section id="power-on-gateway">
+            <title>3.Power on TA gateway</title>
+            <p><?oxy_comment_start author="carol" timestamp="20190923T170707+0800" comment="大路数TA 是要按开关的。
+可以分三个子步骤
+3......
+ a.
+ b.
+ c.
+ 
+Result: xxxx"?>Connect
+                one end of the power cord to the power port of the TA gateway; connect the other end
+                to an electrical outlet.<?oxy_comment_end?></p>
+            <p>When the <uicontrol>Power</uicontrol> LED is on and the <uicontrol>RUN</uicontrol>
+                LED blinks, the system is running.</p>
+        </section>
+    </body>
+</topic>
+<?oxy_comment_end?>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="zh-CN">
+    <title>TA1610/2410/3210 安装手册</title>
+    <topicref href="topic/safety-disclaimers-and-installation-warnings%20(2).dita"/>
+    <topicref href="topic/ta1610-ta2410-ta3210-packing-list.dita"/>
+    <topichead navtitle="硬件接口说明">
+        <topicref href="topic/ta1610-hardware-overview.dita"/>
+        <topicref href="topic/ta2410-hardware-overview.dita"/>
+        <topicref href="topic/ta3210-hardware-overview.dita"/>
+    </topichead>
+    <topicref href="topic/ta1610-2410-3210-cable-connection.dita"/>
+    <topicref href="topic/ta1610-2410-3210-ground-connection.dita"/>
+</map>

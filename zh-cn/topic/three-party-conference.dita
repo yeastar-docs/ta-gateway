@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="three-party-conference">
+    <title>Three-Party Conference</title>
+    <shortdesc>You can make a three-party conference call on TA1600/2400/3200.</shortdesc>
+    <body>
+        <p>Assuming that A and B are in the call and B wants to invite C to a conference. Check the
+            following steps of how to establish a conference.<ol id="ol_it5_hfl_zgb">
+                <li>B presses flash key or taps hook flash to get a dial tone; A will hear the on
+                    hold music meanwhile.</li>
+                <li>B dials C's number.</li>
+                <li>If C answers the call, then B presses flash key or tap hook flash, the
+                    conference will be established, including A, B, and C.</li>
+                <li>If there is no answer on C, A can press flash key or tap hook flash to resume
+                    the call with A.</li>
+                <li>C will be ejected if B presses flash key or taps flash hook during the
+                    conference call. </li>
+            </ol></p>
+    </body>
+</topic>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-ta-series-analog-voip-gateway">
+    <title>About TA Series Analog VoIP Gateway</title>
+    <shortdesc>This guide explains how to install Yeastar TA analog VoIP gateway.</shortdesc>
+    <body>
+        <p>Yeastar TA analog VoIP aateways are cutting-edge products that connect legacy telephones,
+            fax machines and PBX systems with IP telephony networks and IP-based PBX systems.
+            Featuring rich functionalities and easy configuration, Yeastar TA is ideal for small and
+            medium enterprises that wish to integrate a traditional phone system into IP-based
+            system. </p>
+        <p>Yeastar TA helps to preserve previous investment on legacy telephone system and reduce
+            communication costs significantly with the true benefits of VoIP.</p>
+    </body>
+</topic>

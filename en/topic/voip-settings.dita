@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="voip-settings">
+    <title>VoIP Settings</title>
+    <shortdesc>To integrate with other IPPBXs, you need to configure the VoIP settings in TA FXS
+        gateway to set up VoIP trunk (SIP and IAX). In this chapter, we introduce the following
+        settings.</shortdesc>
+</concept>

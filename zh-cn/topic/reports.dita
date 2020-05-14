@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="reports">
+    <title>Reports</title>
+    <shortdesc>You can check the call logs, system logs under <menucascade>
+            <uicontrol>Status</uicontrol>
+            <uicontrol>Reports</uicontrol>
+        </menucascade>, and use the packet tool and port monitor tool to capture debug logs from
+        TA1600/2400/3200.</shortdesc>
+</concept>

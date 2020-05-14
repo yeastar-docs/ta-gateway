@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="call-hold">
+    <title>Call Hold</title>
+    <body>
+        <p>
+            <ul id="ul_avq_gdl_zgb">
+                <li>An active call can be held by pressing flash key on the analog phone. Press the
+                    key again to resume the call.</li>
+            </ul>
+            <ul id="ul_egz_gdl_zgb">
+                <li>If there is no flash key on the phone, you can use hook flash (quickly toggle
+                    on-off hook) to hold a call. The call may be disconnected by chance if using
+                    hook flash.</li>
+            </ul>
+        </p>
+    </body>
+</topic>

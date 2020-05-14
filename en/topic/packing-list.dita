@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="packing_list">
+    <title>Packing List</title>
+    <shortdesc id="short-des">Upon receiving Yeastar TA 400/800 gateway, you can open the package
+        and check if all the items are supplied as per packing list.</shortdesc>
+    <conbody>
+        <p>
+            <note id="note">If there are any problems, contact your provider.</note>
+            <table frame="all" rowsep="1" colsep="1" id="table_ufp_lwp_yhb">
+                <title>TA400/800 packing list</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="2.42*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="3.98*" align="center"/>
+                    <thead>
+                        <row>
+                            <entry>Item</entry>
+                            <entry>Unit</entry>
+                            <entry>QTY</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>TA400/TA800</entry>
+                            <entry align="center">PC</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">Device unit.</entry>
+                        </row>
+                        <row id="RJ45">
+                            <entry>RJ45 Ethernet cable</entry>
+                            <entry align="center">PC</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">-</entry>
+                        </row>
+                        <row id="warranty">
+                            <entry>Warranty card</entry>
+                            <entry align="center">PC</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">With serial number printed for repair &amp;
+                                return.</entry>
+                        </row>
+                        <row id="stand">
+                            <entry>Stand</entry>
+                            <entry align="center">PC</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">-</entry>
+                        </row>
+                        <row id="adapter">
+                            <entry>Power adapter</entry>
+                            <entry align="center">PC</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">For the input of power.</entry>
+                        </row>
+                        <row id="guide">
+                            <entry>Quick installation guide</entry>
+                            <entry align="center">PC</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">-</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </conbody>
+</concept>

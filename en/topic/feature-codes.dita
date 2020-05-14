@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="feature-codes">
+    <title>Feature Codes</title>
+    <shortdesc>There are various feature codes on TA1600/2400/3200. The feature codes are used to
+        acquire the gateway info or activate and inactivate supplementary services.</shortdesc>
+    <body>
+        <p>The default feature codes are illustrated below. The parameters for feature codes are
+            configurable.</p>
+        <section id="section_t1d_xwl_zgb">
+            <title>General</title>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_b3s_ywl_zgb">
+                    <title>Description of general feature code</title>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                        <colspec colname="c2" colnum="3" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry valign="middle">Items</entry>
+                                <entry valign="middle">Default</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle">Internal Call Prefix</entry>
+                                <entry valign="middle">*99</entry>
+                                <entry>Dial the feature code and the FXS port number to call the
+                                    other analog phone that is connected to the TA gateway.<p>For
+                                        example, dial <codeph>*9901</codeph> to call the analog
+                                        phone that is connected to the first FXS port of TA
+                                        gateway.</p></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Speed Dial Prefix</entry>
+                                <entry valign="middle">*98</entry>
+                                <entry>The prefix number for applying a speed dialing. The prefix
+                                    should be added ahead of the speed dial number.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Attended Transfer</entry>
+                                <entry valign="middle">*3</entry>
+                                <entry>Transfer an incoming call by dialing <codeph>*3</codeph> on
+                                    their phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Blind Transfer</entry>
+                                <entry valign="middle">*03</entry>
+                                <entry>Blind transfer an incoming call by dialing
+                                        <codeph>*03</codeph> on their phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Direct IP Calling</entry>
+                                <entry valign="middle">*96</entry>
+                                <entry>Direct IP calling allows two parties, that is, a FXS port
+                                    with an analog phone and another VoIP device, to talk to each
+                                    other in an ad hoc fashion without a SIP proxy. <p>The default
+                                        feature code is *96. </p></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Check Number</entry>
+                                <entry valign="middle">*97</entry>
+                                <entry>You can check the analog phone's number by simply dialing the
+                                    check number feature code on the phone. <b>Default</b>:
+                                    *97.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Voice Menu</entry>
+                                <entry valign="middle">***</entry>
+                                <entry>You can enter the voice prompt menu by pressing
+                                        <codeph>***</codeph> on the phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Voice Menu Password Settings</entry>
+                                <entry valign="middle">123456</entry>
+                                <entry>The password of voice menu is required before entering the
+                                    advanced settings. The default password is 123456.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_krj_4xl_zgb">
+            <title>Call forwarding preferences</title>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_ytf_qxl_zgb">
+                    <title>Description of call forwarding preferences</title>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                        <colspec colname="c2" colnum="3" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry valign="middle">Items</entry>
+                                <entry valign="middle">Default</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle">Reset to Defaults</entry>
+                                <entry valign="middle">*70</entry>
+                                <entry>Reset all call forwarding defaults by calling
+                                        <codeph>*70</codeph> on the phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Enable Forward All Calls</entry>
+                                <entry valign="middle">*71</entry>
+                                <entry>Enable always forward by calling <codeph>*71</codeph> on the
+                                    phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Disable Forward All Calls</entry>
+                                <entry valign="middle">*071</entry>
+                                <entry>Disable always forward by calling <codeph>*071</codeph> on
+                                    the phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Enable Forward When Busy</entry>
+                                <entry valign="middle">*72</entry>
+                                <entry>You can enable busy forward by dialing <codeph>*72</codeph>
+                                    on the phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Disable Forward When Busy</entry>
+                                <entry valign="middle">*072</entry>
+                                <entry>You can disable busy forward by calling <codeph>*072</codeph>
+                                    on the phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Enable Forward No Answer</entry>
+                                <entry valign="middle">*73</entry>
+                                <entry>You can enable no answer forward by calling
+                                        <codeph>*73</codeph> on the phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Disable Forward No Answer</entry>
+                                <entry valign="middle">*073</entry>
+                                <entry>You can disable no answer forward by calling
+                                        <codeph>*073</codeph> on the phone.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Forward to Internal Port</entry>
+                                <entry valign="middle">*74</entry>
+                                <entry>You can activate call forwarding to port by dialing this
+                                    feature code, followed by the port ID to forward all calls
+                                    to.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Forward to Number</entry>
+                                <entry valign="middle">*75</entry>
+                                <entry>
+                                    <p>You can activate call forwarding by dialing this feature
+                                        code, followed by the extension or phone number to forward
+                                        all calls to this number.</p>
+                                    <p>Activate call forwarding to number by dialing
+                                            <codeph>*75</codeph> + phone number. E.g. by dialing
+                                            <codeph>*75501</codeph>, all calls will be forwarded to
+                                        extension 501.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Forward to Hunt Group </entry>
+                                <entry valign="middle">*76</entry>
+                                <entry>Activate call forwarding to hunt group by dialing code,
+                                    followed by the hunt group ID to forward all calls to.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Enable Do Not Disturb</entry>
+                                <entry valign="middle">*77</entry>
+                                <entry>Once activated, the FXS port will reject all incoming
+                                    calls.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Disable Do Not Disturb</entry>
+                                <entry valign="middle">*077</entry>
+                                <entry>Disable <uicontrol>Do Not Disturb</uicontrol> for the FXS
+                                    port by pressing the feature code on the phone. <p>It will
+                                        recover normal ringing upon the arrival of incoming
+                                        calls.</p></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </body>
+</topic>

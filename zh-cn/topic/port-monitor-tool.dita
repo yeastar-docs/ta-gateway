@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port-monitor-tool">
+    <title>Port Monitor Tool</title>
+    <shortdesc>This tool is used to debug a FXS port.</shortdesc>
+    <body>
+        <p><image href="../image/port-monitor-tool.jpg" width="650" id="image_dsc_rws_zgb"/></p>
+        <p>Select a FXS port:<ul id="ul_xw4_jws_zgb">
+                <li>click <uicontrol>Start</uicontrol> to monitor the FXS port.</li>
+                <li>clicking <uicontrol>Stop</uicontrol> to stop monitoring.</li>
+                <li>clicking <uicontrol>Download</uicontrol> to download the port monitor file.</li>
+            </ul></p>
+    </body>
+</topic>

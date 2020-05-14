@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="preparation-before-installation">
+    <title>装箱清单</title>
+    <shortdesc>打开 TA1600/2400/3200 包装箱后，请对照列表检查设备及配件是否齐全。</shortdesc>
+    <conbody>
+        <p>
+            <note conref="packing-list.dita#packing_list/note"/>
+        </p>
+        <table frame="all" rowsep="1" colsep="1" id="table_rjv_1sz_zgb">
+            <title>TA1600/2400/3200 装箱清单</title>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="2.53*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1.16*"/>
+                <colspec colname="c4" colnum="4" colwidth="4.79*"/>
+                <thead>
+                    <row>
+                        <entry>名称</entry>
+                        <entry>单位</entry>
+                        <entry>数量</entry>
+                        <entry>说明</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>TA1600/TA2400/TA3200</entry>
+                        <entry align="center">台</entry>
+                        <entry align="center">1</entry>
+                        <entry>主机</entry>
+                    </row>
+                    <row id="电源线">
+                        <entry>电源线</entry>
+                        <entry align="center">条</entry>
+                        <entry align="center">1</entry>
+                        <entry>连接电源</entry>
+                    </row>
+                    <row id="网线">
+                        <entry>网线</entry>
+                        <entry align="center">条</entry>
+                        <entry align="center">1</entry>
+                        <entry align="left"> -</entry>
+                    </row>
+                    <row conref="packing-list.dita#packing_list/warranty">
+                        <entry/>
+                    </row>
+                    <row id="快速安装">
+                        <entry>快速安装指南</entry>
+                        <entry align="center">张</entry>
+                        <entry align="center">1</entry>
+                        <entry> -</entry>
+                    </row>
+                    <row id="支架">
+                        <entry>耳挂支架</entry>
+                        <entry align="center">个</entry>
+                        <entry align="center">2</entry>
+                        <entry> -</entry>
+                    </row>
+                    <row id="螺丝">
+                        <entry>螺丝</entry>
+                        <entry align="center">颗</entry>
+                        <entry align="center">8</entry>
+                        <entry>锁耳架的螺丝（φ3.0*6 mm）</entry>
+                    </row>
+                    <row id="螺母">
+                        <entry>接地螺母和接地螺丝</entry>
+                        <entry align="center">套</entry>
+                        <entry align="center">1</entry>
+                        <entry> -</entry>
+                    </row>
+                    <row id="脚垫">
+                        <entry>脚垫</entry>
+                        <entry align="center">个</entry>
+                        <entry align="center">4</entry>
+                        <entry> -</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

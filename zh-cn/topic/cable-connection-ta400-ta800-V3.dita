@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title><?oxy_comment_start author="carol" timestamp="20190923T152839+0800" comment="更改标题
+"?>连接朗视
+        TA 网关<?oxy_comment_end?></title>
+    <shortdesc>根据图示及说明连接<?oxy_insert_start author="carol" timestamp="20190923T153027+0800"?>朗视
+        TA400/800
+        网关。<?oxy_insert_end?><?oxy_delete author="carol" timestamp="20190923T153024+0800" content=" Yeastar TA400/800。"?></shortdesc>
+    <body>
+        <?oxy_comment_start author="carol" timestamp="20190923T152937+0800" comment="这个图可以优化一下：各个组件的大小比例
+"?>
+        <image id="image_xyd_x1s_b3b" href="../image/ta800-%E4%B8%AD.png" width="650"/><?oxy_comment_end?>
+        <section id="section_xny_jwy_djb">
+            <p>
+                <ol id="ol_ksg_kwy_djb">
+                    <li><?oxy_comment_start author="carol" timestamp="20190923T163247+0800" comment="更新后的内容
+
+使用列表的元素，使排版更清晰。
+
+语言描述优化。
+1. LAN 口可以连接路由器或交换机
+2. FXS 口直接说连接模拟话机就好了，不需要带入 FXO 概念，反而引起读者的疑惑。
+3. 电源连接的描述优化：适配器的一端，第二句按道理应该写另一端XXXXX。
+TA400/800 没有电源开关。"?><b>连接网口</b><p>将网线的一端接到
+                            TA 网关的 <uicontrol>LAN</uicontrol> 口，另外一端接到公司路由器的 LAN 口或交换机。</p></li>
+                    <li><b>连接模拟话机</b><p>将RJ11电话线的一端接到 TA 网关的 <uicontrol>FXS</uicontrol>
+                            口，另一端接到模拟话机。</p></li>
+                    <li><b>连接电源</b><p>使用朗视 TA 网关专用适配器连接到 TA
+                            网关的电源口，适配器插入插座后，电源指示灯常亮且系统指示灯闪烁，表示系统已启动。<?oxy_comment_end?></p></li>
+                </ol>
+            </p>
+        </section>
+        <section id="connect-internet">
+            <?oxy_comment_start author="carol" timestamp="20190923T155104+0800" comment="旧内容"?>
+            <title>1. 连接LAN口</title>
+            <p>网线的一端接入 TA 网关的 <b>LAN</b> 口，另一端接入公司路由器的 LAN 口。</p>
+        </section>
+        <section id="section_w15_ygq_13b">
+            <title>2. 连接模拟话机</title>
+            <p id="connect-phone">RJ11电话线的一端接入 TA 网关的 <b>FXS</b> 口，另一端接入模拟话机的 FXO 口。</p>
+        </section>
+        <section id="section_ldm_chq_13b">
+            <title>3. 连接电源</title>
+            <p>适配器的一端接入 TA 网关的电源接口，将插头插入插座。按下电源开关，当电源指示灯常亮且系统指示灯闪烁，系统成功启动。</p><?oxy_comment_end?>
+        </section>
+    </body>
+</topic>

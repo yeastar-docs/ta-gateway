@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="voip-server-settings">
+    <title>VoIP Server Settings</title>
+    <shortdesc>There are some configurable VoIP (SIP/IAX) server templates on this page. </shortdesc>
+    <body>
+        <p>The number of VoIP server templates is the half of FXS ports on TA FXS gateway. The VoIP
+            server settings help the FXS ports to register to the VoIP server. The templates can be
+            chosen on FXS port setting page after configuration.</p>
+        <p>Go to <menucascade>
+                <uicontrol>Gateway</uicontrol>
+                <uicontrol> VoIP Settings</uicontrol>
+                <uicontrol> VoIP Server Settings</uicontrol>
+            </menucascade>,
+            <?oxy_comment_start author="Becky" timestamp="20190920T172104+0800" comment="新增"?>click
+                <image id="image_py1_nhd_djb"
+                href="../../../help-zh-cn/TA%20gateway/image/UI_icons/edit.png"/> beside the desired
+            VoIP server<?oxy_comment_end?>.</p>
+        <section id="section_ilm_qml_zgb">
+            <title>Register modes for VoIP server</title>
+            <p>
+                <ul id="ul_hxx_tml_zgb">
+                    <li><b>Service Provider</b><p>Generally, the TA gateway is not required to
+                            register with IP-based VoIP provider. Only IP address or domain is
+                            needed to configure on TA gateway.<note>This is a peer-to-peer mode to
+                                connect VoIP server and TA gateway, you also need to create a
+                                service provider trunk connecting to TA gateway on your VoIP
+                                server.</note></p></li>
+                    <li><b>Port Register</b><p>The VoIP server requires TA gateway to register with
+                            the provider using hostname/IP address and domain.</p><p>You need to
+                            fill in <uicontrol>Hostname/IP</uicontrol> and
+                                <uicontrol>Domain</uicontrol> to register the FXS port.
+                                </p><p><image href="../image/port-register.png"
+                                id="image_pcy_jnl_zgb" width="650"/></p></li>
+                    <li><b>Template Register</b><p>Template register means to register with your
+                            VoIP server and apply the template to FXS ports. The FXS ports will
+                            register with the server using the same account.</p><p><image
+                                href="../image/template-register.jpg" width="650"
+                                id="image_sb1_tnl_zgb"/></p></li>
+                </ul>
+            </p>
+        </section>
+        <section id="section_np2_5nl_zgb">
+            <title>VoIP general settings</title>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_shv_znl_zgb">
+                    <title>Description of VoIP server general settings</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry valign="middle">Settings</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle">Server ID</entry>
+                                <entry>The ID for the VoIP server template.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Server Name</entry>
+                                <entry>The name for the VoIP server template.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Type</entry>
+                                <entry>Select the type of the VoIP server.<p>
+                                        <ul id="ul_flw_tmx_k3b">
+                                            <li>SIP</li>
+                                            <li>IAX</li>
+                                        </ul>
+                                    </p></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Transport</entry>
+                                <entry>Select the transport protocol used by the SIP trunk. <ul
+                                        id="ul_tr1_zmx_k3b">
+                                        <li>UDP</li>
+                                        <li>TCP</li>
+                                        <li>TLS</li>
+                                    </ul></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Hostname/IP</entry>
+                                <entry>
+                                    <?oxy_comment_start author="Becky" timestamp="20190920T172840+0800" comment="VoIP server hostname or IP address. 5060 is the default port used by SIP protocol. 
+Usually keep default setting. "?>
+                                    <p>Enter hostname/IP address and port of the VoIP server.</p><?oxy_comment_end?>
+                                    <note>
+                                        <ul id="ul_xcs_s3d_djb">
+                                            <li>5060 is the default port used by SIP protocol.
+                                                Usually keep default setting. </li>
+                                        </ul>
+                                    </note>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Domain</entry>
+                                <entry>VoIP server hostname or IP address.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Enable Outbound Proxy Server</entry>
+                                <entry>A proxy that receives requests from a client. Even though it
+                                    may not be the server resolved by the request-URI. </entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Failover Hostname/IP</entry>
+                                <entry>Set the hostname/IP address of failover server. This server
+                                    will be used if the primary server is unavailable.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Register Mode</entry>
+                                <entry>
+                                    <ul id="ul_rjh_d4l_zgb">
+                                        <li><uicontrol>Port Register</uicontrol>: Ports will
+                                            register with this server using individual
+                                            accounts.</li>
+                                        <li><uicontrol>Template Register</uicontrol>: Ports will
+                                            register with this server using the same account.</li>
+                                        <li><uicontrol>Service Provider</uicontrol>: Disable
+                                            registration.</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <?oxy_comment_start author="Becky" timestamp="20190920T174217+0800" comment="新增"?>
+                            <row>
+                                <entry valign="middle">User Name</entry>
+                                <entry>User name provided by VoIP server.</entry>
+                            </row><?oxy_comment_end?>
+                            <?oxy_comment_start author="Becky" timestamp="20190920T174221+0800" comment="新增"?>
+                            <row>
+                                <entry valign="middle">Authentication Name</entry>
+                                <entry>Authentication name provided by VoIP server.</entry>
+                            </row><?oxy_comment_end?>
+                            <?oxy_comment_start author="Becky" timestamp="20190920T174224+0800" comment="新增"?>
+                            <row>
+                                <entry valign="middle">Password</entry>
+                                <entry>Authentication password provided by VoIP server.</entry>
+                            </row><?oxy_comment_end?>
+                            <?oxy_comment_start author="Becky" timestamp="20190920T174205+0800" comment="新增
+"?>
+                            <row>
+                                <entry valign="middle">From User</entry>
+                                <entry>Provided by VoIP server. Leave this field blank if it is not
+                                    needed.</entry>
+                            </row><?oxy_comment_end?>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_dfy_m4l_zgb">
+            <title>VoIP advanced settings</title>
+        </section>
+        <p>
+            <table frame="all" id="table_cgf_wrx_k3b">
+                <title>Description of VoIP server advanced settings</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" colsep="1" rowsep="1"/>
+                    <colspec colname="c2" colnum="2" colwidth="2.03*" colsep="1" rowsep="1"/>
+                    <thead>
+                        <row>
+                            <entry>Settings</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <?oxy_comment_start author="Becky" timestamp="20190920T174553+0800" comment="新增
+"?>
+                        <row>
+                            <entry>Enable SRTP</entry>
+                            <entry>Whether to enable SRTP for the VoIP server.</entry>
+                        </row><?oxy_comment_end?>
+                        <row>
+                            <entry>Enable Random Port</entry>
+                            <entry>If enabled, you will use a random port for SIP messages rather
+                                than the UDP port number listed in SIP settings.</entry>
+                        </row>
+                        <row>
+                            <entry>Keep Alive Type</entry>
+                            <entry>System periodically sends a UDP packet to keep the port active
+                                and avoid the server to shut down the port.<p>
+                                    <ul id="ul_vlq_jtx_k3b">
+                                        <li>Disabled</li>
+                                        <li>Options</li>
+                                        <li>Notify</li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry>Keep Alive Interval</entry>
+                            <entry>Time interval for sending a UDP packet. <p><b>Default</b>: 30
+                                    seconds.</p></entry>
+                        </row>
+                        <row>
+                            <entry>Caller ID</entry>
+                            <entry><?oxy_comment_start author="Becky" timestamp="20190920T175045+0800" comment="Specify the caller ID when making outbound calls over this VoIP server. "?>The
+                                called party will see the caller ID when user makes outbound calls
+                                over this VoIP server.<?oxy_comment_end?></entry>
+                        </row>
+                        <row>
+                            <entry>Maximum Channels</entry>
+                            <entry>The maximum number of simultaneous calls. Leave it blank for no
+                                    limit.<note>Only valid to outbound calls.</note></entry>
+                        </row>
+                        <?oxy_comment_start author="Becky" timestamp="20190920T175940+0800" comment="新增，word上的内容"?>
+                        <row>
+                            <entry>Realm</entry>
+                            <entry>Realm is a string to be displayed to users so that they know
+                                which username and password to use.</entry>
+                        </row><?oxy_comment_end?>
+                        <?oxy_comment_start author="Becky" timestamp="20190920T180000+0800" comment="新增"?>
+                        <row>
+                            <entry>Authenticating Incoming Call</entry>
+                            <entry>
+                                <p>If you set this option to <uicontrol>Yes</uicontrol>, when an
+                                    incoming call reaches TA device and sends INVITE packet to TA,
+                                    TA responds 401,
+                                    <?oxy_delete author="Becky" timestamp="20190923T090554+0800" content="but"?><?oxy_insert_start author="Becky" timestamp="20190923T090555+0800"?>if<?oxy_insert_end?>
+                                    the Realm info in 401</p>
+                                <p>Response does not match the Realm set on TA VoIP server, the
+                                    provider will refuse to authenticate. </p>
+                                <p>If you set this option to <uicontrol>No</uicontrol>, TA will not
+                                    reply a 401 Response to the provider to authenticate the
+                                    incoming call.</p>
+                            </entry>
+                        </row><?oxy_comment_end?>
+                        <row>
+                            <entry>Ignore SDP Version</entry>
+                            <entry>By default, PBX will only update the media stream
+                                <?oxy_delete author="Becky" timestamp="20190923T090703+0800" content="if"?><?oxy_insert_start author="Becky" timestamp="20190923T090704+0800"?>when<?oxy_insert_end?>
+                                the SDP session version received is different from the current SDP
+                                session version. If enabled, PBX will treat any SDP data as new data
+                                and update media data accordingly.</entry>
+                        </row>
+                        <row>
+                            <entry>DTMF Mode</entry>
+                            <entry>Set default mode for sending DTMF of this trunk.
+                                        <p><b>Default</b>: rfc2833.</p><p>
+                                    <ul id="ul_y5n_xvx_k3b">
+                                        <li>rfc2833</li>
+                                        <li>info</li>
+                                        <li>inband</li>
+                                        <li>auto</li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry>Codec</entry>
+                            <entry>Define the codec for this SIP trunk and its priority.
+                                TA1600/2400/3200 supports the following codecs: <ul
+                                    id="ul_b3l_bwx_k3b">
+                                    <li>u-law</li>
+                                    <li>a-law</li>
+                                    <li>G726</li>
+                                    <li>G729A/B</li>
+                                    <li>GSM</li>
+                                    <li>ADPCM</li>
+                                    <li>G722</li>
+                                    <li>G723</li>
+                                    <li> iLBC</li>
+                                </ul></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic>

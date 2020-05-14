@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="reset-to-factory-defaults">
+    <title>Reset to Factory Defaults</title>
+    <shortdesc>Follow the below instruction to reset and factory defaults.</shortdesc>
+    <taskbody>
+        <context id="context_fq1_qj1_1hb">
+            <note>
+                <ul>
+                    <li>During the process, do not power off until the RUN indicator become normal
+                        which means the reset process is completed. </li>
+                    <li>After resetting, all the configurations made by the admin would be
+                        erased.</li>
+                </ul>
+            </note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Press the <uicontrol>RESET</uicontrol> button located in the back panel with a
+                    paper clip or a pencil tip. </cmd>
+                <info>
+                    <p>You can see the RUN indicator stops flicker and turns solid. When the RUN
+                        indicator turns off, the button could be released and system begins to
+                        reset.</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta1600-gateway-overview">
+    <title><?oxy_comment_start author="carol" timestamp="20190923T165932+0800" comment="TA1610 Hardware"?>Hardware<?oxy_comment_end?>
+        Overview</title>
+    <body>
+        <section id="section_tyh_2r1_1hb">
+            <title>Front panel</title>
+            <p><image id="image_vgr_hsw_13b" href="../image/ta1610-front.PNG" width="700"/></p>
+        </section>
+        <section id="section_kj1_xbq_yhb">
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta1600-front">
+                    <title/>
+                    <tgroup cols="3" id="front-panel">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="center"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.79*" align="center"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.18*" align="left"/>
+                        <thead>
+                            <row>
+                                <entry align="center">No.</entry>
+                                <entry align="center">Feature</entry>
+                                <entry align="center">Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row
+                                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/reset">
+                                <entry/>
+                            </row>
+                            <row
+                                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/power">
+                                <entry/>
+                            </row>
+                            <row conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/run">
+                                <entry/>
+                            </row>
+                            <row conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/wan">
+                                <entry/>
+                            </row>
+                            <row conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/lan">
+                                <entry/>
+                            </row>
+                            <row>
+                                <entry>⑥</entry>
+                                <entry align="left">FXO Ports Status</entry>
+                                <entry conref="ta410-hardware-overview.dita#ta400_800_overview/fxo"
+                                />
+                            </row>
+                            <row>
+                                <entry valign="middle">⑦</entry>
+                                <entry valign="middle" align="left">RJ11 FXO Ports</entry>
+                                <entry conref="ta410-hardware-overview.dita#ta400_800_overview/rj11"/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_ibd_gr1_1hb">
+            <title>Back panel</title>
+            <p><image id="image_vy3_hcw_13b" href="../image/ta1600-back.PNG" width="700"/></p>
+        </section>
+        <section id="section_gmp_hcq_yhb">
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta1610-back">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.89*" align="left"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.43*" align="left"/>
+                        <thead>
+                            <row>
+                                <entry valign="middle" align="center">No.</entry>
+                                <entry valign="middle" align="center">Feature</entry>
+                                <entry align="center">Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle" align="center">⑧</entry>
+                                <entry valign="middle" align="left">RJ21 FXO Ports</entry>
+                                <entry>For connection to interfaces with an RJ21 to RJ11
+                                    cable.</entry>
+                            </row>
+                            <row
+                                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/switch">
+                                <entry/>
+                            </row>
+                            <row
+                                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/inlet">
+                                <entry/>
+                            </row>
+                            <row conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/earh">
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </body>
+</topic>

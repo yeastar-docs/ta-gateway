@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ami-settings">
+    <title>AMI Settings</title>
+    <shortdesc>The Asterisk Manager Interface (AMI) is a system monitoring and management interface
+        provided by Asterisk. It allows live monitoring of events that occur in the system, as well
+        enabling you to request that Asterisk perform some action.</shortdesc>
+    <body>
+        <p>
+            <div>
+                <p>The actions that are available are wide-ranging and include things such as
+                    returning status information and originating new calls.</p>
+                <p>Many interesting applications have been developed on top of Asterisk that take
+                    advantage of the AMI as their primary interface to Asterisk.</p>
+                <p>Main types of messages: <ul id="ul_j3p_54r_zgb">
+                        <li>manager events</li>
+                        <li>manager actions</li>
+                    </ul></p>
+            </div>
+        </p>
+        <p><image href="../image/ami-settings.jpg" width="650" id="image_unp_2pr_zgb"/></p>
+        <p>The 3rd party software can work with TA1600/2400/3200 using AMI interface. It is disabled
+            by default. If necessary, you can enable it.</p>
+        <ul id="ul_rjg_hpr_zgb">
+            <li><b>User Name, Password &amp; Port</b><p>After enabling AMI, you can use this
+                    username and password to log in to TA1600/2400/3200. The default port is
+                    5038.</p></li>
+            <li><b>Permitted "IP address/Subnet mask"</b><p>You can set which IP is allowed to log
+                    in to TA1600/2400/3200 AMI interface.</p></li>
+        </ul>
+    </body>
+</topic>

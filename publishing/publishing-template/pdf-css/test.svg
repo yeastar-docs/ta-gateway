@@ -1,0 +1,19 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in">
+  <desc>A gradient as big as a page.</desc>
+  <defs>
+    <linearGradient id="lc"
+      x1="0%" y1="0%"
+      x2="0%" y2="100%"
+      spreadMethod="pad">
+      <stop offset="0%"   stop-color="#00DD00" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00AA00" stop-opacity="1"/>
+    </linearGradient>
+  </defs>    
+  <rect x="0" y="0" width="100%" height="100%" rx="10" ry="10"
+    style="fill:url(#lc);
+    stroke: #005000;
+    stroke-width: 3;"/>
+  <text x="45%" y="95%"  color="#FFFFAA" font-size="0.7cm"> Sample </text>
+</svg>

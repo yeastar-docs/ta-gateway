@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_iwn_14q_yhb">
+    <title>TA810 硬件概览</title>
+    <body>
+        <section id="section_sqk_54q_yhb"><title>TA810 前面板</title><image id="image_nzh_5m5_13b"
+                href="../image/ta400%26800-front.PNG" width="650"/></section>
+        <table conref="ta410-hardware-overview.dita#ta400_800_overview/ta410-front"
+            id="table_jqf_r4l_b3b">
+            <tgroup cols="1">
+                <tbody>
+                    <row>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <section id="section_brw_1rq_yhb">
+            <title>TA810 背面板</title>
+            <p><image id="image_xqy_h4w_13b" href="../image/ta810-back.PNG" width="700"/></p>
+        </section>
+        <p>
+            <table conref="ta410-hardware-overview.dita#ta400_800_overview/ta410-back"
+                id="table_a2t_44l_b3b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic>

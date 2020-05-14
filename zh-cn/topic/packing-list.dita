@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="packing_list">
+    <title>装箱清单</title>
+    <shortdesc id="shortdes">打开 TA400/800 包装箱后，请对照列表检查设备及配件是否齐全。</shortdesc>
+    <conbody>
+        <p>
+            <note id="note">如有遗漏，请与经销商联系。</note>
+            <table frame="all" rowsep="1" colsep="1" id="table_ufp_lwp_yhb">
+                <title>TA400/800 装箱清单</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="2.42*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="3.98*" align="center"/>
+                    <thead>
+                        <row id="title">
+                            <entry>名称</entry>
+                            <entry>单位</entry>
+                            <entry>数量</entry>
+                            <entry>说明</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>TA400/TA800</entry>
+                            <entry align="center">台</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">主机</entry>
+                        </row>
+                        <row id="network">
+                            <entry>网线</entry>
+                            <entry align="center">条</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">-</entry>
+                        </row>
+                        <row id="warranty">
+                            <entry>质保卡</entry>
+                            <entry align="center">张</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">质保卡上的序列号作为产品维修及退货的凭证</entry>
+                        </row>
+                        <row id="stand">
+                            <entry>底座</entry>
+                            <entry align="center">个</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">-</entry>
+                        </row>
+                        <row id="adapter">
+                            <entry>电源适配器</entry>
+                            <entry align="center">条</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">连接电源</entry>
+                        </row>
+                        <row id="guide">
+                            <entry>快速安装指南</entry>
+                            <entry align="center">张</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">-</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </conbody>
+</concept>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="security-center-2">
+    <title>Security Center</title>
+    <shortdesc>All the security settings including firewall, service, port settings in
+        TA1600/2400/3200 are displayed in security center. You can rapidly check and configure the
+        relevant security settings here.</shortdesc>
+    <conbody>
+        <section id="section_d4l_3kr_zgb">
+            <title>Firewall</title>
+            <p>In the <uicontrol>Firewall</uicontrol> tab, you can check firewall configuration and
+                alert settings. By clicking the relevant button, you can enter the configuration
+                page directly.</p>
+            <p><image href="../image/firewall.jpg" width="650" id="image_isx_4kr_zgb"/></p>
+        </section>
+        <section id="section_edm_jkr_zgb">
+            <title>Service</title>
+            <p>In <uicontrol>Service</uicontrol> tab, you can check AMI/SSH status. For AMI/SSH, you
+                can enter the according page by clicking the button in
+                    <uicontrol>Setting</uicontrol> column.</p>
+            <p><image href="../image/service.jpg" width="650" id="image_zn1_xkr_zgb"/></p>
+        </section>
+        <section id="section_anz_jkr_zgb">
+            <title>Port</title>
+            <p>In <uicontrol>Port</uicontrol> tab, you can check SIP port and HTTP port. You can
+                also enter the relevant page by clicking the button in
+                    <uicontrol>Setting</uicontrol> column.</p>
+            <p><image href="../image/port.jpg" width="650" id="image_w2y_dlr_zgb"/></p>
+        </section>
+    </conbody>
+</concept>

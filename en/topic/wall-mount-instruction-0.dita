@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="wall_mount_instruction_0">
+    <title>Wall-mount Instruction</title>
+    <shortdesc>Wall-mount connection for TA400/800.</shortdesc>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Remove the screws on the stand. Screw the clump weight to the stand again as
+                    the picture shows.</cmd>
+            </step>
+            <step>
+                <cmd>Push the Yeastar device into the stand.</cmd>
+            </step>
+            <step>
+                <cmd>Fix two screws on the wall, and then you could mount the stand to the
+                    wall.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

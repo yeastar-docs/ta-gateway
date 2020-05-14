@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="network-preferences">
+    <title>Network Preferences</title>
+    <shortdesc>This chapter explains network settings on TA1600/2400/3200. You can click the
+            <uicontrol>System</uicontrol> on the top of the Web GUI to check the network
+        settings.</shortdesc>
+</concept>

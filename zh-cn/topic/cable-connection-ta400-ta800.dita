@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title>连接朗视 TA 网关</title>
+    <shortdesc>根据图示及说明连接朗视 TA400/800 网关。</shortdesc>
+    <body>
+        <image id="image_qrn_sxd_2jb" href="../image/ta400-800-connection.png" width="650"/>
+        <section id="section_xny_jwy_djb">
+            <p>
+                <ol id="ol_ksg_kwy_djb">
+                    <li><b>连接网口</b><p>LAN 口可以连接路由器或交换机。</p></li>
+                    <li><b>连接模拟话机</b><p>FXS 口可以连接模拟话机。</p></li>
+                    <li><b>连接电源</b><p>适配器的一端连接 TA 网关的电源接口，另一端插入插座。</p><p>TA 400/800
+                        网关没有电源开关。</p></li>
+                </ol>
+            </p>
+        </section>
+    </body>
+</topic>

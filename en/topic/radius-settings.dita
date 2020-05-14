@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="radius-settings">
+    <title>RADIUS Settings</title>
+    <shortdesc>TA FXS gateway supports RADIUS (Remote Authentication Dial In UserService) protocol.
+        RADIUS feature is mainly for billing purpose on TA FXS gateway. </shortdesc>
+    <conbody>
+        <p>There areprimary and secondary RADIUS server configurations available. </p>
+        <p>Once the primary server is unreachale, the RADIUS requests will be sent to the secondary
+            server.</p>
+        <p><image href="../image/radius-preferences.jpg" width="650" id="image_ipr_jhm_zgb"/></p>
+        <table frame="all" rowsep="1" colsep="1" id="table_qpy_khm_zgb">
+            <title>Description of RADIUS settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Items</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Enable RADIUS</entry>
+                        <entry>Enable RADIUS on TA FXS gateway.</entry>
+                    </row>
+                    <row>
+                        <entry>Primary Server IP</entry>
+                        <entry>Set IP address of the primary server.</entry>
+                    </row>
+                    <row>
+                        <entry>Primary Server Port</entry>
+                        <entry>Default is 1813. Specifies the port to be used for the primary RADIUS
+                            account.</entry>
+                    </row>
+                    <row>
+                        <entry>Primary Server Key</entry>
+                        <entry>Specifies the key to be used to authenticate the RADIUS connection to
+                            the primary server. The key is set according to the RADIUS
+                            server.</entry>
+                    </row>
+                    <row>
+                        <entry>Secondry Server IP</entry>
+                        <entry>Set IP address of the primary server. The second sever will be
+                            activated the primary one becomes unusable.</entry>
+                    </row>
+                    <row>
+                        <entry>Secondry Server Port</entry>
+                        <entry>Default is 1813. Specifies the port to be used for the second RADIUS
+                            account.</entry>
+                    </row>
+                    <row>
+                        <entry>Secondry Server Key</entry>
+                        <entry>Specifies the key to be used to authenticate the RADIUS connection to
+                            the second server. The key is set according to the RADIUS
+                            server.</entry>
+                    </row>
+                    <row>
+                        <entry>RADIUS Timeout</entry>
+                        <entry>
+                            <p>Specifies the number of seconds to wait for a response after the
+                                RADIUS message is sent to the server. <b>Default</b>: 10
+                                seconds.</p>
+                            <p>The retransmission will be performed if there is no response after
+                                the timeout.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>RADIUS Retry Times</entry>
+                        <entry>Specifies the number of times the RADIUS messages will send to the
+                            RADIUS server before giving up. <b>Default</b>: 3.</entry>
+                    </row>
+                    <row>
+                        <entry>Call Out CDR</entry>
+                        <entry>Whether to send call out CDR to RADIUS server or not.</entry>
+                    </row>
+                    <row>
+                        <entry>Call In CDR</entry>
+                        <entry>Whether to send call in CDR to RADIUS server or not.</entry>
+                    </row>
+                    <row>
+                        <entry>No Answer CDR</entry>
+                        <entry>Whether to send call out CDR to RADIUS server or not.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

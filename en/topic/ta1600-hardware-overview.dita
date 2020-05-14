@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta1600-gateway-overview">
+    <title>TA1600 Hardware Overview</title>
+    <body>
+        <section id="section_tyh_2r1_1hb">
+            <title>TA1600 front panel</title>
+            <p><image id="image_ezc_cfw_13b" href="../image/ta1600-front.PNG" width="700"/></p>
+        </section>
+        <section id="section_kj1_xbq_yhb">
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta1600-front">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="center"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.79*" align="center"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.18*" align="left"/>
+                        <thead>
+                            <row>
+                                <entry align="center">No.</entry>
+                                <entry align="center">Feature</entry>
+                                <entry align="center">Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row id="reset">
+                                <entry valign="middle">①</entry>
+                                <entry valign="middle" align="left">Reset Button</entry>
+                                <entry
+                                    conref="ta400-hardware-overview.dita#ta400_800_overview/reset"/>
+                            </row>
+                            <row id="power">
+                                <entry valign="middle">②</entry>
+                                <entry valign="middle" align="left">Power LED</entry>
+                                <entry>
+                                    <p>Indicates the power status.</p>
+                                    <ul id="ul_jdp_hgp_pgb">
+                                        <li><b>On</b>: The power is switched on.</li>
+                                        <li><b>Off</b>: The power is switched off.</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row id="run">
+                                <entry valign="middle">③</entry>
+                                <entry valign="middle" align="left">RUN LED</entry>
+                                <entry>
+                                    <p>Indicates the system status.</p>
+                                    <ul id="ul_prz_jgp_pgb">
+                                        <li><b>Blinking</b>: The system is working properly.</li>
+                                        <li><b>Not Blinking/Off</b>: The system goes wrong.</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row id="wan">
+                                <entry valign="middle">④</entry>
+                                <entry valign="middle" align="left">WAN Port</entry>
+                                <entry>10/100 adaptive RJ45 Ethernet port.</entry>
+                            </row>
+                            <row id="lan">
+                                <entry>⑤</entry>
+                                <entry valign="middle" align="left">LAN Port</entry>
+                                <entry>10/100 adaptive RJ45 Ethernet port.</entry>
+                            </row>
+                            <row>
+                                <entry>⑥</entry>
+                                <entry align="left">FXS Ports Status</entry>
+                                <entry>Indicates the FXS port status.<p>
+                                        <ul id="ul_u5w_d4f_1hb">
+                                            <li><b>Solid green</b>: The port is idle or no line is
+                                                connected to the port.</li>
+                                            <li><b>Green light blinking</b>: There is a call reaches
+                                                the port or the port is busy in a call.</li>
+                                        </ul>
+                                    </p></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">⑦</entry>
+                                <entry valign="middle" align="left">RJ11 FXS Ports</entry>
+                                <entry>For connection to analog phones or fax machines.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_ibd_gr1_1hb">
+            <title>TA1600 back panel</title>
+            <p><image id="image_vy3_hcw_13b" href="../image/ta1600-back.PNG" width="700"/></p>
+        </section>
+        <section id="section_gmp_hcq_yhb">
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta1600-back">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.89*" align="left"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.43*" align="left"/>
+                        <thead>
+                            <row>
+                                <entry valign="middle" align="center">No.</entry>
+                                <entry valign="middle" align="center">Feature</entry>
+                                <entry align="center">Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle" align="center">⑧</entry>
+                                <entry valign="middle" align="left">RJ21 FXS Ports</entry>
+                                <entry>For connection to analog phones or fax machines with one RJ21
+                                    to RJ11 cable.</entry>
+                            </row>
+                            <row id="switch">
+                                <entry valign="middle" align="center">⑨</entry>
+                                <entry valign="middle" align="left">Power Switch</entry>
+                                <entry>Press this button to switch on/off the device.</entry>
+                            </row>
+                            <row id="inlet">
+                                <entry valign="middle" align="center">⑩</entry>
+                                <entry valign="middle" align="left">Power Inlet</entry>
+                                <entry>Connect the power supply to the port.</entry>
+                            </row>
+                            <row id="earh">
+                                <entry valign="middle" align="center">⑪</entry>
+                                <entry align="left">Protective Earth</entry>
+                                <entry>Protect the personnel and the equipment.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </body>
+</topic>

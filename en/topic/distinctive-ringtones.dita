@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="distinctive-ringtones">
+    <title>Distinctive Ringtones</title>
+    <shortdesc>TA1600/2400/3200 provides 10 configurable distinctive ringtones. You can configure
+        different ringtones to match different incoming caller ID.</shortdesc>
+    <conbody>
+        <example>
+            <p>If <uicontrol>Inbound Caller Pattern</uicontrol> is configured as <i>100.</i>, all
+                the incoming calls start with digits <codeph>100</codeph> will ring using cadence
+                    <i>2000,4000</i> as the following figure shows.</p>
+            <p><image href="../image/edit-ringtones.jpg" width="650" id="image_tdv_x2m_zgb"/></p>
+        </example>
+    </conbody>
+</concept>

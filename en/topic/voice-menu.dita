@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="voice-menu">
+    <title>Voice Menu</title>
+    <shortdesc>TA1600/2400/3200 provides a voice menu to guide you to configure the network settings
+        for the device.</shortdesc>
+    <body>
+        <p>You need to press <codeph>***</codeph> on the analog phone which is connected to FXS port
+            of TA1600/2400/3200 to enter the voice menu.<note type="tip">
+                <ul id="ul_flj_wcl_zgb">
+                    <li>Press <codeph>9</codeph> to listen to the prompt again.</li>
+                    <li>Press <codeph>*</codeph> to return to the last menu.</li>
+                </ul>
+            </note></p>
+        <p>The default password to enter <uicontrol>Advanced Settings</uicontrol> is
+                <codeph>123456</codeph>. You can go to <menucascade>
+                <uicontrol>Gateway</uicontrol>
+                <uicontrol>Gateway Settings</uicontrol>
+                <uicontrol>Feature Codes</uicontrol>
+                <uicontrol>Voice Menu Password Settings</uicontrol>
+            </menucascade> to change the password.</p>
+        <p><image href="../image/ta-voice-menu.jpg" id="image_dvv_qcl_zgb" width="650"/></p>
+    </body>
+</topic>

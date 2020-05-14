@@ -1,0 +1,416 @@
+
+
+/***
+隐藏 feeback section
+***/
+.feedback-section {
+    display: none;
+}
+
+/***
+隐藏 get_more_help
+***/
+.get_more_help {
+    display: none;
+}
+
+
+
+
+/*
+ * ==============================================
+ * Skin for oXygen generated WebHelp.
+ * ==============================================
+ */
+
+/* Yeastar Footer: Get More Help + Copyright*/
+.wh_footer{
+    background-color: #fff;
+}
+
+.get_more_help{
+    border-top: 1px solid #E3E3E3;
+padding-bottom: 0px;
+position: absolute;
+background-color: #fff;
+width: 100%;
+line-height: 1.5rem;
+}
+
+
+.site_footer_container {
+    max-width: 1000px;
+    margin: 0px auto;
+    vertical-align: top;
+    }
+
+ 
+.footer_items {
+    width: 100%;
+    padding: 12px 0px 12px 0px;
+}
+
+}
+
+.footer_nav {
+    padding-left: 10px;
+    overflow: visible;
+    margin-bottom: 10px;
+    margin-top: 1000px;
+    color: #89898B;
+    box-sizing: border-box;
+}
+
+
+.footer_nav_item:first-child {
+    padding-left: 0;
+    font-weight: 300;
+    font-size: 1.8em;
+    border-right: 1px solid #E3E3E3;
+    text-align: center;
+    height: 70px;
+    vertical-align: middle;
+    display: table-cell;
+  
+}
+
+
+.footer_nav_item {
+    list-style: none;
+    display: inline-block;
+    padding-right: 70px;
+    padding-left: 70px;
+    line-height: 40px;
+    color: #89898B;
+    text-align: center;
+    display: table-cell;
+
+}
+
+
+
+
+/* Yeastar  Copyright*/
+
+
+
+.footer-content {
+    background-color: #343434;
+    color: #6a6a6a;
+    font-size: 14px;
+    width: 100%;
+}
+.content-area {
+    max-width: 1600px;
+    padding-top: 45px;
+    margin: 0 auto;
+}
+.footer-left {
+    width: 49%;
+    display: inline-block;
+}
+.footer-left .followlink {
+    width: 40%;
+    margin: auto;
+}
+.footer-right {
+    width: 49%;
+    display: inline-block;
+}
+.footer-right .right-content {
+    width: 56%;
+    margin: 0 auto;
+}
+.copy {
+    margin: 1rem 0 1.8rem;
+}
+/*font-icon*/
+.linkblock img {
+    display: block;
+    position: relative;
+    top: 0;
+    transition: top .35s;
+    margin: 10px auto 0;
+}
+
+.followlink .linkblock {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .35s;
+    margin: 0 2px;
+}
+.followlink .linkblock:hover img {
+    top: -36px;
+    color: #fff;
+}
+.followlink .linkblock:nth-child(1):hover {
+    background: #13b4e9;
+}
+.followlink .linkblock:nth-child(2):hover {
+    background: #3b5998;
+}
+.followlink .linkblock:nth-child(4):hover {
+    background: #3b5998;
+}
+.followlink .linkblock:nth-child(3):hover {
+    background: #007bb6;
+}
+.followlink .linkblock:nth-child(5):hover {
+    background-color: #dd111c;
+}
+.followlink .linkblock:nth-child(6):hover {
+    background: #005F61;
+}
+.followlink .linkblock:last-child:hover {
+    background: #dd111c;
+}
+/*footer-content-right*/
+.contacts-nav a {
+    text-decoration: none;
+    outline: none;
+    color: #6a6a6a;
+}
+.contacts-nav a:hover {
+    color: #fff;
+}
+.contacts-nav {
+    margin-bottom: 3rem;
+}
+.clear-float {
+    clear: both;
+}
+
+@media(max-width: 1500px) {
+    .footer-left .followlink {
+        width: 46%;
+    }
+    .footer-right .right-content {
+        width: 65%;
+    }
+}
+@media(max-width: 1280px) {
+    .footer-left .followlink {
+        width: 49%;
+    }
+    .footer-right .right-content {
+        width: 68%;
+    }
+}
+@media(max-width: 1152px) {
+    .footer-left .followlink {
+        width: 55%;
+    }
+    .footer-right .right-content {
+        width: 77%;
+    }
+}
+@media(max-width: 1024px) {
+    .footer-left .followlink {
+        width: 62%;
+    }
+    .footer-right .right-content {
+        width: 89%;
+    }
+}
+
+@media(max-width: 800px) {
+    .footer-left .followlink,
+    .footer-right .right-content {
+        width: 100%;
+    }
+    .footer-right {
+        width: 50%;
+    }
+}
+
+
+
+    /*footer-copyright*/
+    .footer-left {
+        width: 100%;
+        display: inline-block;
+    }
+    .footer-right {
+        width: 75%;
+    }
+    .content-area {
+        padding-top: 26px;
+    }
+    .copy {
+        margin-top: 1.8rem;
+    }
+}
+.clear-both {clear: both;}
+.header-menu{
+    position:absolute;
+    width:100%;
+   
+    background-color: rgba (0,0,0,0);
+    top: 0;
+
+}
+
+
+
+
+.log-and-content {
+    padding: 0;
+    margin: 0 auto;
+    height: 90px;
+}
+
+/* header title*/
+.header_title {
+font-weight: 900;
+color: #FFFFFF;
+display: inline-block;
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+padding-left: 20px;
+margin-top: 8px;}
+
+/*log*/
+
+   .yeastar-log {
+    position: relative;
+
+                          }
+   .yeastar-log a:nth-child(1) {
+       background: url(https://www.yeastar.com/wp-content/uploads/2018/05/yeastar_white2.png) no-repeat center;
+height: 55px;
+width: 180px;
+padding: 0;
+text-decoration: none;
+display: block;
+float: left;
+margin-top: 18px;
+    }
+
+    .yeastar-log a:nth-child(2) {
+
+        margin-top: 3.6rem;
+font-size: 1.6rem;
+color: transparent;
+position: absolute;
+display: inline-block;
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+padding-left: 20px;
+font-weight: 900;
+background: url(https://www.yeastar.com/wp-content/uploads/2018/06/home.png) no-repeat center;
+    }
+
+.menu-content {
+    height: 0;
+    padding: 32px 0;
+}
+.menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.content-ul {
+    float: right;
+    position: relative;
+}
+.content-ul img {
+    width: 25px;
+    height: 25px;
+}
+.content-ul span {
+    position: relative;
+    top: 2px;
+    left: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content-ul span a,.content-ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.pdf-down {
+    float: left;
+}
+.pdf-down  ul {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.pdf-down  ul ul {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.language {
+    float: right;   
+}
+.language ul {
+    width: 112px;
+    height: 0;
+}
+.language .mask-content,.pdf-down .mask-pdf{
+    display: none;
+}
+.pdf-down,.language {
+    padding: 0 15px;
+    color: #fff;
+}
+.content-ul li li li:hover a {
+    color: #004277;
+}
+.content-ul li li ul {
+    position: relative;
+    top: -6rem;
+    left: 0;
+}
+.content-ul li li ul li {
+    padding: 4px 15px;
+}
+.item-title {
+    color: #004277;
+}
+
+.content-ul li li ul li:hover {
+    background: #05abb6;
+}
+
+.content-ul li li ul li:hover  a{
+    color: #fff;
+}
+.mask-content .mask,.mask-pdf .mask {
+    height: 7rem;
+    background: #fff;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: 10px;
+}
+/*.mask-content .mask {
+    height: 3rem;
+}
+.content-ul li li ul.lan-select {
+    top: -2.7rem;
+    text-align: center;
+}*/
+
+
+@media(max-width: 768px) {
+    .log-and-content {
+        padding:0;
+        height: 11rem;
+    }
+    .pdf-down, .language {
+        padding: 0 0 0 2.5rem;
+        width: 11rem;
+    }
+    .yeastar-log a {
+        background: url(https://www.yeastar.com/wp-content/uploads/2018/05/yeastar_white2.png) no-repeat center;
+        height: 40px;
+        width: 123px;
+        margin-top: 7px;
+    }
+

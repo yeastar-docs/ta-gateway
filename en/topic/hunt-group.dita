@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hunt-group">
+    <title>Hunt Group</title>
+    <shortdesc>Hunt group is a feature that allows a call reaching multiple FXS ports.</shortdesc>
+    <body>
+        <p>The FXS ports will act as a single group, called
+            <?oxy_delete author="Becky" timestamp="20190920T143407+0800" content="a "?>hunt group.
+            The number of hunt groups is limited by the number of ports each TA FXS gateway model
+            has. </p>
+        <p>For example, there are 24 hunt groups on TA FXS Gateway 2400. Hunt group will be selected
+            when configuring <uicontrol>Follow Me</uicontrol> of FXS port.
+            <?oxy_comment_start author="Becky" timestamp="20190920T164328+0800" comment="The hunt group will work when a call reaches the FXS port associated user which is busy or no answer. "?>Hunt
+            group works when an incoming call reaching the FXS port is transferred according to the
+            rule of Follow Me. <?oxy_comment_end?></p>
+        <section id="section_zpp_m2d_djb">
+            <?oxy_comment_start author="Becky" timestamp="20190920T171351+0800" comment="改过结构"?>
+            <title>Edit Hunt Group</title><?oxy_comment_end?>
+            <p>
+                <ol>
+                    <li>Log in the web interface of TA FXS gateway, go to <menucascade>
+                            <uicontrol>Gateway</uicontrol>
+                            <uicontrol>Port List</uicontrol>
+                            <uicontrol>Hunt Group</uicontrol>
+                        </menucascade>, select an FXS port and click <image id="image_r3j_1fd_djb"
+                            href="../../../help-zh-cn/TA%20gateway/image/UI_icons/edit.png"/>.</li>
+                    <li>Set group name, ring strategy, and ring timeout for the FXS port.<p><image
+                                href="../image/edit-hunt-group.jpg" id="image_ytn_dml_zgb"/></p><ul
+                            id="ul_hd1_jfd_djb">
+                            <li><uicontrol>Group Name</uicontrol>: Set group name to help you
+                                identify the hunt group.</li>
+                            <li><b>Strategy</b>: Select the hunting strategy from the drop-down menu
+                                of <uicontrol>Strategy</uicontrol>.<p>
+                                    <ul id="ul_od4_pfd_djb">
+                                        <li><b>Simultaneous</b>:
+                                            <?oxy_comment_start author="Becky" timestamp="20190920T170541+0800" comment="All the FXS users will ring at the same time. "?>All
+                                            FXS ports in the group will ring at the same
+                                            time.<?oxy_comment_end?></li>
+                                        <li><?oxy_comment_start author="Becky" timestamp="20190920T171519+0800" comment="描述要改一下"?><b>Circular</b>:
+                                            <?oxy_delete author="Becky" timestamp="20190920T170607+0800" content="In circular hunting, the calls are processed &quot;round-robin&quot;. "?>If
+                                            a call is delivered to FXS port1, the next call will go
+                                            to FXS port2, the next to FXS port3. The succession
+                                            throughout each of the FXS users even if one of the
+                                            previous local users becomes free. When the end of the
+                                            hunting group is reached, the hunting starts over at the
+                                            first local users.</li>
+                                        <li><b>Linear</b>: Linear hunting is also referred to serial
+                                            hunting. In linear hunting, calls are always delivered
+                                            to the first FXS user, unless it is busy, then the
+                                            second, third, and so on. <?oxy_comment_end?></li>
+                                    </ul>
+                                </p></li>
+                            <?oxy_comment_start author="Becky" timestamp="20190920T170809+0800" comment="新增"?>
+                            <li><uicontrol>Ring Timeout</uicontrol>: Set ring time for the FXS
+                                port.</li><?oxy_comment_end?>
+                        </ul></li>
+                    <li>Select FXS ports as group members from <uicontrol>Available FXS
+                            Port</uicontrol> to <uicontrol>Selected</uicontrol>.</li>
+                    <li>Click <uicontrol>Save</uicontrol> and <uicontrol>Apply
+                        Changes</uicontrol>.</li>
+                </ol>
+            </p>
+        </section>
+    </body>
+</topic>

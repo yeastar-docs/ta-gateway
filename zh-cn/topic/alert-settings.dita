@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="alert-settings">
+    <title>Alert Settings</title>
+    <shortdesc>If the device is under attack, the system will alert users via call or
+        e-mail.</shortdesc>
+    <conbody>
+        <p>The attack modes include IP attack and Web login.<ul id="ul_z4w_3lr_zgb">
+                <li><b>IPATTACK</b>
+                    <p>When the system is attacked by IP address, the firewall will add the IP
+                        address to auto IP blacklist and notify the user if it matches the
+                        protection rule.</p><p><image href="../image/ipattack.jpg"
+                            id="image_gnj_rlr_zgb" width="650"/></p></li>
+                <li><b>WEBLOGIN</b><p>Entering the wrong password consecutively for five times when
+                        logging in to TA FXS gateway Web interface will be deemed as an
+                        attack.</p><p>The system will limit the IP login within 10 minutes and
+                        notify the user.</p><p><image href="../image/weblogin.jpg" width="650"
+                            id="image_ymw_lmr_zgb"/></p></li>
+            </ul></p>
+        <table frame="all" rowsep="1" colsep="1" id="table_qrn_rmr_zgb">
+            <title>Description of alert settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <tbody>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Phone Notification Settings</b></entry>
+                    </row>
+                    <row>
+                        <entry>PHONE Notification</entry>
+                        <entry>Whether to enable phone notification or not.</entry>
+                    </row>
+                    <row>
+                        <entry>Number</entry>
+                        <entry>
+                            <p>The numbers could be set for alert notification; you can setup
+                                multiple extension and outbound phone numbers. Separate them by
+                                    <codeph>;</codeph>.</p>
+                            <p>Example: <i>500;9911</i>, if the extension has configured
+                                    <uicontrol>Follow Me</uicontrol> settings, the call would go to
+                                the forwarded number directly.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Attempts</entry>
+                        <entry>The attempts to dial a phone number when there is no answer.</entry>
+                    </row>
+                    <row>
+                        <entry>Interval</entry>
+                        <entry>The interval between each attempt to dial the phone number. <p>Must
+                                be longer than 3 seconds, the default value is 60
+                            seconds.</p></entry>
+                    </row>
+                    <row>
+                        <entry>Prompt</entry>
+                        <entry>Users will hear the prompt while receiving the phone
+                            notification.</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Email Notification Settings</b></entry>
+                    </row>
+                    <row>
+                        <entry>E-mail Notification</entry>
+                        <entry>Whether to enable e-mail notification or not.</entry>
+                    </row>
+                    <row>
+                        <entry>Recipient’s Name</entry>
+                        <entry>
+                            <p>The recipients for the alert notification, and multiple email
+                                addresses are allowed, please separate them by
+                                <codeph>;</codeph>.</p>
+                            <p>Example: <i>jerry@yeastar.com;jason@yeastar.com;456@sina.com</i></p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Subject</entry>
+                        <entry>The subject of the alert email.</entry>
+                    </row>
+                    <row>
+                        <entry>Email Content</entry>
+                        <entry>
+                            <p>Text content supports predefined variables. Variable names and
+                                corresponding instructions are as follows:</p>
+                            <p>gateway hostname:$(HOSTNAME)</p>
+                            <p>attack source ip address:$(SOURCEIP)</p>
+                            <p>attack dest mac:$(DESTMAC)</p>
+                            <p>attack source port:$(DESTPORT)</p>
+                            <p>attack source protocol:$(PROTOCOL)</p>
+                            <p>attack occurred:$(DATETIME)</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ta400_800_overview">
+    <title>TA400 硬件概览</title>
+    <conbody>
+        <section id="section_q2h_k54_yhb">
+            <title>TA400 前面板</title>
+            <p><image id="image_ahj_vk5_13b" href="../image/ta400%26800-front.PNG" width="650"/></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="front-panel">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.23*"/>
+                        <colspec colname="c3" colnum="3" colwidth="3.79*"/>
+                        <thead>
+                            <row>
+                                <entry>序号</entry>
+                                <entry>指示灯</entry>
+                                <entry>功能说明</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row id="电源">
+                                <entry align="center">①</entry>
+                                <entry>电源指示灯</entry>
+                                <entry>
+                                    <p>电源状态</p>
+                                </entry>
+                            </row>
+                            <row id="系统指示灯">
+                                <entry align="center">②</entry>
+                                <entry>系统指示灯</entry>
+                                <entry id="system-ind">系统状态<ul id="ul_in2_n4q_yhb">
+                                        <li>闪烁：系统运行正常</li>
+                                        <li><b>不闪烁</b>：系统故障</li>
+                                    </ul></entry>
+                            </row>
+                            <row id="lan">
+                                <entry align="center">③</entry>
+                                <entry>LAN 口指示灯</entry>
+                                <entry>LAN 口状态</entry>
+                            </row>
+                            <row id="wan">
+                                <entry align="center">④</entry>
+                                <entry>WAN 口指示灯</entry>
+                                <entry>预留</entry>
+                            </row>
+                            <row>
+                                <entry align="center">⑤</entry>
+                                <entry>FXS 口状态指示灯</entry>
+                                <entry id="fxs">FXS 口状态<p>
+                                        <ul id="ul_pn2_n4q_yhb">
+                                            <li><b>绿灯常亮</b>：端口空闲</li>
+                                            <li id="fxs-sta"><b>绿灯闪烁</b>：响铃或正在通话<note
+                                                  product="ta400">FXS 5-8口状态指示灯不可用。</note></li>
+                                        </ul>
+                                    </p></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_txm_2np_yhb">
+            <title>TA400 背面板</title>
+            <p><image id="image_jpn_p1w_13b" href="../image/ta400-back.PNG" width="650"/></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.83*"/>
+                        <colspec colname="c3" colnum="3" colwidth="4.05*"/>
+                        <thead>
+                            <row>
+                                <entry>序号</entry>
+                                <entry>接口</entry>
+                                <entry>功能说明</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row id="电源接口">
+                                <entry align="center">⑥</entry>
+                                <entry>电源接口</entry>
+                                <entry>连接电源</entry>
+                            </row>
+                            <row id="重置">
+                                <entry align="center">⑦</entry>
+                                <entry>重置按钮</entry>
+                                <entry id="reset">
+                                    <p>长按重置按钮7秒，系统恢复出厂设置。</p>
+                                    <note>如果长时间按住重置按钮，可能导致系统故障。</note>
+                                </entry>
+                            </row>
+                            <row id="lan口">
+                                <entry align="center">⑧</entry>
+                                <entry>LAN 口</entry>
+                                <entry>连接局域网</entry>
+                            </row>
+                            <row id="wan口">
+                                <entry align="center">⑨</entry>
+                                <entry>WAN 口</entry>
+                                <entry>预留接口</entry>
+                            </row>
+                            <row>
+                                <entry align="center">⑩</entry>
+                                <entry>RJ11 FXS 口</entry>
+                                <entry id="RJ11-fxs">连接模拟话机或传真机</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </conbody>
+</concept>

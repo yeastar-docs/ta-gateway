@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>TA1600/TA2400/TA3200 User Manual</title>
+    <topicref href="topic/about-this-guide.dita"/>
+    <topicref href="topic/getting-started.dita">
+        <topicref href="topic/access-web-gui.dita"/>
+        <topicref href="topic/web-configuration-panel.dita"/>
+        <topicref href="topic/making-and-receiving-calls.dita"/>
+    </topicref>
+    <topicref href="topic/basic-operations.dita">
+        <topicref href="topic/voice-menu.dita"/>
+        <topicref href="topic/call-hold.dita"/>
+        <topicref href="topic/call-waiting.dita"/>
+        <topicref href="topic/call-transfer.dita"/>
+        <topicref href="topic/three-party-conference.dita"/>
+        <topicref href="topic/direct-ip-call.dita"/>
+        <topicref href="topic/change-ta1600-2400-3200-s-ip-address-using-analog-phones.dita"/>
+    </topicref>
+    <topicref href="topic/fxs-port-settings.dita">
+        <topicref href="topic/general-settings.dita"/>
+        <topicref href="topic/other-settings.dita"/>
+        <topicref href="topic/hunt-group.dita"/>
+    </topicref>
+    <topicref href="topic/voip-settings.dita">
+        <topicref href="topic/voip-server-settings.dita"/>
+        <topicref href="topic/dial-pattern-template.dita"/>
+        <topicref href="topic/sip-settings.dita"/>
+        <topicref href="topic/iax-settings.dita"/>
+    </topicref>
+    <topicref href="topic/gateway-settings.dita">
+        <topicref href="topic/basic-preferences.dita"/>
+        <topicref href="topic/feature-codes.dita"/>
+        <topicref href="topic/speed-dial.dita"/>
+        <topicref href="topic/blacklist.dita"/>
+    </topicref>
+    <topicref href="topic/prompt-settings.dita">
+        <topicref href="topic/custom-prompts.dita"/>
+        <topicref href="topic/music-on-hold-prompts.dita"/>
+        <topicref href="topic/system-prompts.dita"/>
+    </topicref>
+    <topicref href="topic/advanced-settings.dita">
+        <topicref href="topic/distinctive-ringtones.dita"/>
+        <topicref href="topic/tone-zone-settings.dita"/>
+        <topicref href="topic/radius-settings.dita"/>
+    </topicref>
+    <topicref href="topic/network-preferences.dita">
+        <topicref href="topic/lan-settings.dita"/>
+        <topicref href="topic/wan-settings.dita"/>
+        <topicref href="topic/service.dita"/>
+        <topicref href="topic/vlan-settings.dita"/>
+        <topicref href="topic/vpn-settings.dita"/>
+        <topicref href="topic/ddns-settings.dita"/>
+        <topicref href="topic/static-route.dita"/>
+        <topicref href="topic/snmp-settings.dita"/>
+        <topicref href="topic/tr-069-settings.dita"/>
+        <topicref href="topic/remote-management.dita"/>
+    </topicref>
+    <topicref href="topic/security-center.dita">
+        <topicref href="topic/security-center-2.dita"/>
+        <topicref href="topic/alert-settings.dita"/>
+        <topicref href="topic/ami-settings.dita"/>
+        <topicref href="topic/certificates.dita"/>
+        <topicref href="topic/firewall-rules.dita"/>
+        <topicref href="topic/ip-blacklist.dita"/>
+    </topicref>
+    <topicref href="topic/system-preferences.dita">
+        <topicref href="topic/password-settings.dita"/>
+        <topicref href="topic/date-and-time.dita"/>
+        <topicref href="topic/email-settings.dita"/>
+        <topicref href="topic/auto-provision-settings.dita"/>
+        <topicref href="topic/firmware-upgrade.dita">
+            <topicref href="topic/upgrade-through-http.dita"/>
+            <topicref href="topic/upgrade-through-tftp.dita"/>
+        </topicref>
+        <topicref href="topic/backup-and-restore.dita"/>
+        <topicref href="topic/reset-and-reboot.dita"/>
+    </topicref>
+    <topicref href="topic/status.dita">
+        <topicref href="topic/fxs-port-status.dita"/>
+        <topicref href="topic/network-status.dita"/>
+        <topicref href="topic/system-info.dita"/>
+    </topicref>
+    <topicref href="topic/reports.dita">
+        <topicref href="topic/call-logs.dita"/>
+        <topicref href="topic/system-logs.dita"/>
+        <topicref href="topic/packet-tool.dita"/>
+        <topicref href="topic/port-monitor-tool.dita"/>
+    </topicref>
+</map>

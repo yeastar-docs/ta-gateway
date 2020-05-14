@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ground-connection">
+    <title>Connect the TA Gateway (Frame Ground)</title>
+    <shortdesc>Frame ground connection for Yeastar TA1600/2400/TA3200 FXS VoIP gateway.</shortdesc>
+    <taskbody><prereq><p>
+            <note type="warning">
+                    <ul id="ul_qkr_sn1_1hb">
+                        <li>The ground wire must be installed by the service person.</li>
+                        <li>Proper grounding (connection to ground) is very important to reduce the
+                            risk to the user of electrocution or to protect the TA device from the
+                            bad effects of external noise in the case of a lightning strike.</li>
+                        <li>A permanent connection between ground and the ground terminal of the TA
+                            device must be made.</li>
+                    </ul>
+                </note>
+        </p><p><image href="../image/ground-connection.png" id="image_qhb_hyz_zgb"/></p></prereq><steps id="ol_cqb_jyz_zgb">
+            <step>
+                <cmd>Tighten the provided M3*5 screw stud into the grounding port on TA
+                    device.</cmd>
+            </step>
+            <step><cmd>Insert an 18AWG grounding wire (user-supplied).</cmd></step>
+            <step><cmd>Tighten the provided M3 screw nut using a straight screwdriver.</cmd></step>
+            <step><cmd>Attach the grounding wire to the grounding terminal.</cmd></step>
+        </steps></taskbody>
+</task>

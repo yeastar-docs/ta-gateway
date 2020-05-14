@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="general-settings">
+    <title>General Settings</title>
+    <refbody>
+        <example>
+            <p><image href="../image/fxs-port-general-settings.jpg" id="image_amm_cjl_zgb"/></p>
+        </example>
+        <table frame="all" rowsep="1" colsep="1" id="table_ljb_2jl_zgb">
+            <title>Description of FXS port general settings</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry namest="c1" nameend="c2" align="center" valign="middle"
+                            >Settings</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry morerows="1" align="left" valign="middle"><b>General</b></entry>
+                        <entry valign="middle">Caller ID Name</entry>
+                        <entry>A character-based name for this user. For example, Bob Jones.</entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">Caller ID Number</entry>
+                        <entry>The caller ID string used when this user calls another user.</entry>
+                    </row>
+                    <row>
+                        <entry morerows="4" align="left" valign="middle"><b>VoIP Server
+                            Template</b></entry>
+                        <entry valign="middle">VoIP Server</entry>
+                        <entry>Select a VoIP server, where the account will be registered.</entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">User Name</entry>
+                        <entry>User name provided by VoIP server.</entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">Authentication Name</entry>
+                        <entry>Authentication name provided by VoIP server.</entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">Password</entry>
+                        <entry>Authentication password provided by VoIP server.</entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">From User</entry>
+                        <entry>Provided by VoIP server. Leave this field blank if not
+                            needed.</entry>
+                    </row>
+                    <row>
+                        <entry morerows="1" align="left" valign="middle"><b>Route
+                            Settings</b></entry>
+                        <entry valign="middle">Dial Pattern Template</entry>
+                        <entry>The account will be allowed to make outbound calls according to the
+                            selected template.</entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">DID Number</entry>
+                        <entry>Defines the expected DID number if this trunk passes DID on incoming
+                            calls. <p>Leave this field blank to match calls with any or no DID info.
+                            </p></entry>
+                    </row>
+                    <row>
+                        <entry morerows="2" align="left" valign="middle"><b>Hotline</b></entry>
+                        <entry valign="middle">Enable Hotline</entry>
+                        <entry>Select whether to use hotline or not. Hotline is disabled by default.
+                                <p>If this feature is enabled, the system will dial out the hotline
+                                number automatically after off-hook.</p></entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">Hotline Number</entry>
+                        <entry>Set the number to dial out automatically after off-hook.</entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">Delay Dial</entry>
+                        <entry>Define how long to make Hotline take effect after you pick up the
+                            phone.</entry>
+                    </row>
+                    <row>
+                        <entry morerows="2" align="left" valign="middle"><b>Flash</b></entry>
+                        <entry valign="middle">Send Hook Flash Event</entry>
+                        <entry>If the option <uicontrol>Send Hook Flash Event</uicontrol> is set to
+                                <uicontrol>Yes</uicontrol>,
+                            <?oxy_comment_start author="Becky" timestamp="20190920T131813+0800" comment="when pressing the flash key on the analog phone during an active call. TA will send a SIP DTMF flash event to the VoIP server. "?>TA
+                            will send a SIP DTMF flash event to the VoIP server when you press the
+                            flash key on the analog phone during an active
+                                call.<?oxy_comment_end?><p>It can be an interoperation with an FXO
+                                gateway which is used for informing FXO gateway
+                                <?oxy_delete author="Becky" timestamp="20190920T132110+0800" content="to"?><?oxy_insert_start author="Becky" timestamp="20190920T132110+0800"?>of<?oxy_insert_end?>
+                                generat<?oxy_insert_start author="Becky" timestamp="20190920T132114+0800"?>ing<?oxy_insert_end?><?oxy_delete author="Becky" timestamp="20190920T132113+0800" content="e"?>
+                                the flash signal to the CO line.</p></entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">Min Flash Time</entry>
+                        <entry><?oxy_comment_start author="Becky" timestamp="20190920T132521+0800" comment="Sets the minimum time the phone is on hook before being detected as a hook flash.
+和fxs extension settings描述一致"?>Set
+                            the minimum amount of time, which helps the PBX to identify the hook
+                            flash as a valid event. The default value is
+                            300ms.<?oxy_comment_end?></entry>
+                    </row>
+                    <row>
+                        <entry valign="middle">Max Flash Time</entry>
+                        <entry><?oxy_comment_start author="Becky" timestamp="20190920T132557+0800" comment="Sets the maximum flash time.
+和fxs extension settings描述一致"?>Set
+                            the maximum amount of time, which helps the PBX to identify the hook
+                            flash as a valid event. The default value is
+                            1000ms.<?oxy_comment_end?></entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="middle"><b>Call Duration Setting</b></entry>
+                        <?oxy_comment_start author="Becky" timestamp="20190920T133008+0800" comment="新增"?>
+                        <entry align="left" valign="middle">Max Call Duration</entry><?oxy_comment_end?>
+                        <entry>
+                            <p><?oxy_comment_start author="Becky" timestamp="20190920T132720+0800" comment="Setup the max cull duration for every call of this user, but it’s only valid for outbound calls.  "?>Set
+                                the maximum call duration in seconds for every outbound call of this
+                                user.<?oxy_comment_end?></p>
+                            <note><?oxy_comment_start author="Becky" timestamp="20190920T132822+0800" comment="This setting will not be valid for internal calls. "?>This
+                                setting is only valid for outbound calls.<?oxy_comment_end?></note>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="middle"><b>Echo Cancellation Setting</b></entry>
+                        <entry align="left" valign="middle">Enable Echo Cancellation</entry>
+                        <entry>To disable or enable echo cancellation. If the line is used to
+                            connect POS machine, it is suggested
+                            t<?oxy_comment_start author="Becky" timestamp="20190920T133203+0800" comment="that echo cancellation is disabled"?>o
+                            disable echo cancellation.<?oxy_comment_end?></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

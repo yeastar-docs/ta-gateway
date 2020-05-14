@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="firmware-upgrade">
+    <title>Firmware Upgrade</title>
+    <shortdesc>TA1600/2400/3200 can be upgraded to a new firmware version via network or locally.
+        You can upgrade firmware via HTTP or TFTP.</shortdesc>
+    <body>
+        <p>Go to <menucascade>
+                <uicontrol>System</uicontrol>
+                <uicontrol>System Preferences</uicontrol>
+                <uicontrol>Firmware Update</uicontrol>
+            </menucascade> to upgrade the firmware.</p>
+        <note>
+            <ul id="ul_w5q_3xy_zgb">
+                <li>If <uicontrol>Reset configuration to Factory Defaults</uicontrol> is enabled,
+                    the system will be restored to factory default settings.</li>
+                <li>When updating the firmware, don’t turn off the power. Or the system will be
+                    damaged.</li>
+                <li>If you are trying to upgrade through HTTP, make sure that your TA1600/2400/3200
+                    is able to visit external network, or it cannot access Yeastar website to get
+                    the firmware file, causing the upgrade fail.</li>
+            </ul>
+        </note>
+    </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="make-and-receive-calls">
+    <title>Make and Receive Calls</title>
+    <body>
+        <section id="section_khc_5j1_1hb">
+            <title>Make internal calls between FXS ports</title>
+            <p>Two analog phones connected to TA could make calls between them by dialing
+                    <codeph>*99</codeph>+ FXS port number.</p>
+        </section>
+        <section id="section_usq_vj1_1hb">
+            <title>Make Outbound and inbound calls</title>
+            <p>You can make and receive external calls after configuring FXS ports, VoIP server, and
+                dial pattern. </p>
+            <p>Refer to user manual for more details.</p>
+        </section>
+    </body>
+</topic>

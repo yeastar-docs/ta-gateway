@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="upgrade-through-http">
+    <title>Upgrade through HTTP</title>
+    <shortdesc>On the <uicontrol>Firmware Upgrade</uicontrol> page, choose <uicontrol>HTTP
+            URL</uicontrol>.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Enter the download link of the firmware file.</cmd>
+                <info>
+                    <p>
+                        <note>The <uicontrol>HTTP URL</uicontrol> should be a <b>BIN</b> file
+                            download link.</note>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Start</uicontrol> to upgrade.</cmd>
+                <info>
+                    <p><image href="../image/upgrade-http.jpg" width="650" id="image_gqr_cms_zgb"
+                        /></p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

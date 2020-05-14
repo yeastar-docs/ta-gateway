@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="network-status">
+    <title>Network status</title>
+    <shortdesc>In this page, the IP address of LAN port will appear with their status. If your VLAN
+        or VPN are configured, you can check the status in this page also.</shortdesc>
+    <refbody>
+        <example><image href="../image/network-status.jpg" width="650" id="image_xpf_brs_zgb"
+            /></example></refbody>
+</reference>

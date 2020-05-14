@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="web-configuration-panel">
+    <title>Web Configuration Panel</title>
+    <shortdesc>There are 4 main sections on the Web Configuration Panel for you to check the
+        TA1600/2400/3200’s status and configure it.</shortdesc>
+    <conbody>
+        <p>
+            <ul id="ul_bfl_c1l_zgb">
+                <li><uicontrol>Status</uicontrol>:
+                    <?oxy_comment_start author="Becky" timestamp="20190920T112155+0800" comment="system status, port status, trunk status, Network status and check call logs, system logs.
+根据界面改"?>Check
+                    port status, network status, system information, call logs,
+                    etc.<?oxy_comment_end?></li>
+                <li><uicontrol>System</uicontrol>: Configure network settings, security settings,
+                    system date and time, password, backup and restore, etc.</li>
+                <li><uicontrol>Gateway</uicontrol>: Configure FXS ports, gateway settings, VoIP
+                    settings, etc.</li>
+                <li><uicontrol>Logout</uicontrol>: Log out TA1600/2400/3200.</li>
+            </ul>
+            <note>After saving the changes, click the <uicontrol>Apply Changes</uicontrol> button on
+                the upper right corner of the Web GUI to make the changes take effect.</note>
+        </p></conbody>
+</concept>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="certificates">
+    <title>Certificates</title>
+    <shortdesc>TA1600/2400/3200 supports TLS transport, you can configure FXS port with TLS
+        transport. To use TLS, you should upload certificates first.</shortdesc>
+    <body>
+        <p><image href="../image/upload-certificate.jpg" width="650" id="image_fmx_qpr_zgb"/><ul
+                id="ul_k5q_rpr_zgb">
+                <li><uicontrol>Trusted Certificate</uicontrol><p>This certificate is a CA
+                        certificate. When selecting <uicontrol>TLS Verify Client</uicontrol> as
+                            <uicontrol>Yes</uicontrol>, you should upload a CA. The relevant VoIP
+                        provider should also have this certificate.</p></li>
+                <li>
+                    <p><uicontrol>Gateway Certificate</uicontrol></p>
+                    <p>This certificate is server certificate. No matter selecting <uicontrol>TLS
+                            Verify Client</uicontrol> as <uicontrol>Yes</uicontrol> or
+                            <uicontrol>NO</uicontrol>, you should upload this certificate to
+                        TA1600/2400/3200. If the VoIP provider enables TLS verify server, you should
+                        also upload the relevant CA certificate on the VoIP provider.</p>
+                </li>
+            </ul></p>
+    </body>
+</topic>

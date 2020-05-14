@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lan-settings">
+    <title>LAN Settings</title>
+    <shortdesc>After successfully logging in to the TA1600/2400/3200 Web GUI for the first time, you
+        can go <menucascade>
+            <uicontrol>System</uicontrol>
+            <uicontrol>Network Preferences</uicontrol>
+            <uicontrol>LAN Settings</uicontrol>
+        </menucascade> to configure the network for TA1600/2400/3200.</shortdesc>
+    <refbody>
+        <example>
+            <p><image href="../image/lan-settings.jpg" width="650" id="image_zxp_tjm_zgb"/></p>
+        </example>
+        <table frame="all" rowsep="1" colsep="1" id="table_mhs_5jm_zgb">
+            <title>Description of LAN settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Items</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Hostname</entry>
+                        <entry>Set the host name for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Mode</entry>
+                        <entry>
+                            <p>Choose the network mode:<ul id="ul_rmb_xjm_zgb">
+                                    <li>Static IP Address</li>
+                                    <li>DHCP</li>
+                                    <li>PPPoE</li>
+                                </ul></p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>IP Address</entry>
+                        <entry>Set the IP address for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Subnet Mask</entry>
+                        <entry>Set the subnet mask for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Gateway</entry>
+                        <entry>Set the gateway for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Primary DNS</entry>
+                        <entry>Set the primary DNS for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Secondary DNS</entry>
+                        <entry>Set the secondary DNS for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>IP Address2</entry>
+                        <entry>Set the second IP address for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Subnet Mask2</entry>
+                        <entry>Set the second subnet mask for TA1600/2400/3200.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <example>
+            <ul id="ul_imm_ckm_zgb">
+                <li>Select DHCP mode to get network automatically from the local network.<p><image
+                            href="../image/lan-dhcp.jpg" id="image_u2b_lkm_zgb" width="539"
+                    /></p></li>
+                <li>Fill in user name and password to access the Internet via PPPoE.<p><image
+                            href="../image/lan-pppoe.jpg" id="image_v2j_4km_zgb"/></p></li>
+            </ul>
+        </example>
+    </refbody>
+</reference>

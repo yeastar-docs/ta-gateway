@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>TA1610 Installation Guide</title>
+    <topicref href="topic/safety-disclaimers-and-installation-warnings%20(2).dita"/>
+    <topicref href="topic/ta1610-packing-list.dita"/>
+    <topicref href="topic/ta1610-hardware-overview.dita"/>
+    <topicref href="topic/ta1610-cable-connection.dita"/>
+    <topicref href="topic/ta1610-ground-connection.dita"/>
+</map>

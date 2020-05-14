@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title>Connect the TA Gateway</title>
+    <shortdesc><?oxy_comment_start author="carol" timestamp="20190923T165422+0800" comment="Follow the following xxx
+这个表述换一个。"?>Follow
+        the following steps to connect Yeastar TA400/800 FXS VoIP
+        gateway.<?oxy_comment_end?></shortdesc>
+    <body>
+        <image id="image_rjb_pkl_b3b" href="../image/TA800.png" width="650"/>
+        <section id="connect-internet">
+            <title><?oxy_comment_start author="carol" timestamp="20190923T165434+0800" comment="使用列表元素"?>1.
+                Connect TA gateway to the Internet</title>
+            <p>Connect one end of a network cable to the LAN port of the gateway; connect the other
+                end to any port
+                of<?oxy_comment_start author="carol" timestamp="20190923T165751+0800" comment="不是交换机的LAN，
+是路由器的LAN 或 交换机。
+
+connect the other end to LAN port of your company&apos;s router or connect to the switch."?>
+                company’s LAN switch or router.<?oxy_comment_end?></p>
+        </section>
+        <section id="section_w15_ygq_13b">
+            <title>2. Connect your phone</title>
+            <?oxy_comment_start author="carol" timestamp="20190923T170325+0800" comment="Connect one end of a RJ11 phone cable to the port. Connect the other end to your analog telephone."?>
+            <p>Connect one end of a RJ11 phone cable to <uicontrol>FXS</uicontrol> port of TA
+                gateway; connect the other end to your analog phone.<?oxy_comment_end?></p>
+        </section>
+        <section id="section_ldm_chq_13b">
+            <title>3. Power on TA gateway</title>
+            <p>Connect the power adapter to the gateway’s power port; plug the power adapter into an
+                electrical outlet.</p>
+            <p> When the <uicontrol>Power</uicontrol> LED is on and the <uicontrol>RUN</uicontrol>
+                LED blinks, the system is running.</p>
+        </section>
+    </body>
+</topic>
+<?oxy_comment_end?>

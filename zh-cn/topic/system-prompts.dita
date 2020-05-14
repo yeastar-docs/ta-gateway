@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="system-prompts">
+    <title>System Prompts</title>
+    <shortdesc>TA FXS Gateway supports Chinese and English system prompts. You can download the
+        appropriate language you need.</shortdesc>
+    <body>
+        <note><ul id="ul_ar2_32m_zgb">
+                <li>Auto-detection is highly recommended. But if you prefer to download via HTTP or
+                    TFTP server, please contact the local dealer for the prompts.</li>
+                <li>When update successfully, just click <uicontrol>Apply Changes</uicontrol> on Web
+                    then it will take effect, there is no need to reboot.</li>
+            </ul><image href="../image/system-prompts-settiings.jpg" width="650"
+                id="image_osp_42m_zgb"/></note>
+    </body>
+</topic>

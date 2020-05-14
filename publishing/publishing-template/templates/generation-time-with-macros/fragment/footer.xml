@@ -1,0 +1,6 @@
+<div xmlns:whc="http://www.oxygenxml.com/webhelp/components">
+    
+    <div class="generation_time">
+        <whc:macro value="${timestamp([Y0001]-[M01]-[D01])}"/>.
+    </div>        
+</div>

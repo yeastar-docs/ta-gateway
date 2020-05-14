@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="vpn-settings">
+    <title>VPN Settings</title>
+    <shortdesc>A virtual private network (VPN) is a method of computer networking typically using
+        the public internet that allows you to privately share information between remote locations,
+        or between a remote location and a business' home network.</shortdesc>
+    <body>
+        <p>An VPN can provide secure information transport by authenticating users, and encrypting
+            data to prevent unauthorized persons from reading the information transmitted. </p>
+        <p>The VPN can be used to send any kind of network traffic securely. TA1600/2400/3200
+            supports OpenVPN.</p>
+        <p><image href="../image/vpn-settings.jpg" width="650" id="image_gyt_hcr_zgb"/></p>
+        <ul id="ul_s1t_lcr_zgb">
+            <li><uicontrol>Enable VPN</uicontrol>: Enable VPN feature.</li>
+            <li>
+                <p><uicontrol>Import VPN Config</uicontrol>: Import configuration file of
+                    OpenVPN.</p>
+            </li>
+        </ul>
+        <p>
+            <note>
+                <ul id="ul_d2x_4qt_zgb">
+                    <li>Uncomment <codeph>user</codeph> and <codeph>group</codeph> in the
+                            <filepath>config</filepath> file. You can get the config package from
+                        the OpenVPN provider.</li>
+                    <li>TA1600/2400/3200 works as VPN client mode only.</li>
+                </ul>
+            </note>
+        </p>
+    </body>
+</topic>

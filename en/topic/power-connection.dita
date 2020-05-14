@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="power-connection">
+    <title>Power Connection</title>
+    <taskbody>
+        <context>
+            <p>
+                <ul id="ul_i1b_1c1_1hb">
+                    <li>Power off the TA device before plugging or unplugging the cables.</li>
+                    <li>Disconnect all telecommunication network connectors and cable distribution
+                        system connectors before power off the TA device.</li>
+                </ul>
+            </p>
+        </context>
+        <steps id="steps_adr_5b1_1hb">
+            <step>
+                <cmd>Connect the power adapter to the gateway’s power port.</cmd>
+            </step>
+            <step>
+                <cmd>Plug the power adapter into an electrical outlet.</cmd>
+            </step>
+            <step>
+                <cmd>Press the <uicontrol>On</uicontrol> switch to power on the gateway. </cmd>
+                <info>
+                    <p>The gateway will start booting. In the meantime, you will see that the
+                            <uicontrol>POWER</uicontrol> and <uicontrol>RUN</uicontrol> indicator
+                        lights turn on.</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

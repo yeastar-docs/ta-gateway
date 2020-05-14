@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>TA410/810 Installation Guide</title>
+    <topicref href="topic/safety-disclaimers-and-installation-warnings.dita"/>
+    <topicref href="topic/packing-list-410-810.dita"/>
+    <topichead navtitle="Hardware Overview">
+        <topicref href="topic/ta410-hardware-overview.dita"/>
+        <topicref href="topic/ta810-hardware-overview.dita"/>
+    </topichead>
+    <topicref href="topic/cable-connection-ta410-ta810.dita"/>
+    <topicref href="topic/Install-the-TA-gateway-410-810.dita"/>
+</map>

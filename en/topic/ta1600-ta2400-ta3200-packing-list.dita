@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="preparation-before-installation">
+    <title>Packing List </title>
+    <shortdesc>Upon receiving Yeastar TA 1600/2400/3200 gateway, you can open the package and check
+        if all the items are supplied as per packing list.</shortdesc>
+    <conbody>
+        <p>
+            <note conref="packing-list.dita#packing_list/note"/>
+        </p>
+        <table frame="all" rowsep="1" colsep="1" id="table_rjv_1sz_zgb">
+            <title>TA1600/2400/3200 packing list</title>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="2.53*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1.16*"/>
+                <colspec colname="c4" colnum="4" colwidth="4.79*"/>
+                <thead>
+                    <row>
+                        <entry>Item</entry>
+                        <entry>Unit</entry>
+                        <entry>QTY</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>TA1600/2400/3200</entry>
+                        <entry align="center">PC</entry>
+                        <entry align="center">1</entry>
+                        <entry>Device unit.</entry>
+                    </row>
+                    <row id="cord">
+                        <entry>Power cord</entry>
+                        <entry align="center">PC</entry>
+                        <entry align="center">1</entry>
+                        <entry>For the input of power.</entry>
+                    </row>
+                    <row id="RJ45">
+                        <entry>RJ45 Ethernet cable</entry>
+                        <entry align="center">PC</entry>
+                        <entry align="center">1</entry>
+                        <entry> -</entry>
+                    </row>
+                    <row id="warranty">
+                        <entry>Warranty card</entry>
+                        <entry align="center">PC</entry>
+                        <entry align="center">1</entry>
+                        <entry>With serial number printed for repair &amp; return.</entry>
+                    </row>
+                    <row id="guide">
+                        <entry>Quick installation guide</entry>
+                        <entry align="center">PC</entry>
+                        <entry align="center">1</entry>
+                        <entry> -</entry>
+                    </row>
+                    <row id="ear">
+                        <entry>Mounting ears</entry>
+                        <entry align="center">PC</entry>
+                        <entry align="center">2</entry>
+                        <entry> -</entry>
+                    </row>
+                    <row id="screw">
+                        <entry>Mounting screws</entry>
+                        <entry align="center">PC</entry>
+                        <entry align="center">8</entry>
+                        <entry>8 screws (φ3.0*6 mm) for mounting ears.</entry>
+                    </row>
+                    <row id="stud">
+                        <entry>Grounding stud and nut</entry>
+                        <entry align="center">Pair</entry>
+                        <entry align="center">1</entry>
+                        <entry> -</entry>
+                    </row>
+                    <row id="feet">
+                        <entry>Rubber feet</entry>
+                        <entry align="center">PC</entry>
+                        <entry align="center">4</entry>
+                        <entry> -</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="change-ta1600-2400-3200-s-ip-address-using-analog-phones">
+    <title>Change TA1600/2400/3200’s IP Address Using Analog Phones</title>
+    <shortdesc>By default, TA1600/2400/3200 obtains a dynamic IP address from the DHCP server. You
+        can change the device’s IP address via the analog phone which is connected to the FXS
+        port.</shortdesc>
+    <body>
+        <p>There are 3 modes supported on TA1600/2400/3200 access the internet.<ul
+                id="ul_h3r_kgl_zgb">
+                <li>DHCP</li>
+                <li>Static IP Address</li>
+                <li>PPPoE</li>
+            </ul></p>
+        <section id="section_dj2_phl_zgb">
+            <title>Set a static IP address for TA1600/2400/3200.</title>
+            <p>
+                <div><p><b>IP address</b>: 192.168.10.125</p><p><b>Subnet mask</b>:
+                        255.255.255.0</p><p><b>Gateway</b>: 192.168.10.1</p>
+                    <b>DNS</b>: 8.8.8.8</div>
+            </p>
+            <ol id="ol_rmx_tgl_zgb">
+                <li>Press <codeph>***</codeph> to enter the voice menu.</li>
+                <li>Press <codeph>3</codeph> to enter the Advanced Settings.</li>
+                <li>Enter the password follow by the pound key: <codeph>123456#</codeph>.<note>The
+                        default password is <codeph>123456</codeph>.</note></li>
+                <li>Press <codeph>2</codeph> to change the IP address.</li>
+                <li>Press <codeph>2</codeph> to enable the static IP.</li>
+                <li>Press <codeph>1</codeph> to change the IP address and follow by the new IP
+                    address <codeph>192*168*10*125</codeph>.</li>
+                <li>Press <codeph>2</codeph> to change the subnet mask and follow by the new subnet
+                    mask <codeph>255*255*255*0</codeph>.</li>
+                <li>Press <codeph>3</codeph> to change the gateway and follow by the new gateway
+                        <codeph>192*168*10*1</codeph>.</li>
+                <li>Press <codeph>4</codeph> to change the DNS and followed by the new DNS
+                        <codeph>8*8*8*8</codeph>.</li>
+                <li> Press <codeph>5</codeph> to reboot the device. After reboot, you can access the
+                    device by the new IP address.</li>
+            </ol>
+        </section>
+    </body>
+</topic>

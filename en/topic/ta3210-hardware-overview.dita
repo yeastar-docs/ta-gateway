@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta3200_hardware_overview">
+    <title>TA3210 Hardware Overview</title>
+    <body>
+        <section id="section_t1m_r44_13b"><title>TA3210 front panel</title><image
+                id="image_ofb_cgw_13b" href="../image/ta3200-front.PNG" width="700"/><p>
+                <table frame="all" rowsep="1" colsep="1" id="table_kzd_tq4_13b">
+                    <tgroup cols="-dita-use-conref-target"
+                        conref="ta1610-hardware-overview.dita#ta1600-gateway-overview/front-panel">
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p></section>
+        <section id="section_pnl_kr4_13b"><title>TA3210 back panel</title><image
+                id="image_gnh_ddw_13b" href="../image/ta2400-back.PNG" width="700"/><p>
+                <table conref="ta1610-hardware-overview.dita#ta1600-gateway-overview/ta1610-back"
+                    id="table_vgg_b2q_b3b">
+                    <tgroup cols="1">
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p></section>
+    </body>
+</topic>

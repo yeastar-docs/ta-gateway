@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title>Connect the TA Gateway</title>
+    <shortdesc>Follow the following steps to connect Yeastar TA1610 FXO VoIP gateway.</shortdesc>
+    <body>
+        <image id="image_h5v_m2l_b3b" href="../image/TA1610.png" width="650"/>
+        <section conref="cable-connection-ta400-ta800-V3.dita#port_connection_0/connect-internet"
+            id="section_nwn_qql_b3b"/>
+        <section id="section_hwg_mfy_b3b">
+            <title>2.Connect TA gateway to the PSTN</title>
+            <p>Choose one of the following methods:<ul id="ul_s32_qfy_b3b">
+                    <li>
+                        <p conref="cable-connection-ta410-ta810.dita#port_connection_0/pstn"/>
+                    </li>
+                    <li>
+                        <p>Connect one end of a RJ21 cable to the connector; connect the other end
+                            to FXS port on the wall jack.</p>
+                    </li>
+                </ul></p>
+        </section>
+        <section
+            conref="ta1600-2400-3200-connect-the-ta-gateway.dita#port_connection_0/power-on-gateway"
+            id="section_kgf_sql_b3b"/>
+    </body>
+</topic>

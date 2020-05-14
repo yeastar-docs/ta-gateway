@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>PDF 中文</name>
+    <description>PDF 中文模板</description>
+    <pdf>
+        <preview-image file="images/yeastar-pdf.png"/>
+        <parameters>
+            <parameter name="fix.external.refs.com.oxygenxml" value="yes"/>
+            <parameter name="generate.copy.outer" value="3"/>
+            
+        </parameters>
+        
+        <resources>
+            <css file="css/oxygen.css"/>
+            <css file="css/yeastar-common.css"/>
+            <css file="pdf-css/yeastar-pdf-customization-zh-cn.css" />
+        </resources>
+        <tags>
+            <tag>pdf</tag>
+            <tag>中文</tag>
+        </tags>
+    </pdf>
+    
+</publishing-template>

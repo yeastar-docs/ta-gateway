@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="get_ip_address">
+    <title>Get IP address</title>
+    <shortdesc>TA400/800 provides Web-based configuration interface for administrator and account
+        user.</shortdesc>
+    <body>
+        <p>You can manage the device by logging in to the Web interface.</p>
+        <ul id="ul_mkl_hd1_1hb">
+            <li><b>Access path</b>: http://[IP address]</li>
+            <li><b>User Name</b>: admin</li>
+            <li><b>Password</b>: password</li>
+            <li><b>Default SIP UDP port</b>: 5060</li>
+        </ul>
+        <p>The TA attempts to contact a DHCP server in your network to obtain valid network settings
+            (e.g., the IP address, subnet mask, default gateway address and DNS address) by
+            default.</p>
+        <p>
+            <note>Enable DHCP server in your network to obtain the IP address.</note>
+        </p>
+        <ol id="ol_kmq_sh1_1hb">
+            <li>Use an analog phone connected to the FXS port of the gateway.</li>
+            <li>Press <codeph>***</codeph> to get into the IVR menu. </li>
+            <li>Enter <codeph>1</codeph> to obtain the gateway’s IP address. </li>
+            <li>If there is no DHCP server in the network, press <codeph>3</codeph> for advanced
+                setting, and press <codeph>2</codeph> to assign a static IP address to the
+                device.</li>
+        </ol>
+    </body>
+</topic>

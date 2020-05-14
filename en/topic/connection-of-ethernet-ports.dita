@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="connection-of-ethernet-ports">
+    <title>Connection of Ethernet Ports</title>
+    <shortdesc>Yeastar TA provides one 10/100M adaptive RJ45 Ethernet LAN port.</shortdesc>
+    <conbody>
+        <p><b>LAN port connection</b></p>
+        <p>Connect one end of a network cable to the LAN port of the gateway, and the other end to
+            any port of company’s LAN switch/router.</p>
+    </conbody>
+</concept>

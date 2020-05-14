@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="wall_mount_instruction">
+    <title>Install Yeastar TA Gateway (Wall Mount)</title>
+    <shortdesc>Yeastar TA 410/810 gateway can not only be placed on a desk, but also be mounted to
+        the wall, which saves space on your desk and presents an organized look. Follow the
+        instructions to mount Yeastar TA410/810 gateway to the wall by stand.</shortdesc>
+    <body>
+        <p>
+            <ol id="ol_r45_zdq_yhb">
+                <li conref="wall-mount-instruction.dita#wall_mount_instruction/wall-1"/>
+                <li conref="wall-mount-instruction.dita#wall_mount_instruction/wall-2"/>
+                <li conref="wall-mount-instruction.dita#wall_mount_instruction/wall3"/>
+            </ol>
+        </p>
+    </body>
+</topic>

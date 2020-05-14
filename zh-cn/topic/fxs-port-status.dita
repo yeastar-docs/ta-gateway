@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="fxs-port-status">
+    <title>FXS Port Status</title>
+    <refbody>
+        <example>
+            <p><image href="../image/port-status.jpg" width="650" id="image_opy_3qs_zgb"/></p>
+        </example>
+        <table frame="all" rowsep="1" colsep="1" id="table_ej1_lqs_zgb">
+            <title>Description of FXS port status</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <tbody>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Up/Down</b></entry>
+                    </row>
+                    <row>
+                        <entry>Up</entry>
+                        <entry>The FXS module works well.</entry>
+                    </row>
+                    <row>
+                        <entry>Down</entry>
+                        <entry>The FXS module is broken.</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Status</b></entry>
+                    </row>
+                    <row>
+                        <entry>OK</entry>
+                        <entry>Successful registration, trunk is ready for use</entry>
+                    </row>
+                    <row>
+                        <entry>Unreachable</entry>
+                        <entry>The trunk is unreachable.</entry>
+                    </row>
+                    <row>
+                        <entry>Request Send</entry>
+                        <entry>Registering.</entry>
+                    </row>
+                    <row>
+                        <entry>Waiting for authentication</entry>
+                        <entry>Wrong password or user name.</entry>
+                    </row>
+                    <row>
+                        <entry>Failed</entry>
+                        <entry>Trunk registration failed.</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Voice Mail (New/Old)</b></entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2">
+                            <p>Showing the number of unread voicemail and old voicemail.<note>Only
+                                    when the FXS port is registered as one of the VoIP server’s
+                                    accounts, you can see the voice mail status.</note></p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Hook</b></entry>
+                    </row>
+                    <row>
+                        <entry>On Hook</entry>
+                        <entry>The FXS port is idle.</entry>
+                    </row>
+                    <row>
+                        <entry>Off Hook</entry>
+                        <entry>The FXS port is busy.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

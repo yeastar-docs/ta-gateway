@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="packing_list">
+    <title>装箱清单</title>
+    <shortdesc>打开 TA410/810 包装箱后，请对照列表检查设备及配件是否齐全。</shortdesc>
+    <conbody>
+        <p>
+            <note conref="packing-list.dita#packing_list/note"/>
+            <table frame="all" rowsep="1" colsep="1" id="table_ufp_lwp_yhb">
+                <title>TA410/810 装箱清单</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="2.42*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="3.98*" align="center"/>
+                    <thead>
+                        <row conref="packing-list.dita#packing_list/title">
+                            <entry/>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>TA410/TA810</entry>
+                            <entry align="center">台</entry>
+                            <entry align="center">1</entry>
+                            <entry align="left">主机</entry>
+                        </row>
+                        <row conref="packing-list.dita#packing_list/network">
+                            <entry/>
+                        </row>
+                        <row conref="packing-list.dita#packing_list/warranty">
+                            <entry/>
+                        </row>
+                        <row conref="packing-list.dita#packing_list/stand">
+                            <entry/>
+                        </row>
+                        <row conref="packing-list.dita#packing_list/adapter">
+                            <entry/>
+                        </row>
+                        <row conref="packing-list.dita#packing_list/guide">
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </conbody>
+</concept>

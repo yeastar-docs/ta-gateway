@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta1600-gateway-overview">
+    <title>TA1610 硬件概览</title>
+    <body>
+        <section id="section_tyh_2r1_1hb">
+            <title>TA1610 前面板</title>
+            <p><image id="image_vgr_hsw_13b" href="../image/ta1610-front.PNG" width="700"/></p>
+        </section>
+        <section id="section_kj1_xbq_yhb">
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta1600-front">
+                    <tgroup cols="3" id="front-panel">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="center"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.79*" align="center"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.18*" align="left"/>
+                        <thead>
+                            <row
+                                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/No.-1">
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row
+                                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/reset">
+                                <entry/>
+                            </row>
+                            <row
+                                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/power">
+                                <entry/>
+                            </row>
+                            <row
+                                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/system">
+                                <entry/>
+                            </row>
+                            <row conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/wan">
+                                <entry/>
+                            </row>
+                            <row conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/lan">
+                                <entry/>
+                            </row>
+                            <row>
+                                <entry>⑥</entry>
+                                <entry align="left">FXO 口状态指示灯</entry>
+                                <entry
+                                    conref="ta410-hardware-overview.dita#ta400_800_overview/fxo-indicator"/>
+                            </row>
+                            <row>
+                                <entry>⑦</entry>
+                                <entry valign="middle" align="left">RJ11 FXO 口</entry>
+                                <entry>连接 PSTN 线</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_ibd_gr1_1hb">
+            <title>TA1610 背面板</title>
+            <p><image id="image_vy3_hcw_13b" href="../image/ta1600-back.PNG" width="700"/></p>
+        </section>
+        <section id="section_gmp_hcq_yhb">
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta1610-back">
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.89*" align="left"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.43*" align="left"/>
+                        <thead>
+                            <row conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/No.">
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle" align="center">⑧</entry>
+                                <entry valign="middle" align="left">RJ21 FXO 口</entry>
+                                <entry>用 RJ21 连接线连接模拟话机或传真机</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle" align="center">⑨</entry>
+                                <entry valign="middle" align="left">电源开关</entry>
+                                <entry>启动或关闭系统</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle" align="center">⑩</entry>
+                                <entry valign="middle" align="left">电源接口</entry>
+                                <entry>连接电源</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle" align="center">⑪</entry>
+                                <entry align="left">接地保护</entry>
+                                <entry>保护操作者及设备安全</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </body>
+</topic>

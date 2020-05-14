@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ground-connection">
+    <title conref="ta1600-2400-3200-ground-connection.dita#ground-connection/ground"/>
+    <shortdesc>朗视 TA1610/2410/3210 网关支持接地保护。根据以下步骤，为朗视 TA1610/2410/3210 网关接地。</shortdesc>
+    <body>
+        <section>
+            <p>
+                <note conref="ta1600-2400-3200-ground-connection.dita#ground-connection/warning"/>
+            </p>
+            <p><image id="image_grq_rxs_b3b" href="../image/grounding-connection-%E4%B8%AD.PNG"
+                    width="400"/></p>
+        </section>
+        <ol conref="ta1600-2400-3200-ground-connection.dita#ground-connection/ol_cqb_jyz_zgb"
+            id="ol_l3g_vrl_b3b">
+            <li/>
+        </ol>
+    </body>
+</topic>

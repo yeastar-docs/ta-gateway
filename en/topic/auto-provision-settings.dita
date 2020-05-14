@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="auto-provision-settings">
+    <title>Auto Provision Settings</title>
+    <shortdesc>Three methods are supported for auto provision: PNP, DHCP and Server URL. </shortdesc>
+    <body>
+        <p>Go to <menucascade>
+                <uicontrol>System</uicontrol>
+                <uicontrol>System preferences</uicontrol>
+                <uicontrol>Auto Provision Settings</uicontrol>
+            </menucascade> to
+            configure<?oxy_delete author="Yeastar" timestamp="20190719T172822+0800" content=" auto provision settings"?>.</p>
+        <section id="section_gt2_hq3_bhb">
+            <title>PNP</title>
+            <p>
+                <ol id="ol_yts_5gs_zgb">
+                    <li>Set the <uicontrol>PNP</uicontrol> to <uicontrol>YES</uicontrol>, set
+                            <uicontrol>DHCP</uicontrol> and <uicontrol>Server URL</uicontrol> to
+                            <uicontrol>No</uicontrol>.<p><image href="../image/auto-p-settings.jpg"
+                                id="image_yzx_4fs_zgb" width="650"/></p></li>
+                    <li>Place the TA1600/2400/3200 in the same IP range network with <ph
+                            keyref="product_name"/>.</li>
+                    <li>Find the TA1600/2400/3200 and provision it on PBX <uicontrol>Auto
+                            Provisioning</uicontrol> page.<p>
+                            <note>TA1600/2400/3200 will get the configuration file from PBX during
+                                boots up.</note>
+                        </p><ol id="ol_vfm_n43_bhb">
+                            <li>Log in to the PBX, click <uicontrol>Auto Provisioning</uicontrol>. </li>
+                            <li>Find the desired TA gateway, click <uicontrol>Edit</uicontrol>.</li>
+                            <li>Set the phone lines.<p><image href="../image/pnp-phone-line.jpg"
+                                        width="650" id="image_k2c_gp3_bhb"/></p></li>
+                            <li>Click <uicontrol>Save</uicontrol> and reboot the TA
+                                        gateway.<p><image
+                                        href="../image/save-and-reboot-gateway.jpg"
+                                        id="image_ysz_bq3_bhb"/></p></li>
+                        </ol></li>
+                </ol>
+            </p>
+        </section>
+        <section id="section_ggc_nvy_zgb">
+            <title>DHCP</title>
+            <p>
+                <ol id="ol_wh1_jjs_zgb">
+                    <li>Set the <uicontrol>DHCP</uicontrol> to <uicontrol>YES</uicontrol>, set
+                            <uicontrol>PNP</uicontrol> and <uicontrol>Server URL</uicontrol> to
+                            <uicontrol>No</uicontrol>.<p><image
+                                href="../image/auto-p-method-dhcp.jpg" width="650"
+                                id="image_k2s_cr3_bhb"/></p></li>
+                    <li>On the PBX <menucascade>
+                            <uicontrol>Settings</uicontrol>
+                            <uicontrol>System</uicontrol>
+                            <uicontrol> Security</uicontrol>
+                            <uicontrol>Service</uicontrol>
+                        </menucascade>, enable <uicontrol>DHCP Server</uicontrol>.<p>
+                            <note>Disable DHCP function on your router. Make sure that
+                                    <?oxy_delete author="Yeastar" timestamp="20190719T173407+0800" content="the "?><ph
+                                    keyref="product_name"/> is the only DHCP server in your local
+                                network.</note>
+                        </p><p><image href="../image/auto-p-dhcp.jpg" width="650"
+                                id="image_kqc_jvy_zgb"/></p></li>
+                    <li>Find the TA1600/2400/3200 and provision it on PBX <uicontrol>Auto
+                            Provisioning</uicontrol> page.<p>
+                            <note>TA1600/2400/3200 will get the configuration file from PBX during
+                                boots up.</note>
+                        </p><ol id="ol_zt3_gq3_bhb">
+                            <li>Log in to the PBX, click <uicontrol>Auto Provisioning</uicontrol>. </li>
+                            <li>Find the desired TA gateway, click <uicontrol>Edit</uicontrol>.</li>
+                            <li>Set the phone lines.<p><image href="../image/pnp-phone-line.jpg"
+                                        width="650" id="image_a53_gq3_bhb"/></p></li>
+                            <li>Click <uicontrol>Save</uicontrol> and reboot the TA
+                                        gateway.<p><image
+                                        href="../image/save-and-reboot-gateway.jpg"
+                                        id="image_b53_gq3_bhb"/></p></li>
+                        </ol></li>
+                </ol>
+            </p>
+        </section>
+        <section id="section_ong_mq3_bhb">
+            <title>Server URL</title>
+            <p>
+                <ol id="ol_ikw_xjs_zgb">
+                    <li>Export the configure file.<ol id="ol_gjr_xmy_bhb">
+                            <li>In the <uicontrol>Auto Provision Wizard</uicontrol> field, select
+                                the desired node from <b>Available Nodes</b> box to the <b>Selected
+                                    Nodes</b> box.<p><image
+                                        href="../image/auto-p-export-configuration-file.jpg"
+                                        width="650" id="image_edl_vpy_bhb"/></p></li>
+                            <li>Click <uicontrol>Save</uicontrol> and <uicontrol>Apply
+                                    Changes</uicontrol>.</li>
+                            <li>Click <uicontrol>Export the configure file</uicontrol>.</li>
+                        </ol></li>
+                    <li>Edit the configure file.<ol id="ol_lz3_1ny_bhb">
+                            <li>Open the configure file with a text editor. For example:
+                                    <?oxy_insert_start author="Yeastar" timestamp="20190719T174415+0800" type="surround"?><b><?oxy_insert_end?>Notepad</b>.<p><image
+                                        href="../image/ta-configuration-file.jpg"
+                                        id="image_jnq_44y_bhb" width="650"/></p></li>
+                            <li>Change the desired parameters. For example: Change the hostname to
+                                    <?oxy_delete author="Yeastar" timestamp="20190719T173947+0800" content="&lt;i&gt;TA-FXS&lt;/i&gt;"?><?oxy_insert_start author="Yeastar" timestamp="20190719T173943+0800"?><codeph>TA-FXS</codeph><?oxy_insert_end?>.<p><image
+                                        href="../image/ta-configuration-file-changed.jpg"
+                                        width="650" id="image_nrs_mpy_bhb"/></p></li>
+                            <li>Click <uicontrol>Save</uicontrol> and close the file.</li>
+                        </ol></li>
+                    <li>Set up FTP server. Below is an example of
+                            <?oxy_insert_start author="Yeastar" timestamp="20190719T174424+0800" type="surround"?><b><?oxy_insert_end?>Everthing</b>.<p>
+                            <ol id="ol_cwv_pvy_bhb">
+                                <li>Open Everything.</li>
+                                <li>Go to <menucascade>
+                                        <uicontrol>Tools</uicontrol>
+                                        <uicontrol>Options</uicontrol>
+                                        <uicontrol>ETP/FTP Server</uicontrol>
+                                    </menucascade>.<p><image href="../image/ftp-server.jpg"
+                                            id="image_mgn_xwy_bhb"/></p></li>
+                                <li>Click <uicontrol>Enable ETP/FTP Server</uicontrol> and
+                                        <uicontrol>Allow File download</uicontrol>.</li>
+                                <li>Click <uicontrol>OK</uicontrol> to save the changes.</li>
+                            </ol>
+                        </p></li>
+                    <li>Upload the configuration file in TA gateway.<ol id="ol_pdy_jxy_bhb">
+                            <li>Log in to the TA gateway, go to <menucascade>
+                                    <uicontrol>System</uicontrol>
+                                    <uicontrol>System Preferences</uicontrol>
+                                    <uicontrol>Auto Provision Settings</uicontrol>
+                                </menucascade>.</li>
+                            <li>Set the <uicontrol>Server URL</uicontrol> to
+                                    <uicontrol>YES</uicontrol>, set <uicontrol>PNP</uicontrol> and
+                                    <uicontrol>DHCP</uicontrol> to
+                                        <uicontrol>No</uicontrol>.<p><image
+                                        href="../image/server-url.jpg" width="650"
+                                        id="image_v2k_mks_zgb"/></p></li>
+                            <li>Fill in the <b>Server Address</b>.<ul id="ul_ww5_qxy_bhb">
+                                    <li><uicontrol>Server URL</uicontrol>: The server URL where the
+                                        configuration file is located. In this example is
+                                            <i>htp://192.168.6.147</i>. </li>
+                                    <li><uicontrol>User Name</uicontrol>: Server user name, leave it
+                                        blank if  you are not sure.</li>
+                                    <li><uicontrol>Password</uicontrol>: Server password, leave it
+                                        blank if  you are not sure.</li>
+                                    <li><uicontrol>Interval of time</uicontrol>: Update the
+                                        configuration file at regular intervals.</li>
+                                    <li><uicontrol>Specified time</uicontrol>: Update the
+                                        configuration file at certain<?oxy_insert_start author="Yeastar" timestamp="20190719T174745+0800"?>
+                                        <?oxy_insert_end?>times.<?oxy_delete author="Yeastar" timestamp="20190719T174747+0800" content="."?></li>
+                                </ul></li>
+                            <li importance="optional">If the configuration file is encrypted by AES
+                                key, you need to fill
+                                <?oxy_insert_start author="Yeastar" timestamp="20190719T174831+0800"?>in
+                                <?oxy_insert_end?>the AES key.<p><image
+                                        href="../image/auto-p-other.jpg" width="650"
+                                        id="image_em3_cwy_zgb"/></p><ul id="ul_txn_vyy_bhb">
+                                    <li><b>AES Key</b><p>Enter the AES key in this field.</p></li>
+                                    <li>
+                                        <p><b>Always Apply</b></p>
+                                        <p><?oxy_delete author="Yeastar" timestamp="20190719T174900+0800" content="With"?><?oxy_insert_start author="Yeastar" timestamp="20190719T174901+0800"?>Select<?oxy_insert_end?>
+                                            <uicontrol>No</uicontrol>, it will compare the current
+                                            configuration file with the last updated one, if the
+                                            contents are the same, no update will be applied. </p>
+                                        <p><?oxy_delete author="Yeastar" timestamp="20190719T174925+0800" content="With"?><?oxy_insert_start author="Yeastar" timestamp="20190719T174926+0800"?>Select<?oxy_insert_end?>
+                                            <uicontrol>Yes</uicontrol>, it will always apply the
+                                            updated configuration file.</p>
+                                    </li>
+                                </ul></li>
+                            <li>Go to <menucascade>
+                                    <uicontrol>System</uicontrol>
+                                    <uicontrol>System Preferences</uicontrol>
+                                    <uicontrol>Reset and Reboot</uicontrol>
+                                </menucascade>, and click <uicontrol>Reboot</uicontrol>.
+                                    <p>TA1600/2400/3200 will get the configuration file during boots
+                                    up.</p></li>
+                        </ol></li>
+                </ol>
+            </p>
+        </section>
+    </body>
+</topic>
+<?oxy_options track_changes="on"?>

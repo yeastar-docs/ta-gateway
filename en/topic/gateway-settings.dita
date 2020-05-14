@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="gateway-settings">
+    <title>Gateway Settings</title>
+    <shortdesc>This chapter explains gateway settings, which can be applied globally to
+        TA1600/2400/3200. </shortdesc>
+    <conbody>
+        <p>The gateway settings can be configured under <menucascade>
+                <uicontrol>Gateway</uicontrol>
+                <uicontrol>Gateway Settings</uicontrol>
+            </menucascade>.</p>
+    </conbody>
+</concept>

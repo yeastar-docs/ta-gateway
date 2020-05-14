@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title>Connect the TA Gateway</title>
+    <shortdesc>Follow the following steps to connect Yeastar TA1600/2400/3200 FXS VoIP
+        gateway.</shortdesc>
+    <body id="power">
+        <image id="image_v5r_r2l_b3b" href="../image/TA1600.png" width="650"/>
+        <section conref="cable-connection-ta400-ta800-V3.dita#port_connection_0/connect-internet"
+            id="section_oyh_2ml_b3b"/>
+        <section id="section_kj3_chw_13b"><title>2.Connect your phone</title>Choose one of the
+            following methods:<p>
+                <ul id="ul_gmq_dhw_13b">
+                    <li>
+                        <p>Connect one end of a RJ11 phone cable to FXS port; connect the other end
+                            to your analog telephone.</p>
+                    </li>
+                    <li>
+                        <p>Connect one end of a RJ21 cable to the connector; connect the other end
+                            to your analog telephone.</p>
+                    </li>
+                </ul>
+            </p></section>
+        <section id="power-on-gateway">
+            <title>3.Power on TA gateway</title>
+            <p>Connect one end of the power cord to the power port of the TA gateway; connect the
+                other end to an electrical outlet.</p>
+            <p>When the <uicontrol>Power</uicontrol> LED is on and the <uicontrol>RUN</uicontrol>
+                LED blinks, the system is running.</p>
+        </section>
+    </body>
+</topic>

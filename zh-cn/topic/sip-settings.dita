@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sip-settings">
+    <title>SIP Settings</title>
+    <shortdesc>It is wise to leave the default setting as provided on this page. However, for a few
+        fields, you need to change them to suit your situation.</shortdesc>
+    <body>
+        <section id="section_aj1_psl_zgb">
+            <title>General Settings</title>
+            <p><image href="../image/sip-general-settings.jpg" width="650" id="image_uc5_qsl_zgb"
+                /></p>
+            <p>
+                <table>
+                    <title>Description of SIP general settings</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Items</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>UDP Port</entry>
+                                <entry>Port used for SIP registrations. The default is 5060.</entry>
+                            </row>
+                            <row>
+                                <entry>Enable Random Port</entry>
+                                <entry>Enable or disable random SIP port.</entry>
+                            </row>
+                            <row>
+                                <entry>Random Port Update Interval</entry>
+                                <entry>Set the random port update interval.</entry>
+                            </row>
+                            <row>
+                                <entry>TCP Port</entry>
+                                <entry>Port used for SIP registrations. The default is 5060.</entry>
+                            </row>
+                            <row>
+                                <entry>TLS Port</entry>
+                                <entry>Port used for SIP registrations. The default is 5061.</entry>
+                            </row>
+                            <row>
+                                <entry>TLS Verify Server</entry>
+                                <entry>When using TA FXS gateway as a TLS client, whether or not to
+                                    verify server’s certificate. It is no by default.</entry>
+                            </row>
+                            <row>
+                                <entry>TLS Verify Client</entry>
+                                <entry>When using TA FXS gateway as a TLS server, whether or not to
+                                    verify client’s certificate. It is no by default.</entry>
+                            </row>
+                            <row>
+                                <entry>TLS Ignore Common Name</entry>
+                                <entry>Set this parameter as <uicontrol>No</uicontrol>, then common
+                                    name must be the same with IP or domain name.</entry>
+                            </row>
+                            <row>
+                                <entry>TLS Client Method</entry>
+                                <entry>When using TA FXS gateway as TLS client, specify the protocol
+                                    for outbound TLS connections. You can select it as tlsv1, sslv2
+                                    or sslv3.</entry>
+                            </row>
+                            <row>
+                                <entry>RTP Port Start</entry>
+                                <entry>Beginning of the RTP port range.</entry>
+                            </row>
+                            <row>
+                                <entry>RTP Port End</entry>
+                                <entry>End of the RTP port range.</entry>
+                            </row>
+                            <row>
+                                <entry>DTMF Mode</entry>
+                                <entry>Set the default mode for sending DTMF. <p><b>Default</b>:
+                                        rfc2833</p></entry>
+                            </row>
+                            <row>
+                                <entry>Max Registration/Subscription Time</entry>
+                                <entry>Maximum duration (in seconds) of a SIP registration. The
+                                    default is 3600 seconds.</entry>
+                            </row>
+                            <row>
+                                <entry>Min Registration/Subscription Time</entry>
+                                <entry>Minimum duration (in seconds) of a SIP registration. The
+                                    default is 60 seconds.</entry>
+                            </row>
+                            <row>
+                                <entry>Default Incoming/Outgoing Registration Time</entry>
+                                <entry>The default duration (in seconds) of incoming/outgoing
+                                    registration.</entry>
+                            </row>
+                            <row>
+                                <entry>Register Attempts</entry>
+                                <entry>The number of SIP REGISTER messages to send to a SIP
+                                    registrar before giving up. The default is 0 (no limit).</entry>
+                            </row>
+                            <row>
+                                <entry>Register Timeout</entry>
+                                <entry>Number of seconds to wait for a response from a SIP registrar
+                                    before classifying the register has timed out. The default is 20
+                                    seconds.</entry>
+                            </row>
+                            <row>
+                                <entry>Calling Channel Codec Priority</entry>
+                                <entry>Once enabled, when dialing out via SIP/SPS trunks, the codec
+                                    of calling channel will be selected preferentially. <p>If not,
+                                        TA FXS gateway will follow the priority order in your
+                                        SIP/SPS trunks.</p></entry>
+                            </row>
+                            <row>
+                                <entry>Video Support</entry>
+                                <entry>Support SIP video or not. The default is.</entry>
+                            </row>
+                            <row>
+                                <entry>Max Bit Rate</entry>
+                                <entry>Configure the max bit rate for video stream.
+                                            <p><b>Default</b>: 384kb/s.</p></entry>
+                            </row>
+                            <row>
+                                <entry>DNS SRV Look Up</entry>
+                                <entry>Please enable this option when your SIP trunk contains more
+                                    than one IP address.</entry>
+                            </row>
+                            <row>
+                                <entry>User Agent</entry>
+                                <entry>To change the user agent parameter of asterisk, the default
+                                    is TA FXS gateway; you can change it if needed.</entry>
+                            </row>
+                            <row>
+                                <entry>G.729 License Key</entry>
+                                <entry>If you would like to use G.729 codec, buy the license and
+                                    enter the license key here.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_dlp_ssl_zgb">
+            <title>NAT Settings</title>
+            <p><image href="../image/sip-nat-settings.jpg" id="image_yvg_xsl_zgb" width="650"/></p>
+            <table frame="all" rowsep="1" colsep="1" id="table_dsk_zsl_zgb">
+                <title>Description of SIP NAT settings</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry valign="middle">Items</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry valign="middle">Enable STUN</entry>
+                            <entry>STUN (Simple Traversal of UDP through NATs) is a protocol for
+                                assisting devices behind a NAT firewall or router with their packet
+                                routing.</entry>
+                        </row>
+                        <row>
+                            <entry valign="middle">STUN Address</entry>
+                            <entry>The STUN server allows clients to find out their public address,
+                                the type of NAT they are behind and the internet side port
+                                associated by the NAT with a particular local port. <p>This
+                                    information is used to set up UDP communication between the
+                                    client and the VOIP provider and so establish a
+                                call.</p></entry>
+                        </row>
+                        <row>
+                            <entry valign="middle">External IP Address</entry>
+                            <entry>The IP address that will be associated with outbound SIP messages
+                                if the system is in a NAT environment.</entry>
+                        </row>
+                        <row>
+                            <entry valign="middle">External Host</entry>
+                            <entry>
+                                <p>Alternatively you can specify an external host, and the system
+                                    will perform DNS queries periodically.</p>
+                                <p>This setting is only required when your public IP address is not
+                                    static. It is recommended that a static public IP address is
+                                    used with this system. Please contact your ISP for more
+                                    information.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry valign="middle">External Refresh Interval</entry>
+                            <entry>
+                                <p>Used to identify the local network using a network number/subnet
+                                    mask pair when the system is behind a NAT or firewall. </p>
+                                <p>Some examples of this are as follows:</p>
+                                <p><i>192.168.0.0/255.255.0.0</i>: All RFC 1918 addresses are local
+                                    networks;</p>
+                                <p><i>10.0.0.0/255.0.0.0</i>: Also RFC1918;</p>
+                                <p><i>172.16.0.0/12</i>: Another RFC1918 with CIDR notation; </p>
+                                <p><i>169.254.0.0/255.255.0.0</i>: Zero conf local network.</p>
+                                <p>Please refer to RFC1918 for more information.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry valign="middle">NAT Mode</entry>
+                            <entry>
+                                <p>Global NAT configuration for the system; the options for this
+                                    setting are as follows: </p>
+                                <p><uicontrol>Yes</uicontrol>: Use NAT. Ignore address information
+                                    in the SIP/SDP headers and reply to the sender's IP
+                                    address/port.</p>
+                                <p><uicontrol>No</uicontrol>: Use NAT mode only according to
+                                    RFC3581.</p>
+                                <p><uicontrol>Never</uicontrol>: Never attempt NAT mode or RFC3581
+                                    support.</p>
+                                <p><uicontrol>Route</uicontrol>: Use NAT but do not include rport in
+                                    headers.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry valign="middle">Allow RTP Reinvite</entry>
+                            <entry>By default, the system will route media steams from SIP endpoints
+                                through itself. <p>Enabling this option causes the system to attempt
+                                    to negotiate the endpoints to route packets to each other
+                                    directly, bypassing the system.</p>It is not always possible for
+                                the system to negotiate endpoint-to-endpoint media routing.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_vhl_rtl_zgb">
+            <title>Qos</title>
+            <p>QoS (Quality of Service) is a major issue in VoIP implementations. The issue is how
+                to guarantee that packet traffic for a voice or other media connection will not be
+                delayed or dropped due interference from other lower priority traffic. </p>
+            <p>When the network capacity is insufficient, QoS can provide priority to you by setting
+                the value.</p>
+            <p><image href="../image/sip-qos-settings.jpg" id="image_f4c_xtl_zgb" width="650"/></p>
+            <note>It’s recommended that you configure the QoS on your router or switch instead of on
+                the TA FXS gateway.</note>
+        </section>
+        <section id="section_f5d_d5l_zgb">
+            <title>Response Code</title>
+            <p>You can change the response code on TA FXS gateway to the one you want before sending
+                it to the VoIP server. It helps the VoIP server understands better the exact call
+                status, like busy, no response and others.</p>
+            <p><image href="../image/sip-response-code-settings.jpg" width="650"
+                    id="image_x2x_h5l_zgb"/></p>
+            <note>We don’t recommend configuing this if you are not familiar with the code of call
+                status from the VoIP server.</note>
+        </section>
+        <section id="section_agl_cvl_zgb">
+            <title>T.38</title>
+            <p>Settings on this page is for the purpose of improving receiving and sending T.38
+                FAX.</p>
+            <p><image href="../image/sip-t38-settings.jpg" width="650" id="image_gvt_fvl_zgb"/></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_stp_hvl_zgb">
+                    <title>Description of T.38 settings</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Items</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Re-invite SDP Not Add T.38 Attributes</entry>
+                                <entry>If set to <uicontrol>Yes</uicontrol>, SDP in re-invite packet
+                                    will not add T.38 attributes.</entry>
+                            </row>
+                            <row>
+                                <entry>Error Correction</entry>
+                                <entry>Re-invite SDP T38FaxUdpEc.</entry>
+                            </row>
+                            <row>
+                                <entry>T.38 Max BitRate</entry>
+                                <entry>Set T38 Max BitRate.</entry>
+                            </row>
+                            <row>
+                                <entry>T.38 Support Modems</entry>
+                                <entry>
+                                    <p>Choose the T.38 modems:</p>
+                                    <ul id="ul_jqy_hvl_zgb">
+                                        <li>V27ter</li>
+                                        <li>V29</li>
+                                        <li>V17</li>
+                                        <li>V27ter + V29</li>
+                                        <li>V17 + V29</li>
+                                        <li>V17 + V27ter + V29</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_v5k_kvl_zgb">
+            <title>Advanced Settings</title>
+            <p><image href="../image/sip-advanced-settings.jpg" width="650" id="image_ss5_nvl_zgb"
+                /></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_jy2_pvl_zgb">
+                    <title>Description of SIP advanced settings</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Items</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Call ID Field</entry>
+                                <entry>Where to get the caller ID in SIP packet.</entry>
+                            </row>
+                            <row>
+                                <entry>DID Field</entry>
+                                <entry>Where to get the DID in SIP packet.</entry>
+                            </row>
+                            <row>
+                                <entry>180 Ringing</entry>
+                                <entry>It is set when the telecom provider needs. Usually it is not
+                                    needed.</entry>
+                            </row>
+                            <row>
+                                <entry>Remote Party ID</entry>
+                                <entry>Whether to send Remote-Party-ID on SIP header or not.
+                                        <b>Default</b>: no.</entry>
+                            </row>
+                            <row>
+                                <entry>Allow Guest</entry>
+                                <entry>Whether to allow anonymous registration extension or not.
+                                    Default: no. It’s recommended that it is disabled for security
+                                    reason.</entry>
+                            </row>
+                            <row>
+                                <entry>Pedantic</entry>
+                                <entry>Enable pedantic parameter. <b>Default</b>: No.</entry>
+                            </row>
+                            <row>
+                                <entry>Alwaysauthreject</entry>
+                                <entry>If enabled, when TA FXS gateway rejects REGISTE or INVITE
+                                    packets, TA FXS gateway always respond the packets using SIP404
+                                    NOT FOUND. <p>You are recommended to enable it for security
+                                        reason.</p></entry>
+                            </row>
+                            <row>
+                                <entry>OPTIONS Response 200</entry>
+                                <entry>If set to <uicontrol>Yes</uicontrol>, the response to an
+                                    OPTIONS is always 200OK.</entry>
+                            </row>
+                            <row>
+                                <entry>Session-timers</entry>
+                                <entry>Enable session-timer mode. The default is yes. If you find
+                                    the call is cut off every 15 minutes every time, disable
+                                    this.</entry>
+                            </row>
+                            <row>
+                                <entry>Session-expires</entry>
+                                <entry>The max refresh interval.</entry>
+                            </row>
+                            <row>
+                                <entry>Session-minse</entry>
+                                <entry>The min refresh interval, which mustn't be shorter than
+                                    90s.</entry>
+                            </row>
+                            <row>
+                                <entry>Session-refresher</entry>
+                                <entry>Choose the session-refresher, the default is Uas.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </body>
+</topic>

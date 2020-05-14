@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ta400_800_overview">
+    <title>TA410 Hardware Overview</title>
+    <conbody>
+        <section id="section_q2h_k54_yhb">
+            <title>TA410 front panel</title>
+            <p><image id="image_ahj_vk5_13b" href="../image/ta400%26800-front.PNG" width="650"/></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta410-front">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.03*"/>
+                        <colspec colname="c3" colnum="3" colwidth="2.92*"/>
+                        <thead>
+                            <row>
+                                <entry>No.</entry>
+                                <entry>Feature</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/power">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/run">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/lan">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/wan">
+                                <entry/>
+                            </row>
+                            <row>
+                                <entry align="center">⑤</entry>
+                                <entry>FXO Ports Status Indicator</entry>
+                                <entry id="fxo">Indicates the FXO ports status.<p>
+                                        <ul id="ul_pn2_n4q_yhb">
+                                            <li><b>Solid red</b>: Public Telephone Network (PSTN) is
+                                                connected to the port.</li>
+                                            <li><b>Red light blinking</b>: No Public Telephone
+                                                Network (PSTN) is connected to the port.<note
+                                                  product="ta410">The FXO indicators 5-8 are
+                                                  invalid.</note></li>
+                                        </ul>
+                                    </p></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_txm_2np_yhb">
+            <title>TA410 back panel</title>
+            <p><image id="image_zxx_fnw_13b" href="../image/ta410-back.PNG" width="700"/></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta410-back">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.83*"/>
+                        <colspec colname="c3" colnum="3" colwidth="4.05*"/>
+                        <thead>
+                            <row>
+                                <entry>No.</entry>
+                                <entry>Feature</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/inlet">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/re">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/LA">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/wa">
+                                <entry/>
+                            </row>
+                            <row>
+                                <entry align="center">⑩</entry>
+                                <entry>RJ11 FXO Ports</entry>
+                                <entry id="rj11">For connection to Public Telephone Network
+                                    (PSTN).</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </conbody>
+</concept>

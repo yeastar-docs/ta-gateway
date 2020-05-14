@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="specifications_and_operating_environment">
+    <title>Specifications and Operating Environment</title>
+    <body>
+        <p>
+            <table frame="all" rowsep="1" colsep="1" id="table_zyq_zwz_zgb">
+                <title>TA1600/2400/3200 specifications and operating environment</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>TA1600/2400/3200</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Size (L×W×H)</entry>
+                            <entry>440 mm × 250 mm × 44 mm</entry>
+                        </row>
+                        <row>
+                            <entry>Power Supply</entry>
+                            <entry>AC 100-240V 50/60Hz</entry>
+                        </row>
+                        <row>
+                            <entry>Operating Temperature</entry>
+                            <entry>0 to 40°C, 32 to 104°F</entry>
+                        </row>
+                        <row>
+                            <entry>Storage Temperature</entry>
+                            <entry>-20 to 65°C, 4 to 149°F</entry>
+                        </row>
+                        <row>
+                            <entry>Humidity</entry>
+                            <entry>10% to 90% (non-condensing)</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic>

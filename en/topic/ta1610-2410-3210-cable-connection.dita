@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title>Connect the TA Gateway</title>
+    <shortdesc>Follow the following steps to connect Yeastar TA1610 FXO VoIP gateway.</shortdesc>
+    <body>
+        <?oxy_comment_start author="carol" timestamp="20190923T170024+0800" comment="这个图不是TA1610， 自己把多余的口P一下"?>
+        <image id="image_h5v_m2l_b3b" href="../image/TA1610.png" width="650"/><?oxy_comment_end?>
+        <?oxy_comment_start author="carol" timestamp="20190923T170049+0800" comment="使用列表"?>
+<<<<<<< .mine
+        <section conref="cable-connection-ta400-ta800-V3.dita#port_connection_0/connect-internet"
+            id="section_nwn_qql_b3b"/>
+        <section id="section_hwg_mfy_b3b">
+            <title>2.Connect TA gateway to the PSTN</title>
+            <p>Choose one of the following methods:<ul id="ul_s32_qfy_b3b">
+                    <li>
+                        <p conref="cable-connection-ta410-ta810.dita#port_connection_0/pstn"/>
+                    </li>
+                    <li>
+                        <?oxy_comment_start author="carol" timestamp="20190923T170236+0800" comment="Connect one end of a RJ21 cable to the connector. Connect the other ends to your analog telephones."?>
+                        <p>Connect one end of a RJ21 cable to the connector; connect the other end
+                            to FXS port on the wall jack.<?oxy_comment_end?></p>
+                    </li>
+                </ul></p>
+||||||| .r1566
+        <section conref="cable-connection-ta400-ta800-V3.dita#port_connection_0/connect-internet"
+            id="section_nwn_qql_b3b"/>
+        <section id="section_hwg_mfy_b3b">
+            <title>2.Connect TA gateway to the PSTN</title>
+            <p>Choose one of the following methods:<ul id="ul_s32_qfy_b3b">
+                    <li>
+                        <p conref="cable-connection-ta410-ta810.dita#port_connection_0/pstn"/>
+                    </li>
+                    <li>
+                        <p>Connect one end of a RJ21 cable to the connector; connect the other end
+                            to FXS port on the wall jack.</p>
+                    </li>
+                </ul></p>
+=======
+        <section id="section_ytz_tk2_2jb">
+            <ol>
+                <li><b>Connect TA gateway to the Internet</b><p>LAN port can be connected to router
+                        or PBX.</p></li>
+                <li><b>Connect TA gateway to the PSTN</b><p>FXO port can be connected to
+                    PSTN.</p></li>
+                <li><b>Power on TA gateway</b><p>Connect one end of the power adapter to the
+                        gateway’s power port; plug the other end of the power adapter into an
+                        electrical outlet.</p></li>
+            </ol>
+>>>>>>> .r1634
+        </section>
+    </body>
+</topic>
+<?oxy_comment_end?>

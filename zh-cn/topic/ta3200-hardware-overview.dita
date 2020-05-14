@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta3200_hardware_overview">
+    <title>TA3200 硬件概览</title>
+    <body>
+        <section id="section_t1m_r44_13b"><title>TA3200 前面板</title><image id="image_ofb_cgw_13b"
+                href="../image/ta3200-front.PNG" width="700"/><p>
+                <table conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/ta1600-front"
+                    id="table_nnd_npl_b3b">
+                    <tgroup cols="1">
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p></section>
+        <section id="section_pnl_kr4_13b"><title>TA3200 背面板</title><image id="image_gnh_ddw_13b"
+                href="../image/ta2400-back.PNG" width="700"/><table
+                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/ta1600-back"
+                id="table_x51_hpl_b3b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></section>
+    </body>
+</topic>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="connection-of-fxs-ports">
+    <title>Connection of FXS Ports</title>
+    <shortdesc>TA FXS gateways are available with 5 models, supporting up to 32 FXS
+        ports.</shortdesc>
+    <conbody>
+        <section id="section_gyt_l11_1hb">
+            <title>RJ11 Phone Port</title>
+            <p>Connect one end of a RJ11 phone cable to the port. Connect the other end to your
+                analog telephone.</p>
+        </section>
+        <section id="section_xpn_m11_1hb">
+            <title>RJ21 Connection</title>
+            <p>Applicable to TA1600/2400/3200. </p>
+            <p>Connect one end of a RJ21 cable to the connector. Connect the other ends to your
+                analog telephones.</p>
+        </section>
+    </conbody>
+</concept>

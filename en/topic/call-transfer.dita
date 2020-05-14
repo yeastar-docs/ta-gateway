@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="call-transfer">
+    <title>Call Transfer</title>
+    <shortdesc>Blind transfer and attended transfer are supported on TA1600/2400/3200. You can
+        achieve call transfer by pressing the feature code during the call.</shortdesc>
+    <body>
+        <section id="section_ldp_c2l_zgb">
+            <title>Blind transfer</title>
+            <p>Default feature code: <codeph>*03</codeph>.</p>
+            <ol id="ol_tmv_d2l_zgb">
+                <li>Dial <codeph>*03</codeph> during the call.</li>
+                <li>Dial the called number after hearing a prompt "transfer".</li>
+                <li>The call will be transferred after the number is dialed.</li>
+            </ol>
+        </section>
+        <section id="section_qqp_q2l_zgb">
+            <title>Attended transfer</title>
+            <p>Default feature code: <codeph>*3</codeph>.</p>
+            <ol id="ol_z4l_x2l_zgb">
+                <li>Dial <codeph>*3</codeph> during the call.</li>
+                <li>Dial the called number after hearing a prompt "transfer".</li>
+                <li>Talk to the transfer recipient.</li>
+                <li>The call will be transferred after hanging up.</li>
+            </ol>
+        </section>
+    </body>
+</topic>

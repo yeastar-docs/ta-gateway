@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="safety">
+    <title>Safety Disclaimers and Installation Warnings</title>
+    <shortdesc>To avoid unexpected accident, personal injury or device damage, read the safety
+        disclaimers and installation warnings.</shortdesc>
+    <conbody>
+        <section id="section_ijc_jxz_zgb">
+            <title>Power</title>
+            <p>
+                <ul id="ul_v2q_kxz_zgb">
+                    <li>Use only the power cord provided with the Yeastar TA device.</li>
+                    <li>Keep the power off during the installation.</li>
+                    <li>Make sure that the supply voltage matches the specifications indicated on
+                        the back panel of the device.</li>
+                    <li>To avoid the electric accident, do not open or remove the cover of device
+                        when it is working as well as off the power.</li>
+                    <li>Before cleaning the device, cut off the power supply.</li>
+                </ul>
+            </p>
+        </section>
+        <section id="section_o4n_nxz_zgb"><title>Environment</title>Install the Yeastar TA device in
+            a location that is clean, free from vibration, electric shock, and temperature/humidity extremes.<p>
+                <table frame="all" rowsep="1" colsep="1" id="table_jrd_31t_b3b">
+                    <title/>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1"/>
+                        <colspec colname="c2" colnum="2"/>
+                        <thead>
+                            <row>
+                                <entry>Environment</entry>
+                                <entry>Requirement</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Storage Temperature</entry>
+                                <entry>-20 to 65°C, 4 to 149°F</entry>
+                            </row>
+                            <row>
+                                <entry>Humidity</entry>
+                                <entry>10% to 90% (non-condensing)</entry>
+                            </row>
+                            <row>
+                                <entry>Operation Temperature</entry>
+                                <entry>0 to 40°C, 32 to 104°F</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p></section>
+    </conbody>
+</concept>

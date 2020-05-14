@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="device_installation_and_connection_0">
+    <title>Device Installation and Connection</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>Wall-mount connection for TA400/800.</context>
+        <steps>
+            <step>
+                <cmd>Remove the screws on the stand. Screw the clump weight to the stand again as
+                    the picture shows.</cmd>
+            </step>
+            <step>
+                <cmd>Push the Yeastar device into the stand.</cmd>
+            </step>
+            <step>
+                <cmd>Fix two screws on the wall, and then you could mount the stand to the
+                    wall.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+    <task id="task_f3f_rl4_yhb">
+        <title>Connection of Ethernet Ports</title>
+        <shortdesc>Yeastar TA provides one 10/100M adaptive RJ45 Ethernet LAN port.</shortdesc>
+        <taskbody>
+            <context id="context_b3s_tl4_yhb"/>
+            <steps>
+                <step>
+                    <cmd>Connect one end of a network cable to the LAN port of the gateway.</cmd>
+                </step>
+                <step>
+                    <cmd>Connect the other end to any port of company’s LAN switch/router.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+        <task id="task_ytn_dm4_yhb">
+            <title>Connection of FXS Ports</title>
+            <shortdesc>TA FXS gateways are available with 5 models, supporting up to 32 FXS
+                ports.</shortdesc>
+            <taskbody>
+                <context id="context_qvz_2m4_yhb"/>
+                <steps>
+                    <step>
+                        <cmd>Connect one end of a RJ11 phone cable to the port.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Connect the other end to your analog telephone.</cmd>
+                    </step>
+                </steps>
+            </taskbody>
+        </task>
+    </task>
+</task>

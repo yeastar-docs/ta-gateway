@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="upgrade-through-tftp">
+    <title>Upgrade through TFTP</title>
+    <shortdesc>On the <uicontrol>Firmware Upgrade</uicontrol> page, choose <uicontrol>TFTP
+            Server</uicontrol>.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Download firmware file from Yeastar website.</cmd>
+            </step>
+            <step>
+                <cmd>Create a tftp server.</cmd>
+                <info>
+                    <p>
+                        <ol id="ol_owb_lms_zgb">
+                            <li>Install tftpd32 software on computer.<p>Download link: <xref
+                                        href="http://tftpd32.jounin.net/tftpd32_download.html"
+                                        format="html" scope="external"
+                                        >http://tftpd32.jounin.net/tftpd32_download.html</xref></p></li>
+                            <li>Configure tftpd32.<p>On option <uicontrol>Current
+                                        Directory</uicontrol>, click <uicontrol>Browse</uicontrol>
+                                    button, choose the firmware file (BIN file) upgraded
+                                        patch.</p><p><image href="../image/tftp-sever.jpg"
+                                        id="image_sg5_tms_zgb"/></p></li>
+                        </ol>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Log in to the TA1600/2400/3200’s Web page, on the <uicontrol>Firmware
+                        Upgrade</uicontrol> page, choose <uicontrol>TFTP Server</uicontrol>.</cmd>
+                <info>
+                    <p><image href="../image/upgrade-tftp.jpg" width="650" id="image_tjk_4ns_zgb"
+                        /></p>
+                </info>
+                <info>
+                    <p>
+                        <ul id="ul_qlk_pns_zgb">
+                            <li><uicontrol>TFTP Server</uicontrol>: Fill in IP address of tftpd32
+                                server (your PC’s IP address).</li>
+                            <li><uicontrol>File Name</uicontrol>: Enter the name of firmware update.
+                                It should be a BIN file name. </li>
+                        </ul>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Start</uicontrol> to upgrade.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

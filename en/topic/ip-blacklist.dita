@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ip-blacklist">
+    <title>IP Blacklist</title>
+    <shortdesc>You can set some packets accept speed rules here.</shortdesc>
+    <body>
+        <p>When an IP address, which hasn’t been accepted in common rules, sends packets faster than
+            the allowed speed, it will be set as a black IP address and be blocked
+            automatically.</p>
+        <p><image href="../image/ip-blacklist.jpg" width="650" id="image_nr1_ktr_zgb"/></p>
+        <section id="section_wdk_ktr_zgb">
+            <title>Blacklist rules</title>
+            <p>You can add the rules for IP blacklist rate as demanded.</p>
+            <p><image href="../image/auto-blacklist-rules.jpg" id="image_odk_ptr_zgb"/><table
+                    frame="all" rowsep="1" colsep="1" id="table_f1w_qtr_zgb">
+                    <title>Description of auto blacklist rules</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Items</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Port</entry>
+                                <entry>Auto defense port</entry>
+                            </row>
+                            <row>
+                                <entry>Protocol</entry>
+                                <entry>Set Auto defense protocol as <uicontrol>TCP</uicontrol> or
+                                        <uicontrol>UDP</uicontrol>.</entry>
+                            </row>
+                            <row>
+                                <entry>IP Packets</entry>
+                                <entry>Allowed IP packets number in the specific time
+                                    interval.</entry>
+                            </row>
+                            <row>
+                                <entry>Time interval</entry>
+                                <entry>The time interval to receive IP packets. <p>For example, IP
+                                        packets <i>90</i>, time interval <i>60</i> means 90 IP
+                                        packets are allowed in 60 seconds.</p></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table></p>
+        </section>
+        <section id="section_scd_wtr_zgb">
+            <title>IP blacklist</title>
+            <p>The blocked IP address will display here, you can edit or delete it as you wish.</p>
+        </section>
+    </body>
+</topic>

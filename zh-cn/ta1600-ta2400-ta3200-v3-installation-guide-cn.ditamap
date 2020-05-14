@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="zh-CN">
+    <title>TA1600/2400/3200 安装手册</title>
+    <topicref href="topic/safety-disclaimers-and-installation-warnings%20(2).dita"/>
+    <topicref href="topic/ta1600-ta2400-ta3200-packing-list.dita"/>
+    <topichead navtitle="硬件接口说明">
+        <topicref href="topic/ta1600-hardware-overview.dita"/>
+        <topicref href="topic/ta2400-hardware-overview.dita"/>
+        <topicref href="topic/ta3200-hardware-overview.dita"/>
+    </topichead>
+    <topicref href="topic/ta1600-2400-3200-connect-the-ta-gateway.dita"/>
+    <topicref href="topic/ta1600-2400-3200-ground-connection.dita"/>
+</map>

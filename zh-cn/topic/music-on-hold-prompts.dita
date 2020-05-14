@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="music-on-hold-prompts">
+    <title>Music on Hold Prompts</title>
+    <shortdesc>In this page, you can upload the music on hold prompts.</shortdesc>
+    <body>
+        <p><image href="../image/music-on-hold.jpg" width="650" id="image_ihx_t1m_zgb"/></p>
+        <p>
+            <div>
+                <p>
+                    <ol id="ol_acw_tdm_zgb">
+                        <li>Click <uicontrol>Upload Music on Hold Prompt</uicontrol>.</li>
+                        <li>Click <uicontrol>Choose File</uicontrol> to choose the desired audio
+                            file.</li>
+                        <li>Click <uicontrol>Upload</uicontrol> to upload the selected
+                                    file.<p><image href="../image/upload-music-on-hold-prompt.jpg"
+                                    id="image_g1j_d2m_zgb"/></p></li>
+                    </ol>
+                </p>
+            </div>
+        </p>
+        <note>
+            <p>The file size must not be larger than 1.8 MB, and the file must be WAV format: </p>
+            <p>GSM 6.10 8 kHz, Mono, 1 Kb/s; </p>
+            <p>Alaw/Ulaw 8 kHz, Mono, 1 Kb/s; </p>
+            <p>PCM 8 kHz, Mono, 16 Kb/s.</p>
+        </note>
+    </body>
+</topic>

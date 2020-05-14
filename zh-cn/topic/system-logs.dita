@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="system-logs">
+    <title>System Logs</title>
+    <shortdesc>You can download and delete the system logs of TA1600/2400/3200.</shortdesc>
+    <body>
+        <p><image href="../image/system-logs.jpg" width="650" id="image_dhq_tss_zgb"/></p>
+        <p>
+            <ul id="ul_cqy_jss_zgb">
+                <li><b>Enable Hardware Log</b>: Save the information of hardware (up to 4 log
+                    files).</li>
+                <li>
+                    <p><b>Enable Normal Log</b>: Save the prompt information (up to 16 log files). </p>
+                </li>
+                <li>
+                    <p><b>Enable Web Log</b>: Save the history of Web operations (up to 2 log
+                        files).</p>
+                </li>
+                <li>
+                    <p><b>Enable Debug Log</b>: Save debug information (up to 2 log files).</p>
+                </li>
+            </ul>
+        </p>
+    </body>
+</topic>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="tone-zone-settings">
+    <title>Tone Zone Settings</title>
+    <shortdesc>Advanced ring tones for all FXS ports can be configured on this page.</shortdesc>
+    <conbody>
+        <?oxy_insert_start author="Yeastar" timestamp="20190719T171614+0800"?>
+        <p>Go to <menucascade>
+                <uicontrol>Gateway</uicontrol>
+                <uicontrol>Advanced Setting</uicontrol>
+                <uicontrol> Tone Zone Settings</uicontrol>
+            </menucascade>.</p>
+        <?oxy_insert_end?>
+        <section id="section_yk3_fgm_zgb">
+            <title>Pre-programmed tone zone</title>
+            <p>There are pre-programmed tone zone settings for some countries and regions. You can
+                simply find and select your country to get tone zone settings for the gateway.</p>
+            <p><image href="../image/tone-zone-settings.jpg" width="650" id="image_ahw_lfm_zgb"
+                /></p>
+        </section>
+        <section id="section_vfy_hgm_zgb">
+            <title>Customize Tones</title>
+            <p>You can also configure the tone zone according to the national standard by selecting
+                    <uicontrol>Customize Tones</uicontrol>. </p>
+            <p>Refer to the document below and configure the tone zone settings on TA FXS
+                Gateway.</p>
+            <p><xref href="http://www.itu.int/ITU-T/inr/forms/files/tones-0203.pdf" format="pdf"
+                    scope="external"/></p>
+            <p><image href="../image/customize-zone.jpg" width="650" id="image_hcj_dgm_zgb"/></p>
+            <table frame="all" rowsep="1" colsep="1" id="table_f2y_rgm_zgb">
+                <title>Description of tone zone settings</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.82*"/>
+                    <thead>
+                        <row>
+                            <entry>Items</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Country/Region</entry>
+                            <entry>Choose the country to get pre-programmed tone zone settings or
+                                choose <uicontrol>Customize Tones</uicontrol> to configure the
+                                settings manually.</entry>
+                        </row>
+                        <row>
+                            <entry>Ring Cadence</entry>
+                            <entry>Configure ring cadence for all incoming calls.
+                                <?oxy_comment_start author="Yeastar" timestamp="20190719T171849+0800" comment="新增。内容摘自网页提示。"?>For
+                                example, enter <i>2000,4000</i>.<p>It means the incoming call will
+                                    ring for 2 seconds and await for 4
+                                    seconds.<?oxy_comment_end?></p></entry>
+                        </row>
+                        <row>
+                            <entry>Dial Tone</entry>
+                            <entry>Prompt tone of off-hook dial tone.</entry>
+                        </row>
+                        <row>
+                            <entry>Ringback Tone</entry>
+                            <entry>The tone sent to caller when ringing is on.</entry>
+                        </row>
+                        <row>
+                            <entry>Busy Tone</entry>
+                            <entry>Used for busy line prompt.</entry>
+                        </row>
+                        <row>
+                            <entry>Call-Waiting Tone</entry>
+                            <entry>Used for notification in call waiting.</entry>
+                        </row>
+                        <row>
+                            <entry>Congestion Tone</entry>
+                            <entry>Used to indicate that an invalid code has been dialed, or
+                                <?oxy_delete author="Yeastar" timestamp="20190719T171232+0800" content="that "?>all
+                                circuits (trunks) are busy and/or the call is unroutable.</entry>
+                        </row>
+                        <row>
+                            <entry>2nd Dial Tone</entry>
+                            <entry>Used for the second stage dial tone. </entry>
+                        </row>
+                        <row>
+                            <entry>Message Tone</entry>
+                            <entry>Used for message tone.</entry>
+                        </row>
+                        <row>
+                            <entry>VoiceMail Tone</entry>
+                            <entry>Used for voicemail tone.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </conbody>
+</concept>
+<?oxy_options track_changes="on"?>

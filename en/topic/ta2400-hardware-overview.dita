@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta2400_hardware_overview">
+    <title>TA2400 Hardware Overview</title>
+    <body>
+        <section id="section_af3_lk4_13b"><title>TA2400 front panel</title><image
+                id="image_exw_sfw_13b" href="../image/ta2400-front.PNG" width="700"/><p>
+                <table conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/ta1600-front"
+                    id="table_m1l_mpl_b3b">
+                    <tgroup cols="1">
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p></section>
+        <section id="section_ej1_1n4_13b"><title>TA2400 back panel</title><image
+                id="image_f35_ycw_13b" href="../image/ta2400-back.PNG" width="700"/><table
+                conref="ta1600-hardware-overview.dita#ta1600-gateway-overview/ta1600-back"
+                id="table_n11_gpl_b3b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></section>
+    </body>
+</topic>

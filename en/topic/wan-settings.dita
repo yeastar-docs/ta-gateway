@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="wan-settings">
+    <title>WAN Settings</title>
+    <shortdesc>WAN port is disabled by default. You can log in to the TA1600/2400/3200 to enable the
+        WAN service. You can set the WAN network as <uicontrol>Static IP Address</uicontrol>,
+            <uicontrol>PPPoE</uicontrol> or <uicontrol>DHCP</uicontrol>.</shortdesc>
+    <refbody>
+        <example>
+            <p><image href="../image/wan-settings.jpg" width="650" id="image_a4w_5xq_zgb"/></p>
+        </example>
+        <table frame="all" rowsep="1" colsep="1" id="table_cpc_wxq_zgb">
+            <title>Description of WAN settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Items</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Use WAN</entry>
+                        <entry>Enable or disable WAN port.</entry>
+                    </row>
+                    <row>
+                        <entry>Mode</entry>
+                        <entry>
+                            <p>Choose the network mode:<ul id="ul_yfk_1yq_zgb">
+                                    <li>Static IP address</li>
+                                    <li>DHCP</li>
+                                    <li>PPPoE</li>
+                                </ul></p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>IP Address</entry>
+                        <entry>Set the IP address for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Subnet Mask</entry>
+                        <entry>Set the subnet mask for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Gateway</entry>
+                        <entry>Set the gateway for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Primary DNS</entry>
+                        <entry>Set the primary DNS for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Secondary DNS</entry>
+                        <entry>Set the secondary DNS for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>IP Address2</entry>
+                        <entry>Set the second IP address for TA1600/2400/3200.</entry>
+                    </row>
+                    <row>
+                        <entry>Subnet Mask2</entry>
+                        <entry>Set the second subnet mask for TA1600/2400/3200.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <example><p>Select <uicontrol>DHCP</uicontrol> mode to get network automatically from the
+                local network.</p><image href="../image/dhcp-wan.jpg" width="650"
+                id="image_npw_hyq_zgb"/><p>Fill in user name and password to access the Internet via
+                PPPoE.</p><p><image href="../image/pppoe-wan.jpg" width="650" id="image_p45_4yq_zgb"
+                /></p></example>
+    </refbody>
+</reference>

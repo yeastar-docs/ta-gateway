@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="壁挂安装">
+    <title><?oxy_comment_start author="carol" timestamp="20190923T160652+0800" comment="更改标题" flag="done"?>壁挂式安装朗视
+        TA 网关<?oxy_comment_end?></title>
+    <shortdesc>朗视 TA400/800 网关除了可以放置在桌面，也支持壁挂安装，为你节省空间。根据以下步骤壁挂朗视 TA400/800 网关。</shortdesc>
+    <body>
+        <p>
+            <ol id="ol_r45_zdq_yhb">
+                <li id="wall-1">旋下底座上的螺丝后，重新用螺丝将配重块固定在底座上。<p><image id="image_eph_nkw_13b"
+                            href="../image/%E5%A3%81%E6%8C%821.PNG" width="300"/></p></li>
+                <li id="wall-2">将 TA 设备推入底座。<p id="2"><image href="../image/%E5%A3%81%E6%8C%822.PNG"
+                            width="280"/></p></li>
+                <li id="wall3">在墙上固定两颗螺丝，即可将底座挂上墙壁。<p><image id="wall-3"
+                            href="../image/%E5%A3%81%E6%8C%823.PNG" width="300"/></p></li>
+            </ol>
+        </p>
+    </body>
+</topic>

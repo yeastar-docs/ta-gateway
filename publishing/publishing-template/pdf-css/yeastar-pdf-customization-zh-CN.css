@@ -1,0 +1,340 @@
+/****************添加 封面图片 *****************/
+@page front-page {
+    background-image: url("pdf-cover-zh-CN.png");
+    background-position:center;
+    background-size: 100% ;
+    
+}
+
+/*添加封面信息 */
+*[class ~= "front-page/front-page-title"] {
+    display:block;
+    text-align: center;
+    font-family: SourceHanSansCN-Regular;
+	color:transparent; 
+   
+}/*留一片空白*/
+*[class ~= "front-page/front-page-title"]:before(3) {
+    display:block;
+    text-align: left;
+    font-size: 48px;
+	margin-left: 110px;
+	content: "blank";
+	color:transparent;
+}
+
+/* 获取文档类型 */
+*[class ~= "front-page/front-page-title"]:before(2) {
+    display:block;
+    text-align: left;
+    font-size: 48px;
+    font-family: SourceHanSansCN-Regular;
+    color:#F8F8FF;
+	font-weight: 500;
+	margin-left: 110px;
+	margin-top:-130px;
+	content: oxy_xpath('//*[contains(@class, "front-page/front-page")]/*[contains(@class, "map/topicmeta")]/*[contains(@class, "topic/category")]/text()');
+
+}
+
+/* 获取产品名称 */
+*[class ~= "front-page/front-page-title"]:before(1) {
+    display:block;
+    text-align: left;
+    font-size: 30px;
+	font-weight: 500;
+    font-family: SourceHanSansCN-Regular;
+	color:#F8F8FF;
+	content: oxy_xpath('//*[contains(@class, "front-page/front-page")]/*[contains(@class, "map/topicmeta")]/*[contains(@class, "topic/prodinfo")]/*[contains(@class, "topic/prodname")]/*[contains(@class, "topic/data")][1]/*[contains(@class, "topic/ph")]/text()');
+	margin-left: 112px;
+	margin-top: 15px;
+}
+
+/* 获取版本信息 */
+
+*[class ~= "front-page/front-page-title"]:after(1) {
+    display:block;
+    font-size: large;
+    font-weight: 500;
+    font-family: SourceHanSansCN-Light;
+    color: #F8F8FF;
+    margin-left: 115px;
+	margin-top: -15px;
+    text-align: left;
+	content: "版本: " oxy_xpath('//*[contains(@class, "front-page/front-page")]/*[contains(@class, "map/topicmeta")]/*[contains(@class, "topic/prodinfo")]/*[contains(@class, "topic/prodname")]/*[contains(@class, "topic/data")][2]//text()');
+
+}
+
+/* 获取日期 */
+*[class ~= "front-page/front-page-title"]:after(2) {
+    display:block;
+    font-size: large;
+    font-weight: 500;
+    font-family: SourceHanSansCN-Light;
+    color: #F8F8FF;
+    margin-top: 4px;
+    margin-left: 114px;
+    text-align:left;
+    content:"日期: " oxy_xpath("format-date(current-date(), '[Y0001]年[M01]月[D01]日')");   
+}
+
+/* 链接页码显示*/
+
+*[class ~= "topic/xref"][href]:after,
+*[class ~= "topic/link"][href]:after {
+    content: none;
+    
+}
+/*相关链接不显示简短描述*/
+
+*[class ~= "topic/link"] > *[class ~= "topic/desc"] {
+  display: none;
+}
+
+/* Table Title */
+
+*[class ~= "topic/table"] > *[class ~= "topic/title"]:before {
+    content: "表格 " counter(tablecount) ": ";
+    }
+
+/* Title in the TOC page  */
+ *[class ~= "toc/toc"]:before { 
+
+    content:"目录";
+    text-align: center;
+    font-size: 2em;
+    line-height: 4.1em;
+    display:block;
+    font-family: SourceHanSansCN-Regular;
+    
+}
+
+/* This string is used in the TOC page header. */
+:root:lang(zh-cn) {
+    string-set: toc-header "目录";
+}
+
+/* Title in the Index page */
+index\.groups:lang(zh-cn):before {
+    content: "索引";
+}
+
+/*路径*/
+
+*[class~="ui-d/uicontrol"] {
+    font-weight:700;
+	font-family: SourceHanSansCN-Regular, sans-serif;
+}
+
+
+/* 表格样式*/
+
+*[class~="topic/table"]{
+    border: 0.5pt solid #C2C2C2;
+	table-layout:auto !important; /*Auto Table layout*/
+	hyphens: auto;
+}
+
+/* 表格样式*/
+*[class~="topic/entry"]{
+    border: 0.5pt solid #C2C2C2;
+    padding-left: 20px;
+    padding: 5px;
+    font-family: 'SourceHanSansCN-Regular';
+  
+}
+
+*[class~="topic/thead"]{
+  background-color: #F4F4F4;
+}
+
+
+*[class~="topic/tgroup"]{
+    border: 0.1pt solid #C2C2C2;
+}
+
+/*page size 设置*/
+*[outputclass = 'wide'] {
+    page: wide-page;
+}
+
+@page wide-page {
+    size: letter landscape;
+    margin: 0.5in;
+}
+
+/* 文章文本 */
+
+@font-face {
+font-family: 'SourceHanSansCN-Regular';
+src:url('font/SourceHanSansCN-Regular.otf'); 
+}
+
+@font-face {
+font-family: 'SourceHanSansCN-Light';
+src:url('font/SourceHanSansCN-Light.otf'); 
+}
+
+ 
+* {
+  font-family: SourceHanSansCN-Light, sans-serif;
+   word-break:break-all;
+   word-wrap:break-word; 
+   hyphens: auto; 
+   }
+   
+   
+/* * 解决标题显示 ####*/
+*[class ~= "topic/title"] {
+    font-family:  SourceHanSansCN-Regular, sans-serif !important; 
+    font-weight:900;
+    }
+
+.topictitle2 {
+    font-style:normal;
+}
+   
+.topictitle3 {
+    font-style:normal; 
+}
+.topictitle4 {
+    font-style:normal; 
+}
+.topictitle5 {
+    font-style:normal; 
+}
+.topictitle6{
+    font-style:normal; 
+}
+
+/* 代码 */
+*[class~= "topic/pre"] {
+ font-family: monospace,SourceHanSansCN-Light}
+ 
+
+/*删除page link*/
+*[class ~= "topic/xref"][href]:after, 
+*[class ~= "topic/link"][href]:after {
+    content: none;
+}
+
+
+/* 斜体 */
+*[class~= "topic/i"] {
+ font-family: SourceHanSansCN-Light, sans-serif; 
+}
+ 
+ /* 斜体字 */
+
+*[class~= "topic/i"] {
+  font-family: SourceHanSansCN-Light,sans-serif; 
+}
+
+
+
+/*粗体*/
+
+*[class~="hi-d/b"] {
+    font-family: SourceHanSansCN-Regular, sans-serif;
+    font-weight: 900 ;
+}
+
+/*变量 */
+*[class~="sw-d/varname"] {
+    font-family: monospace;
+    font-size: 0.9em;
+    font-style: italic;
+    color: red;
+}
+
+*[class~= "topic/pre"] {
+    font-family: monospace,SourceHanSansCN-Light;
+	word-break:normal;
+    word-wrap:normal; 
+}
+ 
+/* 页眉页脚*/
+@page {
+  @top-left-corner { font-family:  SourceHanSansCN-Light, sans-serif; }
+  @top-left { font-family: SourceHanSansCN-Light, sans-serif; }
+  @top-center { font-family: SourceHanSansCN-Light, sans-serif; }
+  @top-right { font-family: SourceHanSansCN-Light,  sans-serif; }
+  @top-right-corner { font-family: SourceHanSansCN-Light, sans-serif; }
+}
+
+
+/* Titles in the TOC. */
+*[class ~= "map/topicref"][is-part] > *[class ~= "map/topicmeta"] > *[class ~= "topic/navtitle"]:before{
+   content:none !important;
+}
+*[class ~= "map/topicref"][is-chapter]:not([is-part]) > *[class ~= "map/topicmeta"] > *[class ~= "topic/navtitle"]:before{
+   content:none !important;
+}
+
+/* Titles in the content. */
+*[class ~= "topic/topic"][is-part] > *[class ~= "topic/title"]:before {
+   content:none !important;
+}
+*[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/title"]:before {
+   content:none !important;
+}
+
+
+/* ------Note本地化 (PDF based on HTML5 不再需要)-------- 
+ 
+*[class ~= "topic/note"]:lang(zh-CN):before {
+    content: url('note.png') " 注: ";
+}
+*[class ~= "topic/note"][type = "attention"]:lang(zh-CN):before {
+    content: url('important.png') " 注意: ";
+}
+*[class ~= "topic/note"][type = "caution"]:lang(zh-CN):before {
+    content: url('caution.png') " 注意: ";
+}
+*[class ~= "topic/note"][type = "danger"]:lang(zh-CN):before {
+    content: url('danger.png') " 危险: ";
+}
+*[class ~= "topic/note"][type = "fastpath"]:lang(zh-CN):before {
+    content: "捷径: ";
+}
+*[class ~= "topic/note"][type = "important"]:lang(zh-CN):before {
+    content: url('important.png') " 重要: ";
+}
+*[class ~= "topic/note"][type = "other"]:lang(zh-CN):before {
+    content: "其他注意: ";
+}
+*[class ~= "topic/note"][type = "remember"]:lang(zh-CN):before {
+    content: url('remember.png') " 切记: ";
+}
+*[class ~= "topic/note"][type = "restriction"]:lang(zh-CN):before {
+    content: url('img/restriction.png') " 限制: ";
+}
+*[class ~= "topic/note"][type = "tip"]:lang(zh-CN):before {
+    content: url('img/tip.png') " 提示: ";
+}
+*[class ~= "topic/note"][type = "notice"]:lang(zh-CN):before {
+    content: url('important.png') " 注意: ";
+}
+*[class ~= "topic/note"][type = "warning"]:lang(zh-CN):before {
+    content: url('warning.png') " 警告: ";
+}
+*[class ~= "topic/note"][type = "other"][othertype]:lang(zh-CN):before {
+    content: attr(othertype) ": ";
+}
+*[class ~= "topic/note"][type = "trouble"]:lang(zh-CN):before {
+    content: url('troubleshooting.png') " 故障排查: ";
+}
+
+/* ------Note本地化 (PDF based on HTML5 不再需要)-------- */
+
+
+
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] ,
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] ,
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] ,
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] ,
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"]  {
+  bookmark-label:none;
+}
+
+

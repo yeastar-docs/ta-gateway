@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="other-settings">
+    <title>Other Settings</title>
+    <refbody>
+        <example>
+            <p><image href="../image/fxs-port-other-settings.jpg" id="image_gdz_mkl_zgb"/></p>
+        </example>
+        <table frame="all" rowsep="1" colsep="1" id="table_kdl_rkl_zgb">
+            <title>Description of FXS port other settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <tbody>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Other Options</b></entry>
+                    </row>
+                    <row>
+                        <entry>Call Waiting</entry>
+                        <entry>Check this option if the extension should have <uicontrol>Call
+                                Waiting</uicontrol> capability. If this option is checked, the
+                                ‍<uicontrol>When Busy</uicontrol> follow me options will not be
+                            available.</entry>
+                    </row>
+                    <row>
+                        <entry>DND</entry>
+                        <entry>Don’t disturb. When DND is enabled for an extension, the extension
+                            will not be available.</entry>
+                    </row>
+                    <row>
+                        <entry>Ring Timeout</entry>
+                        <entry>Check this option if you want to customize the ring time. Ring tone
+                            will stop over the time defined.</entry>
+                    </row>
+                    <row>
+                        <entry>Enable DTMF Passthrough</entry>
+                        <entry>Enable DTMF passthrough during the conversation. By default, it is
+                                disabled.<p>E.g when one extension press <codeph>*1</codeph> in
+                                call, PBX will pass it directly to the other extension without
+                                analysis.</p></entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Follow Me</b></entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2">
+                            <p>Choose the forward type and configure the relevant destination
+                                number. In different conditions, the incoming calls to the account
+                                will be forwarded to different destinations.<ul id="ul_nhy_4ll_zgb">
+                                    <li><uicontrol>Always</uicontrol>: Always forward calls to the
+                                        destination number.</li>
+                                    <li><uicontrol>No Answer</uicontrol>: Forward calls when no one
+                                        answers the call.</li>
+                                    <li><uicontrol>When Busy</uicontrol>: Forward the call when the
+                                        account is busy.</li>
+                                </ul></p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Volume Settings</b></entry>
+                    </row>
+                    <row>
+                        <entry>Rxgain</entry>
+                        <entry>Adjust receive gain.</entry>
+                    </row>
+                    <row>
+                        <entry>Txgain</entry>
+                        <entry>Adjust transmit gain.</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Caller ID Settings</b></entry>
+                    </row>
+                    <row>
+                        <entry>Caller ID Signalling</entry>
+                        <entry>
+                            <p>choose the caller ID signaling: </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Sending Mode</entry>
+                        <entry>
+                            <p>choose the caller ID sending mode:</p>
+                            <note>If the FXS port is connected to a device’s FXO port, caller ID
+                                settings on FXS port and FXO port should be the same, or the call
+                                cannot be established.</note>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Caller ID Type</entry>
+                        <entry>
+                            <p>choose the caller ID Type.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Fax</b></entry>
+                    </row>
+                    <row>
+                        <entry>Enable T.38</entry>
+                        <entry>If the FXS port is connected to a fax machine, this option should be
+                            checked.</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>MWI Settings</b></entry>
+                    </row>
+                    <row>
+                        <entry>Subscribe for MWI</entry>
+                        <entry>Message Waiting Indicator (MWI) refers to a special LED on the analog
+                            phone, which indicates the voice mail status.</entry>
+                    </row>
+                    <row>
+                        <entry>MWI Light Option</entry>
+                        <entry>Choose the lighting method according to your phone. There are three
+                            lighting methods supported on TA FXS Gateway: neon, FSK and polarity.
+                                <p>TA FXS gateway will light the lamp up once receiving a new
+                                message; the lamp will goes off if there is no unread voice
+                                mail.</p></entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2"><b>Polarity Settings</b></entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2">
+                            <p>A polarity signal is required on some systems for reverse polarity
+                                billing. Select if reverse polarity signal is activated on this FXS
+                                port. It is not activated by default.<ul id="ul_ozw_3ll_zgb">
+                                    <li><uicontrol>Polarity Answer</uicontrol>: Whether to send
+                                        polarity signal while picking up the phone.</li>
+                                    <li><uicontrol>Polarity Hangup</uicontrol>: Whether to send
+                                        polarity signal while hanging up the phone.</li>
+                                </ul></p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

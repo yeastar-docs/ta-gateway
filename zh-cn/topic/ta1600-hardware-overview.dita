@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta1600-gateway-overview">
+    <title>TA1600 硬件概览</title>
+    <body>
+        <section id="section_tyh_2r1_1hb">
+            <title>TA1600 前面板</title>
+            <p><image id="image_ezc_cfw_13b" href="../image/ta1600-front.PNG" width="700"/></p>
+        </section>
+        <section id="section_kj1_xbq_yhb">
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta1600-front">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="center"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.79*" align="center"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.18*" align="left"/>
+                        <thead>
+                            <row id="No.-1">
+                                <entry align="center">序号</entry>
+                                <entry align="center">接口</entry>
+                                <entry align="center">功能说明</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row id="reset">
+                                <entry valign="middle">①</entry>
+                                <entry valign="middle" align="left">重置按钮</entry>
+                                <entry
+                                    conref="ta400-hardware-overview.dita#ta400_800_overview/reset"/>
+                            </row>
+                            <row id="power">
+                                <entry valign="middle">②</entry>
+                                <entry valign="middle" align="left">电源指示灯</entry>
+                                <entry>
+                                    <p>电源状态</p>
+                                    <ul id="ul_jdp_hgp_pgb">
+                                        <li><b>On</b>：电源开启</li>
+                                        <li><b>Off</b>：电源关闭</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row id="system">
+                                <entry valign="middle">③</entry>
+                                <entry valign="middle" align="left">系统指示灯</entry>
+                                <entry
+                                    conref="ta400-hardware-overview.dita#ta400_800_overview/system-ind"/>
+                            </row>
+                            <row id="wan">
+                                <entry>④</entry>
+                                <entry valign="middle" align="left">WAN 口</entry>
+                                <entry>连接广域网</entry>
+                            </row>
+                            <row id="lan">
+                                <entry valign="middle">⑤</entry>
+                                <entry valign="middle" align="left">LAN 口</entry>
+                                <entry>连接局域网</entry>
+                            </row>
+                            <row>
+                                <entry>⑥</entry>
+                                <entry align="left">FXS 口状态指示灯</entry>
+                                <entry conref="ta400-hardware-overview.dita#ta400_800_overview/fxs"/>
+                            </row>
+                            <row>
+                                <entry valign="middle">⑦</entry>
+                                <entry valign="middle" align="left">RJ11 FXS 口</entry>
+                                <entry
+                                    conref="ta400-hardware-overview.dita#ta400_800_overview/RJ11-fxs"/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_ibd_gr1_1hb">
+            <title>TA1600 背面板</title>
+            <p><image id="image_vy3_hcw_13b" href="../image/ta1600-back.PNG" width="700"/></p>
+        </section>
+        <section id="section_gmp_hcq_yhb">
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta1600-back">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.89*" align="left"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.43*" align="left"/>
+                        <thead>
+                            <row id="No.">
+                                <entry valign="middle" align="center">序号</entry>
+                                <entry valign="middle" align="center">接口</entry>
+                                <entry align="center">功能说明</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle" align="center">⑧</entry>
+                                <entry valign="middle" align="left">RJ21 FXS 口</entry>
+                                <entry>用 RJ21 连接线连接模拟话机或传真机</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle" align="center">⑨</entry>
+                                <entry valign="middle" align="left">电源开关</entry>
+                                <entry>启动或关闭系统</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle" align="center">⑩</entry>
+                                <entry valign="middle" align="left">电源接口</entry>
+                                <entry>连接电源</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle" align="center">⑪</entry>
+                                <entry align="left">接地保护</entry>
+                                <entry>保护操作者及设备安全</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </body>
+</topic>

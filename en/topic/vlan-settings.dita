@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="vlan-settings">
+    <title>VLAN Settings</title>
+    <shortdesc>VLAN (Virtual Local Area Network) is a group of hosts with a common set of
+        requirements, which communicate as if they were attached to the same broadcast domain,
+        regardless of their physical location.</shortdesc>
+    <body>
+        <p>A VLAN is a broadcast domain created by switches. This means the VLAN is configured on
+            switches, layer 3 switches.</p>
+        <p>
+            <note>
+                <ul id="ul_cyf_lqt_zgb">
+                    <li>Some of the switches don’t support VLAN.</li>
+                    <li>TA1600/2400/3200 acts as an VLAN client, a 3-layer switch is needed.</li>
+                </ul>
+            </note>
+        </p>
+        <p><image href="../image/vlan-settings.jpg" width="650" id="image_emg_11r_zgb"/></p>
+        <p>Follow the steps below to set up VLAN on TA1600/2400/3200.<ol id="ol_h2p_c1r_zgb">
+                <li>Create VLANs on your switch.</li>
+                <li>Allocate a VLAN ID and IP address for TA1600/2400/3200.</li>
+                <li>Configure VLAN settings page on TA1600/2400/3200.</li>
+            </ol></p>
+    </body>
+</topic>

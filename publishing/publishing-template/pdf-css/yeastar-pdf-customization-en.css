@@ -1,0 +1,199 @@
+/****************添加 封面图片 *****************/
+ @page front-page {    	
+     background-image: url("pdf-cover-en.png");
+     background-position:center;
+     background-size: 100%;
+    }
+
+
+/*隐藏自动生成的title */
+*[class ~= "front-page/front-page-title"] {
+    display:block;
+    text-align: center;
+    font-family: arial;
+    color:transparent;
+}
+/*留一片空白*/
+*[class ~= "front-page/front-page-title"]:before(3) {
+    display:block;
+    text-align: left;
+    font-size: 48px;
+	margin-left: 110px;
+	content: "blank";
+	color:transparent;
+}
+/*获取文档类型*/
+*[class ~= "front-page/front-page-title"]:before(2) {
+    display:block;
+    text-align: left;
+    font-size: 43px;
+    font-family: arial, helvetica, sans-serif;
+    color: #F8F8FF;
+	font-weight: 500;
+	margin-left: 110px;
+	margin-top:-130px;
+	content: oxy_xpath('//*[contains(@class, "front-page/front-page")]/*[contains(@class, "map/topicmeta")]/*[contains(@class, "topic/category")]/text()');
+}
+
+/* 获取产品名称*/
+*[class ~= "front-page/front-page-title"]:before(1) {
+    display:block;
+    text-align: left;
+    font-size: 30px;
+	font-weight: 500;
+    font-family: arial, helvetica, sans-serif;
+	color: #F8F8FF;
+	content: oxy_xpath('//*[contains(@class, "front-page/front-page")]/*[contains(@class, "map/topicmeta")]/*[contains(@class, "topic/prodinfo")]/*[contains(@class, "topic/prodname")]/*[contains(@class, "topic/data")][1]/*[contains(@class, "topic/ph")]/text()');
+	margin-left: 110px;
+	margin-top: 15px;
+}
+
+/* 获取版本信息 */
+*[class ~= "front-page/front-page-title"]:after(1) {
+    display:block;
+    font-size: 19px;
+    font-weight:100;
+    font-family: helvetica;
+    color: #F8F8FF;
+    margin-left: 115px;
+    margin-top: -15px;
+    text-align: left;
+	content: "Version: " oxy_xpath('//*[contains(@class, "front-page/front-page")]/*[contains(@class, "map/topicmeta")]/*[contains(@class, "topic/prodinfo")]/*[contains(@class, "topic/prodname")]/*[contains(@class, "topic/data")][2]//text()');
+
+}
+
+/* 获取日期 */
+*[class ~= "front-page/front-page-title"]:after(2) {
+    display:block;
+    font-size: 19px;
+    font-weight:100;
+    font-family: helvetica;
+    color: #F8F8FF;
+    margin-top: 3px;
+    margin-left: 115px;
+    text-align:left;
+    content:"Date: " oxy_xpath("format-date(current-date(), '[Y0001]-[M01]-[D01]')");   
+    
+}
+
+
+/* Title in the TOC page  */
+ *[class ~= "toc/toc"]:before { 
+
+    content:"Contents";
+    text-align: center;
+    font-size: 2em;
+    line-height: 4.1em;
+    display:block;
+    
+}
+
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] ,
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] ,
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] ,
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] ,
+*[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"] *[class~="topic/topic"]  {
+  bookmark-label:none;
+}
+
+/*page size 设置*/
+*[outputclass = 'wide'] {
+    page: wide-page;
+}
+
+@page wide-page {
+    size: letter landscape;
+    margin: 0.5in;
+}
+
+
+/* 文章文本 */
+
+* {
+  font-family: arial, sans-serif; 
+  word-break: break-all;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+*[class~= "topic/codeph"] {
+	font-family: arial, sans-serif; 
+ font-size:3px;
+}
+
+/* 标题 */
+
+*[class~= "topic/title"] {
+	font-family: arial, sans-serif;}
+	
+/*删除page link*/
+*[class ~= "topic/xref"][href]:after, 
+*[class ~= "topic/link"][href]:after {
+    content: none;
+}
+
+/*变量 */
+*[class~="sw-d/varname"] {
+    font-family: monospace;
+    font-size: 0.9em;
+    font-style: italic;
+    color: red;
+}
+
+/* 表格样式*/
+
+*[class~="topic/table"]{
+    border: 0.5pt solid #C2C2C2;
+	table-layout:auto !important; /*Auto Table layout*/
+	hyphens: auto;
+	
+}
+
+*[class~="topic/entry"]{
+    border: 0.5pt solid #C2C2C2;
+    padding-left: 20px;
+    padding: 5px;
+  font-family:  arial, SourceHanSansCN-Light, sans-serif;
+  font-size: 13px;
+  
+}
+
+*[class~="topic/thead"]{
+  background-color: #F4F4F4;
+}
+
+
+*[class~="topic/tgroup"]{
+    border: 0.1pt solid #C2C2C2;
+}
+
+
+
+/* 页眉页脚*/
+@page {
+  @top-left-corner { font-family: arial, sans-serif;  }
+  @top-left { font-family: arial, sans-serif; }
+  @top-center { font-family: arial, sans-serif;  }
+  @top-right { font-family: arial, sans-serif; }
+  @top-right-corner { font-family: arial, sans-serif;  }
+}
+
+
+/* Titles in the TOC. */
+*[class ~= "map/topicref"][is-part] > *[class ~= "map/topicmeta"] > *[class ~= "topic/navtitle"]:before{
+   content:none !important;
+}
+*[class ~= "map/topicref"][is-chapter]:not([is-part]) > *[class ~= "map/topicmeta"] > *[class ~= "topic/navtitle"]:before{
+   content:none !important;
+}
+
+/* Titles in the content. */
+*[class ~= "topic/topic"][is-part] > *[class ~= "topic/title"]:before {
+   content:none !important;
+}
+*[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/title"]:before {
+   content:none !important;
+}
+
+
+

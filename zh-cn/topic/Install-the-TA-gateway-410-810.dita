@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="id_abv_3qq_b3b">
+    <title>壁挂式安装朗视 TA 网关</title>
+    <shortdesc>朗视 TA410/810 网关除了可以放置在桌面，也支持壁挂安装，为你节省空间。根据以下步骤壁挂朗视 TA410/810 网关。</shortdesc>
+    <body>
+        <p>
+            <ol id="ol_em4_nbz_djb">
+                <li>旋下底座上的螺丝后，重新用螺丝将配重块固定在底座上。<p><image href="../image/%E5%A3%81%E6%8C%821.PNG"
+                            width="300" id="image_qyt_pbz_djb"/></p></li>
+                <li>将 TA 设备推入底座。<p><image href="../image/%E5%A3%81%E6%8C%822.PNG" width="280"
+                            id="image_qcj_qbz_djb"/></p></li>
+                <li>在墙上固定两颗螺丝，即可将底座挂上墙壁。<p><image id="wall-3"
+                            href="../image/%E5%A3%81%E6%8C%823.PNG" width="300"/></p></li>
+            </ol>
+        </p>
+    </body>
+</topic>

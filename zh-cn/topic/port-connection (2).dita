@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection">
+    <title>Port Connection</title>
+    <body>
+        <p/>
+        <section id="section_mzd_zx4_yhb"><title>Connection of Ethernet Ports</title><b>LAN port
+                connection</b><p>Connect one end of a network cable to the LAN port of the gateway,
+                and the other end to any port of company’s LAN switch/router.</p></section>
+        <section id="section_wfm_ry4_yhb">
+            <title>Connection of FXS Ports</title>
+        </section>
+        <section id="section_wsc_wy4_yhb">
+            <title>RJ11 Phone Port</title>
+            <p>Connect one end of a RJ11 phone cable to the port. Connect the other end to your
+                analog telephone.</p>
+        </section>
+        <section id="section_g1g_yy4_yhb">
+            <title>RJ21 Connection</title>
+            <p>Applicable to TA1600/2400/3200. </p>
+            <p>Connect one end of a RJ21 cable to the connector. Connect the other ends to your
+                analog telephones.</p>
+        </section>
+        <section id="section_m3p_njp_yhb">
+            <title>Power Connection</title>
+            <note>
+                <ul id="ul_dnh_5jp_yhb">
+                    <li>Power off the TA device before plugging or unplugging the cables.</li>
+                    <li>Disconnect all telecommunication network connectors and cable distribution
+                        system connectors before power off the TA device.</li>
+                </ul>
+                <ol id="ol_nn4_hkp_yhb">
+                    <li>Disconnect all telecommunication network connectors and cable distribution
+                        system connectors before power off the TA device.</li>
+                    <li>Plug the power adapter into an electrical outlet.</li>
+                    <li>Press the <uicontrol>On</uicontrol> switch to power on the gateway.</li>
+                </ol>
+                <p>The gateway will start booting. In the meantime, you will see that the
+                        <uicontrol>POWER</uicontrol> and <uicontrol>RUN</uicontrol> indicator lights
+                    turn on.</p>
+            </note>
+        </section>
+        <section id="section_a1g_yy4_yhb">
+            <p/>
+        </section>
+    </body>
+</topic>

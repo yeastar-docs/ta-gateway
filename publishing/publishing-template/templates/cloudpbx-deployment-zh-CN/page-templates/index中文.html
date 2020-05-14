@@ -1,0 +1,358 @@
+ <head>
+ 	<meta charset="UTF-8">
+    <title>部署朗视云PBX</title>
+  </head>
+<link rel =" stylesheet " type =" text/css " href ="deploy_cloudpbx_index.css" />
+<link rel =" stylesheet " type =" text/css " href ="footer.css " />
+<link rel="shortcut icon" href="favicon.jpg">
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-117711464-1', 'auto');
+  ga('send', 'pageview');
+</script>
+        <script>
+            /**
+             * If an old URL is given, redirect to the corresponding topic from the WebHelp Responsive
+             */
+            var actualLocation = window.location.href;
+            var newLocation;
+            if (actualLocation.indexOf('/#')!=-1) {
+                newLocation = actualLocation.replace(/\/#/g, "/");
+                window.location.replace(newLocation);
+            }
+            if (actualLocation.match(/\/index\.(.*)#/gi)!=null) {
+                newLocation = actualLocation.replace(/\/index\.(.*)#/gi, "/");
+                window.location.replace(newLocation);
+            }
+        </script>
+
+        <link rel="stylesheet" href="oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+        
+        <script type="text/javascript" src="oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"></script>
+
+        <script data-main="oxygen-webhelp/app/main-page.js" src="oxygen-webhelp/lib/requirejs/require.js"></script>
+        
+    
+
+ <nav class="header-menu">
+                <div class="log-and-content">
+                    <div>
+                    <div class="yeastar-log"><a href="http://www.yeastar.cn/" title="yeastar"></a> </div>
+                                      
+                    </div>   
+                    <div class="menu-content">
+                        <ul class="content-ul">
+                            
+                            <li class="language"><img src="https://www.yeastar.com/wp-content/uploads/2018/05/language-1.png"><span>简体中文</span>
+                                <ul>
+                                    <li class="mask-content">
+                                        <p class="mask"></p>
+                                        <ul class="lan-select">
+                                             <li><a href="https://help.yeastar.com/zh-cn/cloudpbx/deploy/">简体中文</a></li>
+                                            <li><a href="https://help.yeastar.com/en/cloudpbx/deploy/">English</a></li>
+                                           
+                                           
+                                        </ul>
+                                    </li>
+                                </ul>
+                           </img> </li>
+                        </ul>
+                        <div class="clear-both"></div>
+                    </div>
+                </div>
+            </nav>
+      
+<!--module -->
+<div data-spm =" 825120 " data-moduleid =" 0 " data-name =" wb-zc-ybmod-cloudcount-banner " data-guid =" 825120 " id =" guid-825120 " data-scene-id =" 973683 " data-scene-version =" 1 " data-hidden ="" data-gitgroup =" ali-mod " data-ext ="" data-engine =" tce " class =" wb-zc-ybmod-cloudcount-banner J_Module " tms =" wb-zc-ybmod-cloudcount-banner/0.0.2 " tms-datakey =" tce/973683 "> 
+<div class =" module-wrap J_tb_lazyload dbl_tms_module_wrap ">
+<!-- 避免用window的全局变量获取数据 -->
+<textarea class =" schemaData " style =" display:none; ">
+{"moduleinfo":{"des":"Yeastar Cloud PBX","color":"#0b6a9c","banner":"Clouds.png","title":"Deployment Guide"},"$tmsId":"tce/973683"}
+</textarea>
+<div class =" banner ">
+<p class =" des "> 朗视云PBX </p>
+<h2 class =" title "> 部署指南 </h2>
+</div>
+</div>
+</div>
+<!--module -->
+</div>
+</div>
+<!--col -->
+</div>
+<!-- row -->
+</div>
+<!-- container -->
+<!-- container -->
+<div class =" layout layout-grid-0 ">
+<!--row -->
+<div class =" grid-0 ">
+<!-- col -->
+<div class =" col col-main ">
+<div class =" main-wrap J_Region ">
+
+<!--module -->
+<div data-spm =" 825121 " data-moduleid =" 0 " data-name =" wb-zc-ybmod-cloudcount-intro " data-guid =" 825121 " id =" guid-825121 " data-scene-id =" 973684 " data-scene-version =" 0 " data-hidden ="" data-gitgroup =" ali-mod " data-ext ="" data-engine =" tce " class =" wb-zc-ybmod-cloudcount-intro J_Module " tms =" wb-zc-ybmod-cloudcount-intro/0.0.3 " tms-datakey =" tce/973684 "> <div class =" module-wrap J_tb_lazyload dbl_tms_module_wrap ">
+<!-- 避免用window的全局变量获取数据 -->
+<textarea class =" schemaData " style =" display:none; ">
+{"moduleinfo":{"intro_count":[{"count_phone":1,"count":1}],"title":Introduction"},"intro":[{"txt":" &nbsp;&nbsp;Getting to know the architecture of Yeastar Cloud PBX and the domain structure of Yeastar Cloud PBX."}],"countinfo":{"intro":{"length_pc":0,"length":0}},"$tmsId":"tce/973684"}
+</textarea>
+<div class =" intro ">
+<h2 class =" title "> 部署准备 </h2>
+<div class =" inner clearfix ">
+<div class =" txt "> <img src ="intro-left.png"><span>在开始部署朗视云PBX之前，你需要先了解朗视云PBX的架构和服务器域名设置信息。</span> 
+  <img src ="intro.png">
+   <ul class="intro_link">
+<li> <a href =" https://help.yeastar.com/zh-cn/cloudpbx/deploy/install_ymp&sbc/framework_of_yeastar_cloud_pbx.html" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">朗视云PBX的系统架构</a></li>
+<li> <a href =" https://help.yeastar.com/zh-cn/cloudpbx/deploy/install_ymp&sbc/domain_structure_of_yeastar_cloud_pbx.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">朗视云PBX的域名结构</a></li>
+
+
+
+  </ul>
+
+</div>
+
+<div class =" pic "> 
+  <img src ="yeastar_cloud_pbx_shortcut.png"> 	
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--module -->
+</div>
+</div>
+<!--col -->
+</div>
+<!-- row -->
+</div>
+<!-- container -->
+<!-- container -->
+<div class =" layout layout-grid-0 ">
+<!--row -->
+<div class =" grid-0 ">
+<!-- col -->
+<div class =" col col-main ">
+<div class =" main-wrap J_Region ">
+<!--module -->
+<div data-spm =" 825123 " data-moduleid =" 0 " data-name =" wb-zc-ybmod-cloudcount-main " data-guid =" 825123 " id =" guid-825123 " data-scene-id =" 973686 " data-scene-version =" 1 " data-hidden ="" data-gitgroup =" ali-mod " data-ext ="" data-engine =" tce " class =" wb-zc-ybmod-cloudcount-main J_Module " tms =" wb-zc-ybmod-cloudcount-main/0.0.5 " tms-datakey =" tce/973686 "> <div class =" module-wrap J_tb_lazyload dbl_tms_module_wrap ">
+<!-- 避免用window的全局变量获取数据 -->
+
+
+
+<div class =" main ">
+<h2 class =" title "> 部署步骤 </h2>
+<div class =" intro ">
+<div class =" lcol ">
+<div class =" step ">
+<div class =" num "> 步骤1 </div>
+<div class =" line "> </div>
+</div>
+<div class =" con ">
+<div class =" hd clearfix ">
+<div class =" info ">
+<p class =" name"> 准备服务器</p>
+<p class =" txt "> 部署朗视云PBX，你需要准备两台服务器。一台服务器用于安装YMP，另外一台服务器用于安装SBC。 </p>
+</div>
+<div class =" outlink clearfix ">
+<div class ="doc">
+	<img src='ymp.png'>
+	<a href ="https://help.yeastar.com/zh-cn/cloudpbx/deploy/install_ymp&sbc/system_requirements_for_ymp.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">YMP服务器要求</a>
+</div>
+<div class =" doc ">
+	<img src='sbc.png'>
+	<a href =" https://help.yeastar.com/zh-cn/cloudpbx/deploy/install_ymp&sbc/system_requirements_for_sbc.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">SBC服务器要求</a>
+</div>
+</div>
+</div>
+
+<div class =" bd ">
+<p class =" name "> </p>
+</div>
+</div>
+</div>
+<div class =" lcol ">
+<div class =" step ">
+<div class =" num "> 步骤2 </div>
+<div class =" line "> </div>
+</div>
+<div class =" con ">
+<div class =" hd clearfix ">
+<div class =" info ">
+<p class =" name "> 部署YMP服务器和SBC服务器</p>
+<p class =" txt "> 你可以选择在IDC（互联网数据中心）或者在阿里云部署YMP服务器和SBC服务器。 </p>
+</div>
+<div class =" outlink clearfix ">
+<div class ="doc icon-img">
+	<img src='alibaba1.png'>
+	<a href ="https://help.yeastar.com/zh-cn/cloudpbx/deploy/install_ymp&sbc/deploy_yeastar_cloud_pbx_on_ali_cloud.html " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234">在阿里云部署朗视云PBX</a>
+</div>
+<div class =" doc icon-img">
+	<img src='datacenter1.png'>
+	<a href =" https://help.yeastar.com/zh-cn/cloudpbx/deploy/install_ymp&sbc/deploy_yeastar_cloud_pbx_in_data_center.html" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 ">在IDC部署朗视云PBX</a>
+</div>
+
+</div>
+</div>
+
+
+<div class =" bd ">
+<p class =" name "> </p>
+</div>
+</div>
+</div>
+<div class =" lcol ">
+<div class =" step ">
+<div class =" num "> 步骤3 </div>
+<div class =" line "> </div>
+</div>
+<div class =" con ">
+<div class =" hd clearfix ">
+<div class =" info ">
+<p class =" name "> 发送你的服务器部署信息给朗视</p>
+<p class =" txt ">下载表格，填写你的部署信息，然后将表格发送给朗视。我们会核实你的部署信息，并帮助你安装云PBX。</p>
+</div>
+
+</div>
+<div class =" bd ">
+<p class =" name "> 下载相关的表格 </p>
+<div class =" product clearfix ">
+<div class =" col1 clearfix ">
+<div class =" linfo ">
+<p class =" name "> 云平台部署信息 </p>
+<p class =" txt "> 如果你在阿里云平台部署朗视云PBX，请下载该表格。</p>
+</div>
+
+<div class =" rinfo clearfix ">
+<div class =" buy-btn clearfix ">
+<a href ="http://www.yeastar.cn/download/Requested_Information_Cloud_cn.docx" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=12345 " id =" 1111 " class =" btn-a "> 下载</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class =" product clearfix ">
+<div class =" col1 clearfix ">
+<div class =" linfo ">
+<p class =" name "> IDC部署信息 </p>
+<p class =" txt "> 如果你在IDC部署朗视云PBX，请下载该表格。</p>
+</div>
+
+<div class =" rinfo clearfix ">
+<div class =" buy-btn clearfix ">
+<a href ="http://www.yeastar.cn/download/Requested_Information_DataCenter_cn.docx " target =" _blank " data-spm-click =" gostr=/aliyun;locaid=12345 " id =" 1111 " class =" btn-a ">下载</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+<div class =" bd ">
+<p class =" name "> </p>
+</div>
+</div>
+</div>
+
+<div class =" lcol lastli ">
+<div class =" step ">
+<div class =" num ">更改部署环境</div>
+<div class =" line "> </div>
+</div>
+<div class =" con ">
+<div class =" hd clearfix ">
+<div class =" info ">
+<p class =" name ">如需更改部署配置，联系朗视技术支持</p>
+<p class =" txt ">技术支持电话：400-661-8815 (转分机615)</p>
+<p class =" txt ">部署朗视云PBX之后，如果你需要更改以下部署配置，请联系联朗视技术支持：</p>
+
+<ul>
+<li> 更改SBC的公网IP</li>
+<li> 更改SBC的私网IP</li>
+<li> 更改SIP端口</li>
+<li> 更改YMP的私网IP</li>
+<li> 在其他服务器还原YMP的备份</li>
+<li> 更改YMP的域名</li>
+<li> 更改HTTPS证书</li>
+
+
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class =" lcol lastli ">
+<div class =" step ">
+<div class =" num "> 参考信息 </div>
+<div class =" line "> </div>
+</div>
+<div class =" con ">
+<div class =" hd clearfix ">
+<div class =" info ">
+<p class =" name "> SBC参考信息
+
+<ul>
+
+<li>
+<a href ="https://help.yeastar.com/zh-cn/cloudpbx/deploy/install_ymp&sbc/r_log_fie_path.html" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 "
+ style="  display:block;
+    text-decoration:none;
+    position:relative;
+    text-align: left;
+    color: #0BC5DE;
+	font-size: 0.8em;
+	line-height:2em;"> SBC日志文件的路径</a>
+</li>
+<li>
+<a href ="https://help.yeastar.com/zh-cn/cloudpbx/deploy/install_ymp&sbc/check_sbc_version.html" target =" _blank " data-spm-click =" gostr=/aliyun;locaid=1234 "
+ style="  display:block;
+    text-decoration:none;
+    position:relative;
+    text-align: left;
+    color: #0BC5DE;
+	font-size: 0.8em;
+	line-height:2em;">查看SBC版本号</a>
+</li>
+</ul>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+</div><div class =" bd ">
+<p class =" name "> </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+<div style="display:none"> <script src="https://s95.cnzz.com/z_stat.php?id=5336919&amp;web_id=5336919/" language="JavaScript" ></script></div>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="preparation-before-installation">
+    <title>装箱清单</title>
+    <shortdesc>打开 TA1610/2410/3210 包装箱后，请对照列表检查设备及配件是否齐全。</shortdesc>
+    <conbody>
+        <p>
+            <note conref="packing-list.dita#packing_list/note"/>
+        </p>
+        <table frame="all" rowsep="1" colsep="1" id="table_rjv_1sz_zgb">
+            <title>TA1610/2410/3210 装箱清单</title>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="2.53*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1.16*"/>
+                <colspec colname="c4" colnum="4" colwidth="4.79*"/>
+                <thead>
+                    <row conref="packing-list.dita#packing_list/title">
+                        <entry/>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>TA1610/TA2410/TA3210</entry>
+                        <entry align="center">台</entry>
+                        <entry align="center">1</entry>
+                        <entry>主机</entry>
+                    </row>
+                    <row
+                        conref="ta1600-ta2400-ta3200-packing-list.dita#preparation-before-installation/电源线">
+                        <entry/>
+                    </row>
+                    <row
+                        conref="ta1600-ta2400-ta3200-packing-list.dita#preparation-before-installation/网线">
+                        <entry/>
+                    </row>
+                    <row conref="packing-list.dita#packing_list/warranty">
+                        <entry/>
+                    </row>
+                    <row
+                        conref="ta1600-ta2400-ta3200-packing-list.dita#preparation-before-installation/快速安装">
+                        <entry/>
+                    </row>
+                    <row
+                        conref="ta1600-ta2400-ta3200-packing-list.dita#preparation-before-installation/支架">
+                        <entry/>
+                    </row>
+                    <row
+                        conref="ta1600-ta2400-ta3200-packing-list.dita#preparation-before-installation/螺丝">
+                        <entry/>
+                    </row>
+                    <row
+                        conref="ta1600-ta2400-ta3200-packing-list.dita#preparation-before-installation/螺母">
+                        <entry/>
+                    </row>
+                    <row
+                        conref="ta1600-ta2400-ta3200-packing-list.dita#preparation-before-installation/脚垫">
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

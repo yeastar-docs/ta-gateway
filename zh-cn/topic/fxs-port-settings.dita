@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="fxs-port-settings">
+    <title>FXS Port Settings</title>
+    <shortdesc>This chapter explains how to configure FXS port on TA1600/2400/3200, you can go to <menucascade>
+            <uicontrol>Gateway</uicontrol>
+            <uicontrol>Port List</uicontrol>
+            <uicontrol>Port List</uicontrol>
+        </menucascade> page to configure the FXS ports.</shortdesc>
+    <conbody>
+        <p>Click <image href="../image/UI_icons/edit.png" id="image_cyv_c3l_zgb" width="20"/> to
+            configure the FXS port.</p>
+    </conbody>
+</concept>

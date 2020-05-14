@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="making-and-receiving-calls">
+    <title>Make and Receive Calls</title>
+    <shortdesc><?oxy_comment_start author="Becky" timestamp="20190920T113132+0800" comment="You need an active VoIP account from a VoIP service provider or a PBX, which provides a VoIP telephone number to allow you to make and receive calls. 
+前后两个VoIP重复"?>To
+        make and receive calls, you need an active VoIP account from a VoIP service provider or a
+        PBX.<?oxy_comment_end?></shortdesc>
+    <body>
+        <section id="section_sg5_41l_zgb">
+            <title><?oxy_comment_start author="Becky" timestamp="20190920T113601+0800" comment="动名词改原形"?>Make<?oxy_comment_end?>
+                internal calls</title>
+            <p>To place an internal call, pick up the analog phone and dial the other port’s caller
+                ID number or dial <codeph>*99</codeph> followed by the port number.</p>
+        </section>
+        <example>
+            <ul id="ul_hmn_w1l_zgb">
+                <li>To reach the other port with caller ID number 300, dial
+                    <codeph>300</codeph>.</li>
+                <li>To reach port 2, dial <codeph>*9902</codeph> to ring the phone connected to port
+                    2.</li>
+            </ul>
+        </example>
+        <section id="section_qcp_p1l_zgb"><title>Make outbound calls</title><p>To make an outbound
+                call, you need to dial according to the FXS port dial pattern. </p> By the default
+            dial pattern, you can dial the desired outgoing number directly. </section>
+        <section id="section_gl3_q1l_zgb">
+            <title>Answer calls</title>
+            <p>To answer a call, pick up the handset as you usually do.</p>
+        </section>
+    </body>
+</topic>

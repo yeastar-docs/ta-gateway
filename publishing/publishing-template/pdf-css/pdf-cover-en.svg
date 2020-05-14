@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="a" data-name="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="216mm" height="279mm" preserveAspectRatio="none meet">
+  <title>pdf-cover-en-ok</title>
+  <image width="100%" height="100%" x="0" y="0" xlink:href="background-en.png"/>
+  <text x="25%" y="34%" font-size="1cm" fill="white" font-family="Arial" font-weight="600"> Admin Guide </text>
+  <text x="25%" y="39%" font-size="0.8cm" fill="white" font-family="Arial" font-weight="500"> Yeastar S-series VoIP PBX</text>
+  <text x="25%" y="45%" font-size="0.5cm" fill="white" font-family="Arial" font-weight="200"> Version:</text>
+  <text x="25%" y="48%" font-size="0.5cm" fill="white" font-family="Arial" font-weight="200"> Updated:</text>
+</svg>

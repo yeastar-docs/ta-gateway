@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about-this-guide">
+    <title>About This Guide</title>
+    <shortdesc>This guide will help you learn how to operate and manage your TA gateway.</shortdesc>
+    <conbody>
+        <p>Yeastar TA1600/2400/3200 FXS Analog VoIP Gateways are cutting-edge products that connect
+            legacy telephones, fax machines and PBX systems with IP telephony networks and IP-based
+            PBX systems. Featuring rich functionalities and easy configuration, Yeastar TA is ideal
+            for small and medium enterprises that wish to integrate a traditional phone system into
+            IP-based system. Yeastar TA helps them to preserve previous investment on legacy
+            telephone system and reduce communication costs significantly with the true benefits of
+            VoIP.</p>
+        <section id="section_qrx_4kk_zgb">
+            <title>Audience</title>
+            <p>This manual will help you learn how to operate and manage your TA1600/2400/3200 FXS
+                Analog VoIP Gateway. In this guide, we describe every detail on the functionality
+                and configuration of TA1600/2400/3200. We begin by assuming that you are interested
+                in TA1600/2400/3200 and familiar with networking and other IT disciplines.</p>
+        </section>
+        <section id="section_nkt_tkk_zgb">
+            <title>Safety when working with electricity</title>
+            <p>
+                <note>
+                    <ul id="ul_phy_wkk_zgb">
+                        <li>Do not open the device when the device is powered on.</li>
+                        <li>Do not work on the device, connect or disconnect cables when lightning
+                            strikes.</li>
+                    </ul>
+                </note>
+            </p>
+        </section>
+        <section id="section_v1g_ykk_zgb">
+            <title>Features Highlights</title>
+            <p>
+                <ul id="ul_tdl_zkk_zgb">
+                    <li>16/24/32 FXS ports</li>
+                    <li>Fully compliant with SIP and IAX2</li>
+                    <li>Hunt Group</li>
+                    <li>Configurable VoIP Server templates</li>
+                    <li>Reliable FAX performance with T.38</li>
+                    <li>3-party conference</li>
+                    <li>Direct IP Calling</li>
+                    <li>Inter-port Calling</li>
+                    <li>Attended Transfer</li>
+                    <li>Blind Transfer</li>
+                    <li>Support RADIUS protocol</li>
+                    <li>Support SNMP  </li>
+                    <li>Support TR-069</li>
+                </ul>
+            </p>
+        </section>
+    </conbody>
+</concept>

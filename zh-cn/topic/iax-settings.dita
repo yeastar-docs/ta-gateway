@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="iax-settings">
+    <title>IAX Settings</title>
+    <shortdesc>IAX is the <b>Internal Asterisk Exchange</b> protocol, you can connect to TA FXS
+        gateway or register IAX trunk to another IAX server. It’s supported by the asterisk-based
+        IPPBX.</shortdesc>
+    <refbody>
+        <example>
+            <p><image href="../image/iax-settings.jpg" width="650" id="image_mrp_zvl_zgb"/></p>
+        </example>
+        <table frame="all" rowsep="1" colsep="1" id="table_vwr_1wl_zgb">
+            <title>Description of IAX settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Items</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>UDP Port</entry>
+                        <entry>Port used for IAX2 registrations. <b>Default</b>: 4569.</entry>
+                    </row>
+                    <row>
+                        <entry>Bandwidth</entry>
+                        <entry>Low/medium/high with this option you can control which codec to be
+                            used.</entry>
+                    </row>
+                    <row>
+                        <entry>Minimum Registration Time/Subscription Time</entry>
+                        <entry>Minimum duration (in seconds) of an IAX2 registration. Default is 60
+                            seconds</entry>
+                    </row>
+                    <row>
+                        <entry>Maximum Registration Time/Subscription Time</entry>
+                        <entry>Maximum duration (in seconds) of an IAX2 registration. Default is
+                            1200 seconds.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

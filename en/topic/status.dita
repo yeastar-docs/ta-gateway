@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="status">
+    <title>Status</title>
+    <shortdesc>You can check the system status on <menucascade>
+            <uicontrol>Status</uicontrol>
+            <uicontrol>System Status</uicontrol>
+        </menucascade>, where FXS port status, network status and system info can be
+        checked.</shortdesc>
+</concept>

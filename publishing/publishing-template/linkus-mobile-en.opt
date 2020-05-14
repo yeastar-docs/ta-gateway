@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>Linkus Mobile Help</name>
+    <description></description>
+    <webhelp>
+        <preview-image file="images/tiles.png"/>
+        <html-fragments>
+            <fragment placeholder="webhelp.fragment.head" file="fragments/googleAnalytics.html"/>
+            <fragment placeholder="webhelp.fragment.after.toc_or_tiles" file="fragments/en/linkus-user-guides.html"/>
+            <fragment placeholder="webhelp.fragment.before.body" file="fragments/switch-light-dark-mode.html"/>
+            <fragment placeholder="webhelp.fragment.before.toc_or_tiles" file="fragments/en/linkus-faq.html"/>
+        </html-fragments>
+        <parameters>
+            <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+            <parameter name="webhelp.favicon" value="images/favicon.ico"/>
+            <parameter name="webhelp.show.main.page.toc" value="no"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="args.indexshow" value="yes"/>
+            <parameter name="default.language" value="zh-cn"/>
+            <parameter name="webhelp.show.child.links" value="yes"/>
+            <parameter name="webhelp.show.print.link" value="no"/>
+            <parameter name="webhelp.show.top.menu" value="no"/>  
+            <parameter name="webhelp.enable.template.js.module.loading" value="yes"/>
+        </parameters>
+        <resources>
+            <css file="css/oxygen.css"/>
+            <css file="css/linkus-mobile-dark-light-mode.css"/>
+            <js-amd-module file="js/main-linkus.js"/>
+            <fileset>
+                <include name="js/main-linkus.js"/>
+                <include name="js/yeastar-common.js"/>
+                <include name="js/jquery-cookie.js"/>
+                <include name= "images/calls.png" />  
+                <include name= "images/chat.png" />  
+                <include name= "images/conference.png" />
+                <include name= "images/login.png" />
+                <include name= "images/others.png" />
+                <include name= "images/presence.png" />
+                <include name= "images/recordings.png" />
+                <include name= "images/voicemail.png" />
+                <include name= "images/contacts.png" />
+                <include name= "images/mobile-qsg-cover.png" />
+                <include name= "images/pc-qsg-cover.png" />
+                <include name= "images/video-center.png" />
+                <include name= "images/favicon.ico" />
+            </fileset>
+        </resources>
+        <tags>
+            <tag>linkus</tag>
+            <tag>en</tag>
+        </tags>
+    </webhelp>
+    
+</publishing-template>

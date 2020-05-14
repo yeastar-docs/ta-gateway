@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>CloudPBX Docs</name>
+    <description></description>
+    <webhelp>
+        <preview-image file="images/tiles.png"/>      
+        <html-fragments>
+            <fragment placeholder="webhelp.fragment.before.body" file="fragments/en/header_cloudpbx.html"/>
+            <fragment placeholder="webhelp.fragment.before.main.page.search" file="fragments/en/guide-name-cloudpbx.html"/>
+            <fragment placeholder="webhelp.fragment.after.main.page.search" file="fragments/en/keywords.html"/>
+            <fragment placeholder="webhelp.fragment.before.toc_or_tiles" file="fragments/en/switch-menu-cloudpbx.html"/>
+            <fragment placeholder="webhelp.fragment.footer" file="fragments/en/footer-cloudpbx.html"/>
+            <fragment placeholder="webhelp.fragment.head" file="fragments/googleAnalytics.html"/>
+        </html-fragments>
+        <parameters>
+            <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+            <parameter name="webhelp.show.main.page.toc" value="no"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="args.indexshow" value="yes"/>
+            <parameter name="webhelp.publication.toc.links" value="all"/>
+            <parameter name="webhelp.show.child.links" value="no"/>
+            <parameter name="webhelp.show.print.link" value="no"/>
+            <parameter name="webhelp.show.top.menu" value="no"/>
+            <parameter name="webhelp.enable.template.js.module.loading" value="yes"/>
+            <parameter name="webhelp.search.custom.excludes.file" value="exclude-searching/exclude_deploy_cloudpbx.properties" type="filePath"/>
+        </parameters>
+        <resources>
+            <css file="css/oxygen.css"/>
+            <css file="css/yeastar-common.css"/>
+            <favicon file="images/favicon.ico"/> 
+            <js-amd-module file="js/pbx-docs.js"/>
+            <fileset>
+                <include name="js/*.js"/>
+                <include name="images/yeastar-logo.png"/>
+                <include name= "images/api.png" />  
+                <include name= "images/app-autop.png" />  
+                <include name= "images/app-billing.png" />
+                <include name= "images/app-char.png" />
+                <include name= "images/app-conference.png" />
+                <include name= "images/app-hotel.png" />
+                <include name= "images/app-ldap.png" />
+                <include name= "images/app-linkus.png" />
+                <include name= "images/app-qm.png" />
+                <include name= "images/app-vpn.png" />
+                <include name= "images/app-zoho.png" />
+                <include name= "images/bg.png" />
+                <include name= "images/faq.png" />
+                <include name= "images/guanliyuan.png" />
+                <include name= "images/installation.png" />
+                <include name= "images/integration.png" />
+                <include name= "images/launch.png" />
+                <include name= "images/phone.png" />
+                <include name= "images/reference.png" />
+                <include name= "images/security.png" />
+                <include name= "images/software-installation.png" />
+                <include name= "images/start.png" />
+                <include name= "images/troubleshooting.png" />
+            </fileset>
+        </resources>
+        <tags>
+            <tag>cloudpbx</tag>
+            <tag> en </tag>
+        </tags>
+    </webhelp>
+    
+</publishing-template>

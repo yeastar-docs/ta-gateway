@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_mlq_ryw_1lb">
+    <title>Version XXXX</title>
+    <abstract id="rn-13.b-date">Release Date: March X, 2020</abstract>
+    <body>
+        <section id="rn-13.b-new-features">
+            <title>New features</title>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Feature 1 </dt>
+                        <dd>Description</dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Feature 2</dt>
+                        <dd>Description</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="rn-13.b-improvements">
+            <title>Improvements and bug fixes</title>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>System Security/Stability</dt>
+                        <dd>
+                            <ul id="ul_pgp_f1x_1lb">
+                                <li>如本次更新有重大安全或者稳定提升，写在这里。</li>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Extensions</dt>
+                        <dd>
+                            <ul id="ul_hhx_f1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Contacts</dt>
+                        <dd>
+                            <ul id="ul_flz_mnw_clb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Trunks</dt>
+                        <dd>
+                            <ul id="ul_l3b_g1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>SIP Relevant</dt>
+                        <dd>
+                            <ul id="ul_vys_ccx_1lb">
+                                <li>SIP相关的内容，如无地方归类，写在这里。</li>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Multisite Interconnect</dt>
+                        <dd>
+                            <ul id="ul_e3k_g1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Call Control</dt>
+                        <dd>
+                            <ul id="ul_kzy_g1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Call Features</dt>
+                        <dd>
+                            <ul id="ul_pz4_h1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Voice Prompts</dt>
+                        <dd>
+                            <ul id="ul_mlv_2cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Call Recording</dt>
+                        <dd>
+                            <ul id="ul_tsz_2cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Emergency Number</dt>
+                        <dd>
+                            <ul id="ul_flg_fcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Network</dt>
+                        <dd>
+                            <ul id="ul_lzj_fcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Security</dt>
+                        <dd>
+                            <ul id="ul_kp4_fcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>User Permission</dt>
+                        <dd>
+                            <ul id="ul_zt1_gcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Date &amp; Time</dt>
+                        <dd>
+                            <ul id="ul_cz2_gcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Email</dt>
+                        <dd>
+                            <ul id="ul_opc_hcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Storage</dt>
+                        <dd>
+                            <ul id="ul_xyh_hcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Remote Management</dt>
+                        <dd>
+                            <ul id="ul_kln_hcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>SNMP</dt>
+                        <dd>
+                            <ul id="ul_xvy_hcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Hot Standby</dt>
+                        <dd>
+                            <ul id="ul_flc_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Event Center</dt>
+                        <dd>
+                            <ul id="ul_i1g_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>CDR and Recording</dt>
+                        <dd>
+                            <ul id="ul_yrk_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>API</dt>
+                        <dd>
+                            <ul id="ul_xpq_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Auto Provisioning</dt>
+                        <dd>
+                            <ul id="ul_j35_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Linkus Server</dt>
+                        <dd>
+                            <ul id="ul_l3z_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Billing System</dt>
+                        <dd>
+                            <ul id="ul_l2d_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Zoho Integration</dt>
+                        <dd>
+                            <ul id="ul_e5g_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>LDAP Server</dt>
+                        <dd>
+                            <ul id="ul_dmk_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>VPN Server</dt>
+                        <dd>
+                            <ul id="ul_qg4_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Hotel</dt>
+                        <dd>
+                            <ul id="ul_zt5_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Conference Panel</dt>
+                        <dd>
+                            <ul id="ul_cq2_kcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>QueueMetrics Integration</dt>
+                        <dd>
+                            <ul id="ul_zxz_kcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Char utile h+ Integration</dt>
+                        <dd>
+                            <ul id="ul_nxd_lcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ground-connection">
+    <title id="ground">接地保护</title>
+    <shortdesc>朗视 TA1600/2400/3200 网关支持接地保护。根据以下步骤为朗视 TA1600/2400/3200 网关接地。</shortdesc>
+    <body><section><p>
+            <note type="warning" id="warning">
+                    <ul id="ul_qkr_sn1_1hb">
+                        <li>需由专业维修人员安装接地线。</li>
+                        <li>正确接地可防止人身触电事故，保证设备正常运行。</li>
+                        <li>TA 网关的接地端子和接地极需永久接地。</li>
+                    </ul>
+                </note>
+        </p><p><image id="image_jgl_xws_b3b" href="../image/grounding-connection-%E4%B8%AD.PNG" width="400"
+                /></p></section><ol id="ol_cqb_jyz_zgb">
+            <li>将 M3*5 螺丝旋进 TA 网关的接地口。</li>
+            <li>接入18AWG 接地线（用户自备）。</li>
+            <li>用一字螺丝刀旋紧 M3 螺母。</li>
+            <li>连接接地线与接地极。</li>
+        </ol></body>
+</topic>

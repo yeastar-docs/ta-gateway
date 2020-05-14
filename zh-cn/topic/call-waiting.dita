@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="call-waiting">
+    <title>Call Waiting</title>
+    <shortdesc>If the call waiting is activated for the FXS port, the FXS user who is in a call can
+        hear a call waiting tone "beep" when there is a new incoming call.</shortdesc>
+    <body>
+        <p>The user can press hook flash to toggle between the active call and the incoming
+            call.</p>
+        <p><image href="../image/ta-call-waiting.jpg" id="image_a14_xdl_zgb" width="650"/></p>
+    </body>
+</topic>

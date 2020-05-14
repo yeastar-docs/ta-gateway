@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="safety-disclaimers-and-installation-warnings">
+    <title>Safety Disclaimers and Installation Warnings</title>
+    <shortdesc>To avoid unexpected accident, personal injury or device damage, read the safety
+        disclaimers and installation warnings.</shortdesc>
+    <conbody>
+        <section id="section_ijc_jxz_zgb">
+            <title>Power</title>
+            <p>
+                <ul id="ul_v2q_kxz_zgb">
+                    <li>Use only the power adapter provided with the Yeastar TA device.</li>
+                    <li>Keep the power off during the installation.</li>
+                    <li>Make sure that the supply voltage matches the specifications indicated on
+                        the back panel of the device.</li>
+                    <li>To avoid the electric accident, do not open or remove the cover of device
+                        when it is working as well as off the power.</li>
+                    <li>Before cleaning the device, cut off the power supply.</li>
+                </ul>
+            </p>
+        </section>
+        <section id="section_o4n_nxz_zgb">
+            <title>Environment</title>
+            <ul id="ul_ssy_pxz_zgb">
+                <li>Install the Yeastar TA device in a location that is clean, free from vibration,
+                    electric shock, and temperature/humidity extremes.</li>
+                <li>The operating temperature should be kept below 104°F (40°C).</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

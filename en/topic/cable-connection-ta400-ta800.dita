@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title>Connect Yeastar TA Gateway</title>
+    <shortdesc>Follow the steps to connect Yeastar TA400/800 FXS VoIP gateway.</shortdesc>
+    <body>
+        <image id="image_b1c_zll_2jb" href="../image/ta400-800-connection.png" width="650"/>
+        <section id="section_xck_1h2_2jb">
+            <ol>
+                <li><b>Connect TA gateway to the Internet</b><p>LAN port can be connected to router
+                        or PBX.</p></li>
+                <li><b>Connect TA gateway to analog phones</b><p>FXS ports can be connected to
+                        analog phones.</p></li>
+                <li><b>Power on TA gateway</b><p>Connect one end of the power adapter to the
+                        gateway’s power port; plug the other end into an electrical
+                        outlet.</p><p>There's no power switch on TA400/800 gateway.</p></li>
+            </ol>
+        </section>
+    </body>
+</topic>

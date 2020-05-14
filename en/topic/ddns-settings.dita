@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ddns-settings">
+    <title>DDNS Settings</title>
+    <shortdesc>DDNS(Dynamic DNS) is a method/protocol/network service that provides the capability
+        for a networked device, such as a router or computer system using the Internet Protocol
+        Suite, to notify a Domain Name System (DNS) name server to change.</shortdesc>
+    <body>
+        <p>In real time, the active DNS configuration of its configured hostnames, addresses or
+            other information.</p>
+        <p><image href="../image/ddns-settings.jpg" width="650" id="image_cmh_rdr_zgb"/></p>
+        <table frame="all" rowsep="1" colsep="1" id="table_nx5_sdr_zgb">
+            <title>Description of DDNS settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Items</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>DDNS Server</entry>
+                        <entry>Select the DDNS server you sign up for service.</entry>
+                    </row>
+                    <row>
+                        <entry>User Name</entry>
+                        <entry>User name the DDNS server provides you.</entry>
+                    </row>
+                    <row>
+                        <entry>Password</entry>
+                        <entry>User account’s password.</entry>
+                    </row>
+                    <row>
+                        <entry>Host Name</entry>
+                        <entry>The host name you have got from the DDNS server</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>
+            <note>DDNS allows you to access your network using domain names instead of IP address.
+                The service manages changing IP address and updates your domain information
+                dynamically. You must sign up for service through <xref
+                    href="http://www.dyndns.com/" format="html" scope="external">dyndns.org</xref>,
+                    <xref href="http://freedns.afraid.org/" format="html" scope="external"
+                    >freedns.afraid.org</xref>, <xref href="http://www.no-ip.com/" format="html"
+                    scope="external">www.no-ip.com</xref>, <xref href="http://www.zoneedit.com/"
+                    format="html" scope="external">www.zoneedit.com</xref>.</note>
+        </p>
+    </body>
+</topic>

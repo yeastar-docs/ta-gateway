@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="firewall-rules">
+    <title>Firewall Rules</title>
+    <shortdesc>Firewalls are used to prevent unauthorized Internet users from accessing private
+        networks connected to the Internet, especially intranets.</shortdesc>
+    <body>
+        <p>All messages entering or leaving the intranet pass through the firewall, which examines
+            each message and blocks those that do not meet the specified security criteria.</p>
+        <p><image href="../image/firewall-settings.jpg" width="650" id="image_yxq_wqr_zgb"/></p>
+        <section id="section_fgs_yqr_zgb">
+            <title>General settings</title>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_j3c_brr_zgb">
+                    <title>Description of firewall general settings</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Items</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Enable Firewall</entry>
+                                <entry>Enable the firewall to protect the device. </entry>
+                            </row>
+                            <row>
+                                <entry>Disable Ping</entry>
+                                <entry>Enable this item to drop net ping from remote hosts.</entry>
+                            </row>
+                            <row>
+                                <entry>Drop All</entry>
+                                <entry>When you enable <uicontrol>Drop All</uicontrol> feature, the
+                                    system will drop all packets or connection from other hosts if
+                                    there are no other rules defined. <p>To avoid locking the
+                                        devices, at least one TCP accept common rule must be created
+                                        for port used for SSH access, port used for HTTP access and
+                                        port sued for CGI access.</p></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_vzj_frr_zgb">
+            <title>Common rules</title>
+            <p>No default rule, you can create one as required.</p>
+            <p><image href="../image/add-firewall-rule.jpg" width="650" id="image_npq_krr_zgb"/></p>
+            <p>
+                <table id="table_eb5_nrr_zgb">
+                    <title>Description of common rules settings</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Items</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Name</entry>
+                                <entry>A name for this rule, e.g. <i>HTTP</i>.</entry>
+                            </row>
+                            <row>
+                                <entry>Description</entry>
+                                <entry>Simple description for this rule. <p>E.g. accept the specific
+                                        host to access the Web interface for
+                                    configuration.</p></entry>
+                            </row>
+                            <row>
+                                <entry>Protocol</entry>
+                                <entry>The protocols for this rule.</entry>
+                            </row>
+                            <row>
+                                <entry>Port</entry>
+                                <entry>Initial port should be on the left and end port should be on
+                                    the right. The end port must be equal to or greater than start
+                                    port.</entry>
+                            </row>
+                            <row>
+                                <entry>IP</entry>
+                                <entry>
+                                    <p>The IP address for this rule. The format of IP address is:
+                                        IP/mask</p>
+                                    <p>E.g. <i>192.168.5.100/255.255.255.255</i> for IP
+                                        192.168.5.100</p>
+                                    <p>E.g. <i>192.168.5.0/255.255.255.0</i> for IP from 192.168.5.0
+                                        to 192.168.5.255.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>MAC Address</entry>
+                                <entry>The format of MAC address is XX:XX:XX:XX:XX:XX, X means 0~9
+                                    or A~F in hex, the A~F are not case sensitive.</entry>
+                            </row>
+                            <row>
+                                <entry>Action</entry>
+                                <entry>
+                                    <p><uicontrol>Accept</uicontrol>: Accept the access from remote
+                                        hosts.</p>
+                                    <p><uicontrol>Drop</uicontrol>: Drop the access from remote
+                                        hosts.</p>
+                                    <p><uicontrol>Ignore</uicontrol>: Ignore the access.</p>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>
+                <note>The MAC address will be changed when it’s a remote device, so it will not be
+                    working to filter using MAC for remote devices.</note>
+            </p>
+        </section>
+        <section id="section_szw_psr_zgb">
+            <title>Auto defense</title>
+            <p><image href="../image/auto-defense.jpg" id="image_y4j_5sr_zgb" width="650"/></p>
+            <table frame="all" rowsep="1" colsep="1" id="table_hxm_wsr_zgb">
+                <title>Description of auto defense settings</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Items</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Port</entry>
+                            <entry>The port you want to auto defense, for example:
+                                <i>8022</i>.</entry>
+                        </row>
+                        <row>
+                            <entry>Protocol</entry>
+                            <entry>Select the protocol. You can select <uicontrol>UDP</uicontrol> or
+                                    <uicontrol>TCP</uicontrol>.</entry>
+                        </row>
+                        <row>
+                            <entry>Rate</entry>
+                            <entry>
+                                <p>The maximum packets or connections can be handled per unit time. </p>
+                                <p>For example, if you configure it as below: </p>
+                                <p><uicontrol>Port</uicontrol>: 8022</p>
+                                <p><uicontrol>Protocol</uicontrol>: TCP</p>
+                                <p><uicontrol>Rate</uicontrol>: 10/min</p>
+                                <p>Then, it means maximum 10 TCP connections can be handled in 1
+                                    minute. The 11th connection will be dropped.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

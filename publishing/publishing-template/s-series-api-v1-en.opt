@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>S-Series API v1</name>
+    <description></description>
+    <webhelp>
+        <preview-image file="images/api-tree.png"/>
+        <html-fragments>
+            <fragment placeholder="webhelp.fragment.before.body" file="fragments/en/header_s-series-api-v1.html"/>
+            <fragment placeholder="webhelp.fragment.before.main.page.search" file="fragments/en/guide-name-s-series-api-v1.html"/>
+            <fragment placeholder="webhelp.fragment.footer" file="fragments/en/footer-s-series-api-v1.html"/>
+            <fragment placeholder="webhelp.fragment.head" file="fragments/googleAnalytics.html"/>
+        </html-fragments>
+        <parameters>
+            <parameter name="webhelp.show.main.page.tiles" value="no"/>
+            <parameter name="webhelp.favicon" value="images/favicon.ico"/>
+            <parameter name="webhelp.show.main.page.toc" value="yes"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="args.indexshow" value="yes"/>
+            <parameter name="webhelp.publication.toc.links" value="all"/>
+            <parameter name="webhelp.show.child.links" value="no"/>
+            <parameter name="webhelp.show.top.menu" value="no"/>
+            <parameter name="webhelp.enable.template.js.module.loading" value="yes"/>
+        </parameters>
+        <resources>
+            <css file="css/oxygen.css"/>
+            <css file="css/yeastar-common.css"/> 
+            <js-amd-module file="js/yeastar-common.js"/>
+            <fileset>
+                <include name="js/yeastar-common.js"/>
+                <include name="images/favicon.ico"/>
+                <include name= "images/bg.png" />             
+            </fileset>
+        </resources>
+        <tags>
+            <tag>s-series</tag>
+            <tag>en</tag>
+        </tags>
+    </webhelp>
+    
+</publishing-template>

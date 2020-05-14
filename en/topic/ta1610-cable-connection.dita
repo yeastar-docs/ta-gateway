@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="port_connection_0">
+    <title>Connect Yeastar TA Gateway</title>
+    <shortdesc>Follow the steps to connect Yeastar TA1610 FXO VoIP gateway.</shortdesc>
+    <body>
+        <image id="image_h5v_m2l_b3b" href="../image/TA1610.png" width="650"/>
+        <section id="section_ytz_tk2_2jb">
+            <ol>
+                <li><b>Connect TA gateway to the Internet</b><p>LAN port can be connected to router
+                        or PBX.</p></li>
+                <li><b>Connect TA gateway to the PSTN</b><p>FXO ports can be connected to
+                    PSTN.</p></li>
+                <li><b>Power on TA gateway</b><p>Connect one end of the power cord to the gateway’s
+                        power port; plug the other end into an electrical outlet.</p></li>
+            </ol>
+        </section>
+    </body>
+</topic>

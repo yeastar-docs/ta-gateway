@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="security-center">
+    <title>Security Center</title>
+    <shortdesc>This chapter describes how to secure your TA1600/2400/3200.</shortdesc>
+    <conbody>
+        <p>It is strongly recommended that you configure firewall and other security options on
+            TA1600/2400/3200 to prevent the attack fraud and the system failure or calls loss.</p>
+    </conbody>
+</concept>

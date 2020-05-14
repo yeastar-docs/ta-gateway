@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ground-connection">
+    <title>Connect the TA Gateway (Frame Ground)</title>
+    <shortdesc>Frame ground connection for Yeastar TA1610 FXO VoIP gateway.</shortdesc>
+    <body>
+        <section>
+            <p>
+                <note conref="ta1600-2400-3200-ground-connection.dita#ground-connection/warning"/>
+            </p>
+            <p><image conref="ta1600-2400-3200-ground-connection.dita#ground-connection/pic"
+                    id="image_j5j_5rl_b3b"/></p>
+        </section>
+        <ol conref="ta1600-2400-3200-ground-connection.dita#ground-connection/ol_cqb_jyz_zgb"
+            id="ol_l3g_vrl_b3b">
+            <li/>
+        </ol>
+    </body>
+</topic>

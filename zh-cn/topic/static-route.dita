@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="static-route">
+    <title>Static Route</title>
+    <shortdesc>TA FXS gateway will have more than one Internet connection in some situations but it
+        has only one default gateway. You need to set some static route for TA FXS gateway to force
+        it to go out through different gateway when accessing to different Internet.</shortdesc>
+    <body>
+        <p>The default gateway priority of TA FXS Gateway from high to low is VPN/VLAN → LAN
+            port.</p>
+        <p><image href="../image/static-route-settings.jpg" width="650" id="image_fnk_cgr_zgb"/></p>
+        <ul id="ul_lpv_2gr_zgb">
+            <li><uicontrol>Route Table</uicontrol>: The current route rules of TA FXS gateway.</li>
+            <li><uicontrol>Static Route Rules</uicontrol>: You can add new static route rules
+                here</li>
+        </ul>
+        <table frame="all" rowsep="1" colsep="1" id="table_rqz_kgr_zgb">
+            <title>Description of static route settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Items</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Destination</entry>
+                        <entry>The destination network to be accessed to by TA FXS gateway.</entry>
+                    </row>
+                    <row>
+                        <entry>Subnet Mask</entry>
+                        <entry>Specify the destination network portion.</entry>
+                    </row>
+                    <row>
+                        <entry>Gateway</entry>
+                        <entry>Define which gateway TA FXS Gateway will go through when accessing
+                            the destination network.</entry>
+                    </row>
+                    <row>
+                        <entry>Metric</entry>
+                        <entry>The cost of a route is calculated by using what are called routing
+                            metric. Routing metrics are assigned to routes by routing protocols to
+                            provide measurable statistic which can be used to judge how useful (how
+                            low cost) a route is.</entry>
+                    </row>
+                    <row>
+                        <entry>Interface</entry>
+                        <entry>Define which Internet port to go through.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

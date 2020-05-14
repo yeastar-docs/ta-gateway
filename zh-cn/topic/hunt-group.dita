@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hunt-group">
+    <title>Hunt Group</title>
+    <shortdesc>Hunt group is a feature that allows a call reaching multiple FXS ports.</shortdesc>
+    <body>
+        <p>The FXS ports will act as a single group, called a hunt group. The number of hunt groups
+            is limited by the number of ports each TA FXS gateway model has. </p>
+        <p>For example, there are 24 hunt groups on TA FXS Gateway 2400. Hunt group will be chosen
+            when configuring the FXS port <uicontrol>Follow Me</uicontrol>. The hunt group will work
+            when a call reaches the FXS port associated user which is busy or no answer.</p>
+        <p><image href="../image/edit-hunt-group.jpg" id="image_ytn_dml_zgb"/></p>
+        <image href="../image/set-hunt-group.jpg" id="image_xbf_2ml_zgb"/>
+        <p>There are 3 strategies for hunt group on TA FXS gateway.<ul id="ul_nlt_fml_zgb">
+                <li><b>Simultaneous</b><p>All the FXS users will ring at the same time.</p></li>
+                <li><b>Circular</b><p>In circular hunting, the calls are processed "round-robin". If
+                        a call is delivered to FXS port1, the next call will go to 2, the next to 3.
+                        The succession throughout each of the FXS users even if one of the previous
+                        local users becomes free. When the end of the hunting group is reached, the
+                        hunting starts over at the first local users.</p></li>
+                <li><b>Linear</b><p>Linear hunting is also referred to serial hunting. In linear
+                        hunting, calls are always delivered to the first FXS users, unless it is
+                        busy, then the second, third, and so on.</p></li>
+            </ul></p>
+    </body>
+</topic>

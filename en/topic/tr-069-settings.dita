@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="tr-069-settings">
+    <title>TR-069 Settings</title>
+    <shortdesc>TR-069 (Technical Report 069) is a Broadband Forum (formerly known as DSL Forum)
+        technical specification entitled CPE WAN Management Protocol (CWMP), it defines an
+        application layer protocol for remote management of end-user devices.</shortdesc>
+    <body>
+        <p>As a bidirectional SOAP/HTTP-based protocol, it provides the communication between
+            customer-premises equipment (CPE) and Auto Configuration Servers (ACS).</p>
+        <p>Yeastar
+            TA1600/2400/3200<?oxy_insert_start author="Yeastar" timestamp="20190722T113602+0800"?>,<?oxy_insert_end?><?oxy_delete author="Yeastar" timestamp="20190722T113610+0800" content=" acts"?>
+            as a CPE,
+            enable<?oxy_insert_start author="Yeastar" timestamp="20190722T113625+0800"?>s<?oxy_insert_end?>
+            TR-069 and
+            configure<?oxy_insert_start author="Yeastar" timestamp="20190722T113627+0800"?>s<?oxy_insert_end?>
+            the parameters in the corresponding fields, if configured correctly, the gateway will
+            establish the TR-069 session with the ACS.</p>
+        <p>
+            <note><uicontrol>TR069</uicontrol> will be
+                di<?oxy_insert_start author="Yeastar" timestamp="20190722T093527+0800"?>s<?oxy_insert_end?>abled
+                if <uicontrol>Remote Management</uicontrol> is enabled.</note>
+        </p>
+        <p><image href="../image/tr069-settings.jpg" width="650" id="image_ibn_l3r_zgb"/></p>
+        <table frame="all" rowsep="1" colsep="1" id="table_xbb_q3r_zgb">
+            <title>Description of TR-069 settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Items</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>ACS URL</entry>
+                        <entry>URL of the TR-069 ACS. This is the URL the Yeastar
+                            CPE<?oxy_delete author="Yeastar" timestamp="20190722T113733+0800" content="s"?>
+                            will send TR-069 messages to. </entry>
+                    </row>
+                    <row>
+                        <entry>ACS Username</entry>
+                        <entry>Username for HTTP authentication against the ACS. <p>Leave it blank
+                                if no ASC username.</p></entry>
+                    </row>
+                    <row>
+                        <entry>ACS Password</entry>
+                        <entry>Password for HTTP authentication against the ACS. <p>Leave it blank
+                                if no ASC password.</p></entry>
+                    </row>
+                    <row>
+                        <entry>Enable Periodic Inform</entry>
+                        <entry>Set the Yeastar device to start a new session after periodic inform
+                            interval.</entry>
+                    </row>
+                    <row>
+                        <entry>Periodic Inform Interval(s)</entry>
+                        <entry>Time in seconds where the CPE will initiate a new session against the
+                            ACS. </entry>
+                    </row>
+                    <row>
+                        <entry>Enable STUN</entry>
+                        <entry>Enable this option to discover the CPE’s public IP address if it is
+                            located behind a NAT.</entry>
+                    </row>
+                    <row>
+                        <entry>STUN Server Address/Port</entry>
+                        <entry>The STUN server address and port.</entry>
+                    </row>
+                    <row>
+                        <entry>STUN Server Username</entry>
+                        <entry>The STUN server username.</entry>
+                    </row>
+                    <row>
+                        <entry>STUN Server Password</entry>
+                        <entry>The STUN server password.</entry>
+                    </row>
+                    <row>
+                        <entry>Connection Request Address</entry>
+                        <entry>HTTP URL for an ACS to make a connection request notification to the
+                            CPE. </entry>
+                    </row>
+                    <row>
+                        <entry>Connection Request Username</entry>
+                        <entry>
+                            <?oxy_comment_start author="Yeastar" timestamp="20190722T113953+0800" comment="和后面的password统一句式"?>
+                            <p><?oxy_delete author="Yeastar" timestamp="20190722T113911+0800" content="Enter the username"?><?oxy_insert_start author="Yeastar" timestamp="20190722T113912+0800"?>Username
+                                used<?oxy_insert_end?> to authenticate an ACS making a connection
+                                request to the CPE. </p><?oxy_comment_end?>
+                            <p>Leave it blank if no username.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Connection Request Password</entry>
+                        <entry>
+                            <p>Password used to authenticate an ACS making a connection request to
+                                the CPE. </p>
+                            <p>Leave it blank if no password.</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>
+<?oxy_options track_changes="on"?>

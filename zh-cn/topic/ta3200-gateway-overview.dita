@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ta3200-gateway-overview">
+    <title>TA3200 Gateway Overview</title>
+    <body>
+        <section id="section_ikq_3r1_1hb">
+            <title>TA3200 gateway front panel</title>
+            <p><image href="../image/ta3200-front-panel.png" width="650" id="image_bsf_13g_1hb"
+                /></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_zhv_pfp_pgb">
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="center"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.79*" align="center"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.18*" align="left"/>
+                        <thead>
+                            <row>
+                                <entry align="center">No.</entry>
+                                <entry align="center">Feature</entry>
+                                <entry align="center">Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle">①</entry>
+                                <entry valign="middle">Reset Button</entry>
+                                <entry>Press and hold for 10 seconds to restore the factory
+                                        defaults.<note>: Once reset, the previous configurations
+                                        would be erased automatically.</note></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">②</entry>
+                                <entry valign="middle">Power LED</entry>
+                                <entry>
+                                    <p>Indicates the power status.</p>
+                                    <ul id="ul_jdp_hgp_pgb">
+                                        <li><b>On</b>: The power is switched on.</li>
+                                        <li><b>Off</b>: The power is switched off.</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">③</entry>
+                                <entry valign="middle">RUN LED</entry>
+                                <entry>
+                                    <p>Indicates the system status.</p>
+                                    <ul id="ul_prz_jgp_pgb">
+                                        <li><b>Blinking</b>: The system is working properly.</li>
+                                        <li><b>Not Blinking/Off</b>: The system goes wrong.</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">④</entry>
+                                <entry valign="middle">WAN Port</entry>
+                                <entry>10/100 adaptive RJ45 Ethernet port.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">⑤</entry>
+                                <entry valign="middle">LAN Port</entry>
+                                <entry>10/100 adaptive RJ45 Ethernet port.</entry>
+                            </row>
+                            <row>
+                                <entry>⑥</entry>
+                                <entry>FXS Ports Status</entry>
+                                <entry>Indicates the FXS port status.<p>
+                                        <ul id="ul_u5w_d4f_1hb">
+                                            <li><b>Solid green</b>: The port is idle or no line is
+                                                connected to the port.</li>
+                                            <li><b>Green light blinking</b>: There is a call reaches
+                                                the port or the port is busy in a call.</li>
+                                        </ul>
+                                    </p></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">⑦</entry>
+                                <entry valign="middle">RJ11 FXS Port</entry>
+                                <entry>For connection of analog phones/fax machines.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_ugn_jr1_1hb">
+            <title>TA3200 gateway back panel</title>
+            <p><image href="../image/TA3200-back-panel.png" width="650" id="image_yxb_dvf_1hb"/></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_ckc_xgp_pgb">
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.89*" align="left"/>
+                        <colspec colname="c3" colnum="3" colwidth="9.43*" align="left"/>
+                        <thead>
+                            <row>
+                                <entry valign="middle" align="left">No.</entry>
+                                <entry valign="middle" align="left">Feature</entry>
+                                <entry align="left">Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle">①</entry>
+                                <entry valign="middle">RJ21 FXS Ports</entry>
+                                <entry>For connection of analog phones/fax machines with one RJ21 to
+                                    RJ11 cable.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">②</entry>
+                                <entry valign="middle">Power Switch</entry>
+                                <entry>Press this button to switch on/off the device.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">③</entry>
+                                <entry valign="middle">Power Inlet</entry>
+                                <entry>Connect the supplied power supply to the port.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">④</entry>
+                                <entry>Protective Earth</entry>
+                                <entry>Protects the personnel and the equipment.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="copyright">
+    <title>Copyright</title>
+    <body>
+        <p><b>Copyright 2006-2019 Yeastar Information Technology Co., Ltd. All rights reserved.
+            </b></p>
+        <p>No parts of this publication may be reproduced or transmitted in any form or by any
+            means, electronic or mechanical, photocopying, recording, or otherwise, for any purpose,
+            without the express written permission of Yeastar Information Technology Co., Ltd. Under
+            the law, reproducing includes translating into another language or format.</p>
+        <section id="section_lmh_sh2_qgb">
+            <title>Declaration of conformity</title>
+            <p>Hereby, Yeastar Information Technology Co., Ltd. declares that Yeastar TG series
+                gateways are in conformity with the essential requirements and other relevant
+                provisions of the CE, FCC.</p>
+            <p><image href="../image/UI_icons/conformity.png" id="image_nj2_lzy_zgb"/></p>
+        </section>
+        <section id="section_z3c_th2_qgb">
+            <title>Warranty</title>
+            <p>The information in this document is subject to change without notice.</p>
+            <p>Yeastar Information Technology Co., Ltd. makes no warranty of any kind with regard to
+                this guide, including, but not limited to, the implied warranties of merchantability
+                and fitness for a particular purpose. Yeastar Information Technology Co., Ltd. shall
+                not be liable for errors contained herein nor for incidental or consequential
+                damages in connection with the furnishing, performance or use of this guide.</p>
+        </section>
+        <section id="section_oqz_th2_qgb">
+            <title>WEEE warning</title>
+            <p>In accordance with the requirements of council directive 2002/96/EC on Waste of
+                Electrical and Electronic Equipment (WEEE), ensure that at end-of-life you separate
+                this product from other waste and scrap and deliver to the WEEE collection system in
+                your country for recycling.</p>
+            <p><image href="../image/UI_icons/weee-warning.png" id="image_cvx_lzy_zgb"/></p>
+        </section>
+    </body>
+</topic>

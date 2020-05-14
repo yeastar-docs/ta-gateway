@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="connection-diagram">
+    <title>Connection Diagram</title>
+    <body>
+        <p><b>TA3200 connection diagram</b></p>
+        <image href="../image/ta3200-connection-diagram-1.png" width="650" id="image_dmx_sc1_1hb"/>
+        <p><image href="../image/ta3200-connection-diagram-2.png" width="650" id="image_lvl_5c1_1hb"
+            /></p>
+    </body>
+</topic>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="snmp-settings">
+    <title>SNMP Settings</title>
+    <shortdesc>Simple Network Management Protocol (SNMP) is an Internet-standard protocol for
+        managing devices on IP networks.</shortdesc>
+    <body>
+        <p>TA FXS gateway supports three versions: V1, V2C and V3.</p>
+        <p><image href="../image/snmp-settings.jpg" width="650" id="image_e4z_jhr_zgb"/></p>
+    </body>
+</topic>

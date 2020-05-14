@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="dial-pattern-template">
+    <title>Dial Pattern Template</title>
+    <shortdesc>Dial pattern template
+        <?oxy_delete author="Becky" timestamp="20190923T090907+0800" content="specifying"?><?oxy_insert_start author="Becky" timestamp="20190923T090913+0800"?>specifies<?oxy_insert_end?>
+        how to route the calls from FXS ports to VoIP server extensions or external numbers. The
+        number of dial pattern templates is limited by the number of ports that each TA FXS gateway
+        model has.</shortdesc>
+    <refbody>
+        <example><image href="../image/dial-pattern-template.jpg" id="image_isz_bpl_zgb"/></example>
+        <table frame="all" rowsep="1" colsep="1" id="table_yjg_dpl_zgb">
+            <title>Description of dial pattern template settings</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Settings</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Template ID</entry>
+                        <entry>The ID for this template.</entry>
+                    </row>
+                    <row>
+                        <entry>Template Name</entry>
+                        <entry>A name for this template.</entry>
+                    </row>
+                    <row>
+                        <entry>Dial Pattern</entry>
+                        <entry>Calls from the FXS port should match the dial pattern set on this
+                            template, or the call cannot be established.
+                                <?oxy_comment_start author="Becky" timestamp="20190923T091130+0800" comment="好像没必要讲？"?><p>Hover
+                                the pointer over <image href="../image/UI_icons/tips.png"
+                                    id="image_ivd_kpl_zgb"/> to read
+                            tips.</p><?oxy_comment_end?></entry>
+                    </row>
+                    <row>
+                        <entry>Strip</entry>
+                        <entry>Allow the user to specify the number of digits that will be stripped
+                            from the front of the phone number before the call is placed.  </entry>
+                    </row>
+                    <row>
+                        <entry>Prepend</entry>
+                        <entry>The digits will be appended to the phone number before the call is
+                            placed.</entry>
+                    </row>
+                    <row>
+                        <?oxy_comment_start author="Becky" timestamp="20190923T092051+0800" comment="界面上没有这两个设置项"?>
+                        <entry><?oxy_delete author="Becky" timestamp="20190923T092031+0800" content="DTMF Mode"?></entry>
+                        <entry><?oxy_delete author="Becky" timestamp="20190923T092031+0800" content="Set default mode for sending DTMF of this trunk. &lt;p&gt;&lt;b&gt;Default&lt;/b&gt;: rfc2833.&lt;/p&gt;"?></entry>
+                    </row>
+                    <row>
+                        <entry><?oxy_delete author="Becky" timestamp="20190923T092031+0800" content="Codec"?></entry>
+                        <entry><?oxy_delete author="Becky" timestamp="20190923T092031+0800" content="Define the codec for this sip trunk and its priority."?></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody><?oxy_comment_end?>
+</reference>
+<?oxy_options track_changes="on"?>

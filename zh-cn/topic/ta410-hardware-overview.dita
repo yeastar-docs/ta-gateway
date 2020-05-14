@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ta400_800_overview">
+    <title>TA410 硬件概览</title>
+    <conbody>
+        <section id="section_q2h_k54_yhb">
+            <title>TA410 前面板</title>
+            <p><image id="image_ahj_vk5_13b" href="../image/ta400%26800-front.PNG" width="650"/></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta410-front">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1.78*"/>
+                        <colspec colname="c3" colnum="3" colwidth="3.16*"/>
+                        <thead>
+                            <row>
+                                <entry>序号</entry>
+                                <entry>指示灯</entry>
+                                <entry>功能说明</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/电源">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/系统指示灯">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/lan">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/wan">
+                                <entry/>
+                            </row>
+                            <row id="fxo">
+                                <entry align="center">⑤</entry>
+                                <entry>FXO 口状态指示灯</entry>
+                                <entry id="fxo-indicator">FXO 口状态<p>
+                                        <ul id="ul_pn2_n4q_yhb">
+                                            <li><b>红灯常亮</b>：有接 PSTN 线</li>
+                                            <li><b>红灯闪烁</b>：未接 PSTN 线<note product="ta410">FXO
+                                                  5-8口状态指示灯不可用。</note></li>
+                                        </ul>
+                                    </p></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_txm_2np_yhb">
+            <title>TA410 背面板</title>
+            <p><image id="image_zxx_fnw_13b" href="../image/ta410-back.PNG" width="700"/></p>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="ta410-back">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="2.83*"/>
+                        <colspec colname="c3" colnum="3" colwidth="4.05*"/>
+                        <thead>
+                            <row>
+                                <entry>序号</entry>
+                                <entry>接口</entry>
+                                <entry>功能说明</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/电源接口">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/重置">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/lan口">
+                                <entry/>
+                            </row>
+                            <row conref="ta400-hardware-overview.dita#ta400_800_overview/wan口">
+                                <entry/>
+                            </row>
+                            <row>
+                                <entry align="center">⑩</entry>
+                                <entry>RJ11 FXO 口</entry>
+                                <entry>连接 PSTN 线</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </conbody>
+</concept>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="other-settings">
+    <title>Other Settings</title>
+    <refbody>
+        <example>
+            <p><image href="../image/fxs-port-other-settings.jpg" id="image_gdz_mkl_zgb"/></p>
+        </example>
+        <example>
+            <table frame="all" id="table_fy1_32c_djb">
+                <title>Description of FXS port other settings</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*" colsep="1" rowsep="1"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.14*" colsep="1" rowsep="1"/>
+                    <colspec colname="c3" colnum="3" colwidth="1.97*" colsep="1" rowsep="1"/>
+                    <thead>
+                        <row>
+                            <entry namest="c1" nameend="c2">Settings</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry morerows="3" align="left" valign="middle"><b>Other
+                                Options</b></entry>
+                            <entry>Call Waiting</entry>
+                            <entry>Check this option if the extension should have <uicontrol>Call
+                                    Waiting</uicontrol> capability. If this option is checked, the
+                                    ‍<uicontrol>When Busy</uicontrol> in Follow Me will not be
+                                available.</entry>
+                        </row>
+                        <row>
+                            <entry>DND</entry>
+                            <entry>Don’t disturb. When DND is enabled for an extension, the
+                                extension will not be available.</entry>
+                        </row>
+                        <row>
+                            <entry>Ring Timeout</entry>
+                            <entry><?oxy_comment_start author="Becky" timestamp="20190920T135419+0800" comment="Check this option if you want to customize the ring time. Ring tone will stop over the time defined.
+没有勾选框，可以直接设置"?>Set
+                                the timeout in seconds. Phone will stop ringing after
+                                timeout.<?oxy_comment_end?></entry>
+                        </row>
+                        <row>
+                            <entry>Enable DTMF Passthrough</entry>
+                            <entry>
+                                <?oxy_comment_start author="Becky" timestamp="20190920T135547+0800" comment="Enable DTMF passthrough during the conversation. By default, it is disabled.
+E.g when one extension press *1 in call, PBX will pass it directly to the other extension without analysis.
+和fxs extension settings描述一致"?>
+                                <p>DTMF are signals/tones that are sent when you press a phone's
+                                    touch keys.</p>
+                                <p>If you enable this feature, when the extension user presses "*1"
+                                    in a call, the PBX will pass it directly to the other extension
+                                    without analysis. By default, this feature is
+                                    disabled.<?oxy_comment_end?></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="3" valign="middle"><b>Follow me</b></entry>
+                            <entry>Forward Type</entry>
+                            <entry><?oxy_comment_start author="Becky" timestamp="20190920T141338+0800" comment="Select the forward type and configure the relevant destination number. In different conditions, the incoming calls to the account will be forwarded to different destinations. "?>Select
+                                the forward type to decide when to forward incoming
+                                    calls.<?oxy_comment_end?><ul id="ul_qfn_s2c_djb">
+                                    <li><uicontrol>Always</uicontrol>:
+                                        <?oxy_comment_start author="Becky" timestamp="20190920T135823+0800" comment="Always forward calls to the destination number.
+和分机描述一致"?>All
+                                        the incoming calls will be forward to the
+                                        destination.<?oxy_comment_end?></li>
+                                    <li><uicontrol>No Answer</uicontrol>:
+                                        <?oxy_comment_start author="Becky" timestamp="20190920T135850+0800" comment="Forward calls when no one answers the call.
+和分机描述一致"?>Only
+                                        the unanswered calls will be forwarded to the
+                                        destination.<?oxy_comment_end?></li>
+                                    <li><uicontrol>When Busy</uicontrol>:
+                                        <?oxy_comment_start author="Becky" timestamp="20190920T135913+0800" comment="Forward the call when the account is busy.
+和分机描述一致"?>Only
+                                        the calls that come in while you are talking on the phone
+                                        will be forwarded.<?oxy_comment_end?></li>
+                                </ul></entry>
+                        </row>
+                        <row>
+                            <entry>Destination</entry>
+                            <entry>
+                                <?oxy_comment_start author="Becky" timestamp="20190920T141557+0800" comment="新增"?>
+                                <p>Select the forward destination to decide where to transfer the
+                                    incoming calls.<?oxy_comment_end?></p>
+                                <p>
+                                    <ul id="ul_dl3_t2c_djb">
+                                        <li><?oxy_comment_start author="Becky" timestamp="20190920T140347+0800" comment="新增"?><b>Internal
+                                                Port</b>: Incoming calls will be forwarded to the
+                                            selected FXS port.</li>
+                                        <li><b>Hunt Group</b>: Incoming calls will be forwarded to
+                                            the selected hunt group.</li>
+                                        <li><b>Number</b>: Incoming calls will be forwarded to the
+                                            desired number.<?oxy_comment_end?></li>
+                                    </ul>
+                                </p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Prompt</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>Music on Hold</entry>
+                            <entry>The music to play when a call is on hold.<ul id="ul_pqs_q3c_djb">
+                                    <li>Default</li>
+                                    <li>Ring</li>
+                                    <li>None</li>
+                                </ul></entry>
+                        </row>
+                        <row>
+                            <entry morerows="1" valign="middle"><b>Volume Settings</b></entry>
+                            <entry>Rxgain</entry>
+                            <entry><?oxy_comment_start author="Becky" timestamp="20190920T140821+0800" comment="Adjust receive gain.
+和fxs extension setting描述一致"?>Set
+                                the volume from the analog phone to the FXS port of
+                                PBX.<?oxy_comment_end?></entry>
+                        </row>
+                        <row>
+                            <entry>Txgain</entry>
+                            <entry><?oxy_comment_start author="Becky" timestamp="20190920T140929+0800" comment="Adjust transmit gain.
+和fxs extension setting描述一致
+"?>Set
+                                the volume from the FXS port of PBX to the analog
+                                phone.<?oxy_comment_end?></entry>
+                        </row>
+                        <row>
+                            <entry morerows="2" valign="middle"><b>Caller ID Settings</b></entry>
+                            <entry>Caller ID Signalling</entry>
+                            <entry>
+                                <p>Select the caller ID
+                                        signaling.<?oxy_comment_start author="Becky" timestamp="20190920T141847+0800" comment="新增"?><ul
+                                        id="ul_xfs_ljc_djb">
+                                        <li>FSK</li>
+                                        <li>DTMF</li>
+                                    </ul><?oxy_comment_end?></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Sending Mode</entry>
+                            <entry>
+                                <p>Select the caller ID sending
+                                        mode.<?oxy_comment_start author="Becky" timestamp="20190920T142056+0800" comment="要解释吗？
+"?><ul
+                                        id="ul_i4n_5jc_djb">
+                                        <li>Ring+Caller ID+Ring</li>
+                                        <li>Polarity+Caller ID+Ring</li>
+                                        <li>Caller ID+Ring</li>
+                                    </ul><?oxy_comment_end?></p>
+                                <note>If the FXS port is connected to a device’s FXO port, caller ID
+                                    settings on FXS port and FXO port should be the same, or the
+                                    call cannot be established.</note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Caller ID Type</entry>
+                            <entry>
+                                <p>Select the caller ID Type.<ul id="ul_v4r_ckc_djb">
+                                        <li>Bell-USA</li>
+                                        <li>V23-UK</li>
+                                        <li>V23-NTT Japan</li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry><b>Fax</b></entry>
+                            <entry>Enable T.38</entry>
+                            <entry>If the FXS port is connected to a fax machine, this option should
+                                be checked.</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1" valign="middle"><b>MWI Settings</b></entry>
+                            <entry>Subscribe for MWI</entry>
+                            <entry>Message Waiting Indicator (MWI) refers to a special LED on the
+                                analog phone, which indicates the voicemail status.</entry>
+                        </row>
+                        <row>
+                            <entry>MWI Light Option</entry>
+                            <entry>Select the lighting method according to your phone.
+                                    <p><?oxy_comment_start author="Becky" timestamp="20190920T142614+0800" comment="There are three lighting methods supported on TA FXS Gateway: neon, FSK and polarity. "?>TA
+                                    FXS gateway supports 3 kinds of lighting methods:</p><p>
+                                    <ul id="ul_gr1_rkc_djb">
+                                        <li>neon</li>
+                                        <li>polarity</li>
+                                        <li><?oxy_comment_end?>FSK</li>
+                                    </ul>
+                                </p><p>TA FXS gateway will light the lamp up
+                                    <?oxy_delete author="Becky" timestamp="20190920T142702+0800" content="once "?><?oxy_insert_start author="Becky" timestamp="20190920T142704+0800"?>upon
+                                    <?oxy_insert_end?>receiving a new message; the lamp will
+                                    go<?oxy_delete author="Becky" timestamp="20190920T142711+0800" content="es"?>
+                                    off if there is no unread
+                                    voice<?oxy_delete author="Becky" timestamp="20190920T142716+0800" content=" "?>mail.</p></entry>
+                        </row>
+                        <row>
+                            <entry morerows="1" valign="middle"><b>Polarity Settings</b></entry>
+                            <entry>Polarity Answer</entry>
+                            <entry>
+                                <p><?oxy_comment_start author="Becky" timestamp="20190920T143006+0800" comment="A polarity signal is required on some systems for reverse polarity billing. Select if reverse polarity signal is activated on this FXS port. It is not activated by default.
+Whether to send polarity signal or not while picking up the phone."?>Whether
+                                    t<?oxy_comment_end?>o send polarity signal or not while picking
+                                    up the phone. It is disabled by default.</p>
+                                <?oxy_insert_start author="Becky" timestamp="20190920T142946+0800"?>
+                                <p><?oxy_insert_end?>A polarity signal is required on some systems
+                                    for reverse polarity billing. </p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Polarity Hangup</entry>
+                            <entry>Whether to send polarity signal while hanging up the
+                                phone.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </example>
+    </refbody>
+</reference>
+

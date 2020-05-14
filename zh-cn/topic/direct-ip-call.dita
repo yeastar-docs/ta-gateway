@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="direct-ip-call">
+    <title>Direct IP Call</title>
+    <shortdesc>Direct IP call allows two parties, that is, an FXS Port with an analog phone and
+        another VoIP Device, to talk to each other in an ad hoc fashion without an SIP
+        proxy.</shortdesc>
+    <body>
+        <p>The default <uicontrol>Direct IP Calling</uicontrol> feature code is
+            <codeph>*96</codeph>.</p>
+        <example>
+            <p><b>Target IP address</b>: 192.168.2.123</p>
+            <p>
+                <b>Destination port</b>: 5060</p>
+            <p>To call the IP phone, you should dial <codeph>*96192*168*2*123*5060</codeph> on the
+                analog phone.</p>
+        </example>
+    </body>
+</topic>

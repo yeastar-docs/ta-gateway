@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="voip-server-settings">
+    <title>VoIP Server Settings</title>
+    <shortdesc>There are some configurable VoIP (SIP/IAX) server templates on this page. </shortdesc>
+    <body>
+        <p>The number of VoIP server templates is the half of FXS ports on TA FXS gateway. The VoIP
+            server settings help the FXS ports to register to the VoIP server. Once configured, the
+            templates can be chosen on FXS port setting page.</p>
+        <section id="section_ilm_qml_zgb">
+            <title>Register modes for VoIP server</title>
+            <p>
+                <ul id="ul_hxx_tml_zgb">
+                    <li><b>Service Provider</b><p>IP based VoIP provider, do not generally require
+                            the TA gateway to register with the provider. Only IP address or domain
+                            is needed to configure on TA gateway.<note>This is a peer-to-peer mode
+                                to connect VoIP server and TA gateway, you also need to create a
+                                service provider trunk connecting to TA gateway on your VoIP
+                                server.</note></p></li>
+                    <li><b>Port Register</b>:<p>The VoIP server requires TA gateway to register with
+                            the provider using an authentication ID and password.</p><p>You need to
+                            fill in <uicontrol>User Name</uicontrol>, <uicontrol>Authentication
+                                Name</uicontrol> and <uicontrol>Password</uicontrol> to register the
+                            FXS port.</p><p><image href="../image/port-register.jpg"
+                                id="image_pcy_jnl_zgb" width="650"/></p></li>
+                    <li><b>Template Register</b><p>Template register means to register to your VoIP
+                            server and apply the template to FXS ports. The FXS ports will register
+                            to the server with the same account.</p><p><image
+                                href="../image/template-register.jpg" width="650"
+                                id="image_sb1_tnl_zgb"/></p></li>
+                </ul>
+            </p>
+        </section>
+        <section id="section_np2_5nl_zgb">
+            <title>VoIP general settings</title>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_shv_znl_zgb">
+                    <title>Description of VoIP server general settings</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry valign="middle">Items</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle">Server ID</entry>
+                                <entry>The ID for the VoIP server template.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Server Name</entry>
+                                <entry>The name for the VoIP server template.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Type</entry>
+                                <entry>Choose the type of the VoIP server, SIP or IAX.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Transport</entry>
+                                <entry>This will be the transport method used by the SIP Trunk. This
+                                    method is given by the SIP trunk provider. <p><b>Default</b>:
+                                        The options are UDP, TCP , and TLS.</p></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Hostname/IP</entry>
+                                <entry>VoIP server hostname or IP address. 5060 is the standard port
+                                    number used by SIP protocol. <note>Don’t change this part if it
+                                        is not required.</note></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Domain</entry>
+                                <entry>VoIP server hostname. An IP address also can be filled
+                                    here.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Enable Outbound Proxy Server</entry>
+                                <entry>A proxy that receives requests from a client. Even though it
+                                    may not be the server resolved by the request-URI.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Failover Hostname/IP</entry>
+                                <entry>Set the failover server. This server will be used if the
+                                    primary server is unavailable.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Register Mode</entry>
+                                <entry>
+                                    <ul id="ul_rjh_d4l_zgb">
+                                        <li><uicontrol>Port Register</uicontrol>: Ports will
+                                            register to this server with individual accounts.</li>
+                                        <li><uicontrol>Template Register</uicontrol>: Ports will
+                                            register to this server with the same account.</li>
+                                        <li><uicontrol>Service Provider</uicontrol>: Disable
+                                            registration.</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_dfy_m4l_zgb">
+            <title>VoIP advanced settings</title>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_unk_44l_zgb">
+                    <title>Description of VoIP server advanced settings</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry valign="middle">Items</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry valign="middle">Enable SRTP</entry>
+                                <entry>Define if SRTP is enabled for this VoIP server.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Qualify</entry>
+                                <entry>Send check alive packets to the SIP provider.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Caller ID</entry>
+                                <entry>Specify the caller ID to use when making outbound calls over
+                                    this VoIP server.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Maxmum Channels</entry>
+                                <entry>Control the maximum number of simultaneous calls. Set as 0 to
+                                    specify no maximum.</entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Realm</entry>
+                                <entry>Realm is a string to be displayed to users so they know which
+                                    username and password to use. </entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Authenticating Incoming Call</entry>
+                                <entry>When an incoming call reaches TA device and sends INVITE
+                                    packet to TA, TA responds 401, but the Realm info in 401
+                                    Response does not match the realm set on TA VoIP server, the
+                                    provider will refuse to authenticate. <p>If you set this option
+                                        to <uicontrol>No</uicontrol>, TA will not reply a 401
+                                        response to the provider to authenticate the incoming
+                                        call.</p></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">DTMF Mode</entry>
+                                <entry>Set default mode for sending DTMF of this trunk.
+                                            <p><b>Default</b>: rfc2833.</p></entry>
+                            </row>
+                            <row>
+                                <entry valign="middle">Codec</entry>
+                                <entry>Define the codec for this sip trunk and its priority.
+                                    TA1600/2400/3200 supports the following codec: u-law, a-law,
+                                    G726, G729A/B, GSM, ADPCM, G722, G723, iLBC.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </body>
+</topic>

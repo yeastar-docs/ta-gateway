@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_mlq_ryw_1lb">
+    <title>版本 XXXX</title>
+    <abstract id="rn-13.b-date">发布日期：2020年X月X日</abstract>
+    <body>
+        <section id="rn-13.b-new-features">
+            <title>新功能</title>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>功能1</dt>
+                        <dd>描述</dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>功能2</dt>
+                        <dd>描述</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="rn-13.b-improvements">
+            <title>功能优化和 bug 修复</title>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>系统安全/稳定性</dt>
+                        <dd>
+                            <ul id="ul_pgp_f1x_1lb">
+                                <li>如本次更新有重大安全或者稳定提升，写在这里。</li>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>分机</dt>
+                        <dd>
+                            <ul id="ul_hhx_f1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>通讯录</dt>
+                        <dd>
+                            <ul id="ul_a55_nnw_clb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>中继</dt>
+                        <dd>
+                            <ul id="ul_l3b_g1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>SIP 相关</dt>
+                        <dd>
+                            <ul id="ul_vys_ccx_1lb">
+                                <li>SIP相关的内容，如无地方归类，写在这里。</li>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>分支互联</dt>
+                        <dd>
+                            <ul id="ul_e3k_g1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>呼叫控制</dt>
+                        <dd>
+                            <ul id="ul_kzy_g1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>呼叫功能</dt>
+                        <dd>
+                            <ul id="ul_pz4_h1x_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>提示音</dt>
+                        <dd>
+                            <ul id="ul_mlv_2cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>录音</dt>
+                        <dd>
+                            <ul id="ul_tsz_2cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>紧急号码</dt>
+                        <dd>
+                            <ul id="ul_flg_fcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>网络</dt>
+                        <dd>
+                            <ul id="ul_lzj_fcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>安全</dt>
+                        <dd>
+                            <ul id="ul_kp4_fcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>用户权限</dt>
+                        <dd>
+                            <ul id="ul_zt1_gcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>日期和时间</dt>
+                        <dd>
+                            <ul id="ul_cz2_gcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>邮箱</dt>
+                        <dd>
+                            <ul id="ul_opc_hcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>存储</dt>
+                        <dd>
+                            <ul id="ul_xyh_hcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>远程管理</dt>
+                        <dd>
+                            <ul id="ul_kln_hcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>SNMP</dt>
+                        <dd>
+                            <ul id="ul_xvy_hcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>双机热备</dt>
+                        <dd>
+                            <ul id="ul_flc_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>事件中心</dt>
+                        <dd>
+                            <ul id="ul_i1g_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>通话记录和录音</dt>
+                        <dd>
+                            <ul id="ul_yrk_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>API</dt>
+                        <dd>
+                            <ul id="ul_xpq_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>自动配置</dt>
+                        <dd>
+                            <ul id="ul_j35_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Linkus 服务器</dt>
+                        <dd>
+                            <ul id="ul_l3z_3cx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>计费系统</dt>
+                        <dd>
+                            <ul id="ul_l2d_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Zoho 对接工具</dt>
+                        <dd>
+                            <ul id="ul_e5g_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>LDAP 服务器</dt>
+                        <dd>
+                            <ul id="ul_dmk_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>VPN 服务器</dt>
+                        <dd>
+                            <ul id="ul_qg4_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>酒店</dt>
+                        <dd>
+                            <ul id="ul_zt5_jcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>会议室控制面板</dt>
+                        <dd>
+                            <ul id="ul_cq2_kcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>QueueMetrics 对接工具</dt>
+                        <dd>
+                            <ul id="ul_zxz_kcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Char utile h+ 对接工具</dt>
+                        <dd>
+                            <ul id="ul_nxd_lcx_1lb">
+                                <li/>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </body>
+</topic>

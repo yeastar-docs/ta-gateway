@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>CloudPBX Deployment Guide</name>
+    <description></description>
+    <webhelp>
+        <preview-image file="images/sky-tiles.png"/>
+   
+        <html-fragments>
+            <fragment placeholder="webhelp.fragment.before.body" file="fragments/en/header_deploy_cloudpbx.html"/>
+            <fragment placeholder="webhelp.fragment.head" file="fragments/googleAnalytics.html"/>
+            <fragment placeholder="webhelp.fragment.footer" file="fragments/en/footer-deploy-cloudpbx.html"/>
+        </html-fragments>
+        <parameters>
+            <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+            <parameter name="webhelp.show.main.page.toc" value="no"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="args.indexshow" value="yes"/>
+            <parameter name="webhelp.publication.toc.links" value="all"/>
+            <parameter name="webhelp.show.child.links" value="no"/>
+            <parameter name="webhelp.show.top.menu" value="no"/>
+            <parameter name="webhelp.enable.template.js.module.loading" value="no"/>
+        </parameters>
+        <resources>
+            <css file="css/sky.css"/>
+            <css file="css/cloudpbx-deployment-guide.css"/>
+            <favicon file="images/favicon.ico"/> 
+            <js-amd-module file="js/main.js"/>
+            <fileset>
+                <include name="js/*.js"/>
+                <include name="index-css/cloudpbx-deployment-guide-index.css"/>
+                <include name="images/alibaba1.png"/>
+                <include name= "images/aws1.png" />  
+                <include name= "images/Clouds.png" />  
+                <include name= "images/contact_support.png" />
+                <include name= "images/datacenter1.png" />
+                <include name= "images/google1.png" />
+                <include name= "images/intro-left.png" />
+                <include name= "images/intro-right.png" />
+                <include name= "images/language-1.png" />
+                <include name= "images/microsoftAzure.png" />
+                <include name= "images/sbc.png" />
+                <include name= "images/yeastar_cloud_pbx_shortcut.png" />
+                <include name= "images/ymp.png" />           
+            </fileset>
+        </resources>
+        <tags>
+            <tag>cloudpbx</tag>
+            <tag>en</tag>
+        </tags>
+    </webhelp>
+    
+</publishing-template>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="packet-tool">
+    <title>Packet Tool</title>
+    <shortdesc>This feature is used to capture packets for technician, you can also specify the
+        destination IP address and port to get the packets.</shortdesc>
+    <body>
+        <p><image href="../image/packet-capture-tool.jpg" width="650" id="image_nqq_mvs_zgb"/></p>
+        <ul id="ul_g13_nvs_zgb">
+            <li><uicontrol>IP</uicontrol>: Specify the destination IP address to get the
+                packets.</li>
+            <li><uicontrol>Port</uicontrol>: Specify the destination port to get the packets.</li>
+        </ul>
+    </body>
+</topic>

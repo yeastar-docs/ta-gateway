@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>TA400/800 Installation Guide</title>
+    <topicref href="topic/safety-disclaimers-and-installation-warnings.dita"/>
+    <topicref href="topic/packing-list.dita"/>
+    <topichead navtitle="Hardware Overview">
+        <topicref href="topic/ta400-hardware-overview.dita"/>
+        <topicref href="topic/ta800-hardware-overview.dita"/>
+    </topichead>
+    <topicref href="topic/cable-connection-ta400-ta800.dita"/>
+    <topicref href="topic/wall-mount-instruction.dita"/>
+</map>

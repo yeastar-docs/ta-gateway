@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="speed-dial">
+    <title>Speed Dial</title>
+    <shortdesc>Speed dial feature allows you to place a call by pressing a reduced number of
+        keys.</shortdesc>
+    <body>
+        <p>There are 16 configurable speed dial templates available on TA1600/2400/3200.</p>
+        <p><image href="../image/edit-speed-dial.jpg" id="image_mbj_jyl_zgb"/></p>
+        <ul id="ul_gwf_myl_zgb">
+            <li><b>Speed Dial Code</b>: The speed dialing number.</li>
+            <li>
+                <p><b>Phone Number</b>: The number you want to call.</p>
+            </li>
+        </ul>
+        <example>To call 18033334444, you can simply dial <codeph>*981</codeph>. The
+                <codeph>*98</codeph> tells TA1600/2400/3200 that you want to use the speed dial and
+            the <codeph>1</codeph> is the speed dial code for destination number
+            18033334444.</example>
+        <note>Do not forget to add the dial pattern according to the selected dial pattern template.
+            The destination number should match the FXS port dial pattern.</note>
+    </body>
+</topic>

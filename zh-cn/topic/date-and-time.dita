@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="date-and-time">
+    <title>Date and Time</title>
+    <shortdesc>You can adjust the time of TA1600/2400/3200 (including the time zone) consistent with
+        your local time.</shortdesc>
+    <body>
+        <p> Go to <menucascade>
+                <uicontrol>System</uicontrol>
+                <uicontrol>System preferences</uicontrol>
+                <uicontrol>Date and Time</uicontrol>
+            </menucascade> to configure the system date and time.<note>You have to reboot the system
+                to make the changes take effect.</note></p>
+        <p><image href="../image/date-and-time.jpg" width="650" id="image_jns_z2s_zgb"/><ul
+                id="ul_xty_z2s_zgb">
+                <li><uicontrol>Time Zone</uicontrol>: Select your current and correct time zone on
+                    TA1600/2400/3200.</li>
+                <li><uicontrol>Daylight Saving Time</uicontrol>: The option is disabled by default.
+                    Enable it when necessary.</li>
+                <li>
+                    <p><uicontrol>Automatically Synchronize with an Internet Time
+                        Server</uicontrol></p>
+                    <p>
+                        <note>In order to adjust its internal clock to a central network server,
+                            TA1600/2400/3200 should be able to access to the Internet if you choose
+                            this method.</note>
+                    </p>
+                </li>
+                <li>
+                    <p><uicontrol>Set Date &amp; Time Manually</uicontrol>: Enter the time using the
+                        numbers on your keyboard.</p>
+                </li>
+            </ul></p>
+    </body>
+</topic>

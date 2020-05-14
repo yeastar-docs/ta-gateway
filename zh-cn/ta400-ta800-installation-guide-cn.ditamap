@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="zh-CN">
+    <title>TA400/800 安装手册</title>
+    <topicref href="topic/safety-disclaimers-and-installation.dita"/>
+    <topicref href="topic/packing-list.dita"/>
+    <topichead navtitle="硬件接口说明">
+        <topicref href="topic/ta400-hardware-overview.dita"/>
+        <topicref href="topic/ta800-hardware-overview.dita"/>
+    </topichead>
+    <topicref href="topic/cable-connection-ta400-ta800.dita"/>
+    <topicref href="topic/wall-mount-instruction.dita"/>
+</map>
